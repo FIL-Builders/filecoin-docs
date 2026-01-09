@@ -1,0 +1,10 @@
+{
+  "structure": {
+    "readme": "WELCOME.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "filecoin",
+    "-highlight"
+  ]
+}

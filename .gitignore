@@ -10,3 +10,5 @@ Thumbs.db
 :Zone.Identifier
 **/:Zone.Identifier
 lychee*
+node_modules/
+_book/
