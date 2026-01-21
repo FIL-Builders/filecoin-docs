@@ -165,6 +165,7 @@
   * [Glossary](reference/general/glossary.md)
   * [Specifications](reference/general/specifications.md)
   * [Tools](reference/general/tools.md)
+  * [Deprecation notices](reference/general/deprecation-notices.md)
 * [Exchanges](reference/exchanges/README.md)
   * [Exchange integration](reference/exchanges/exchange-integration.md)
 * [Built-in actors](reference/built-in-actors/README.md)
