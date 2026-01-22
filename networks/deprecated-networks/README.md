@@ -1,5 +1,11 @@
 # Deprecated networks
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+These networks are deprecated and may be unavailable. For testing and development, use the [Calibration testnet](../calibration/README.md) or a [local testnet](../local-testnet/README.md).
+{% endhint %}
+
 The following networks have been deprecated:
 
 ## Nerpanet
