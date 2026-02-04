@@ -78,7 +78,7 @@ Make a note of the following values — you’ll use them in the next step when 
 Now that we have the `.car` file prepared and a URL where it can be fetched, we can invoke the MakeDealProposal method on the smart contract we deployed earlier. To do this, we will run the `make-deal-proposal` task in Hardhat. There are quite a few parameters to include in this call:
 
 * `contract`: the address of your deployed `ClientContract.sol`.
-* \`piece-cid: gathered from the previous step.
+* `piece-cid`: gathered from the previous step.
 * `piece-size`: gathered from the previous step.
 * `car-size`: gathered from the previous step.
 * `start-epoch`: The block number you want the deal to begin on. It should be a block in the future. You can find the current block number on [Beryx](https://beryx.io/), making sure to select the correct network.
