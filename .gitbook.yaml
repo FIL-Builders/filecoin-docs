@@ -5,7 +5,7 @@ structure:
   summary: SUMMARY.md
   
 redirects:
-  about-filecoin/chat-and-discussion-forums: basics/project-and-community/chat-and-discussion-forums.md
+  about-filecoin/chat-and-discussion-forums: basics/project-and-community/forums-and-FIPs.md
   about-filecoin/contribution-tutorial: basics/project-and-community/ways-to-contribute.md
   about-filecoin/faq: smart-contracts/fundamentals/faqs.md
   about-filecoin/filecoin-compared-to: basics/project-and-community/filecoin-compared-to.md
@@ -30,7 +30,7 @@ redirects:
   about/basics/how-filecoin-works: basics/what-is-filecoin/README.md
   about/basics/introduction: basics/what-is-filecoin/README.md
   about/basics/what-is-filecoin: basics/what-is-filecoin/README.md
-  about/community/chat-and-discussion-forums: basics/project-and-community/chat-and-discussion-forums.md
+  about/community/chat-and-discussion-forums: basics/project-and-community/forums-and-FIPs.md
   about/community/social-media: basics/project-and-community/social-media.md
   about/contribute/contribution-tutorial: basics/project-and-community/ways-to-contribute.md
   about/contribute/grammar-and-formatting: basics/project-and-community/ways-to-contribute.md
@@ -89,14 +89,14 @@ redirects:
   build/tools/filecoin-backed-pinning-services: smart-contracts/fundamentals/README.md
   build/tools/powergate: reference/general/README.md
   build: smart-contracts/fundamentals/README.md
-  community/chat-and-discussion-forums: basics/project-and-community/chat-and-discussion-forums.md
+  community/chat-and-discussion-forums: basics/project-and-community/forums-and-FIPs.md
   community/contribute/contribution-tutorial: basics/project-and-community/ways-to-contribute.md
   community/contribute/grammar-formatting-and-style: basics/project-and-community/ways-to-contribute.md
   community/contribute/ways-to-contribute: basics/project-and-community/ways-to-contribute.md
   community/contribute/writing-guide: basics/project-and-community/ways-to-contribute.md
   community/social-media/social-media: basics/project-and-community/social-media.md
   community/social-media: basics/project-and-community/social-media.md
-  community: basics/project-and-community/chat-and-discussion-forums.md
+  community: basics/project-and-community/forums-and-FIPs.md
   contact: basics/project-and-community/README.md
   developers/infrastructure/block-explorers: networks/mainnet/explorers.md
   developers/infrastructure/chain-indexers: storage-providers/architecture/network-indexer.md
@@ -159,7 +159,7 @@ redirects:
   developers/smart-contracts/how-tos/future-proof: smart-contracts/developing-contracts/best-practices.md
   developers/smart-contracts/how-tos/get-test-tokens: smart-contracts/developing-contracts/get-test-tokens.md
   developers/smart-contracts/how-tos/invoke-a-contract: smart-contracts/fundamentals/README.md
-  developers/smart-contracts/how-tos/test-a-contract: smart-contracts/developing-contracts/verify-a-contract.md
+  developers/smart-contracts/how-tos/test-a-contract: smart-contracts/developing-contracts/verify-a-contract/verify-a-contract.md
   developers/smart-contracts/how-tos/use-a-faucet: smart-contracts/developing-contracts/get-test-tokens.md
   developers/smart-contracts/quickstart: smart-contracts/fundamentals/erc-20-quickstart.md
   developers/storage-helpers/ceramic: basics/how-storage-works/storage-onramps.md
@@ -333,7 +333,6 @@ redirects:
   smart-contracts/developing-contracts: smart-contracts/developing-contracts/best-practices.md
   smart-contracts/filecoin-evm-runtime/differences-with-ethereum: smart-contracts/fundamentals/README.md
   smart-contracts/filecoin-evm-runtime/filforwader: smart-contracts/filecoin-evm-runtime/filforwarder.md
-  smart-contracts/filecoin-evm-runtime/filforwarder: basics/assets/transfer-fil.md
   smart-contracts/filecoin-evm-runtime: smart-contracts/filecoin-evm-runtime/actor-types.md
   smart-contracts/filforwader: basics/assets/transfer-fil.md
   smart-contracts/filforwarder: basics/assets/transfer-fil.md
@@ -408,8 +407,6 @@ redirects:
   go-filecoin-tutorial/Getting-Started.html: storage-providers/basics/quickstart-guide.md
   go-filecoin-tutorial/How-Filecoin-Works.html: basics/what-is-filecoin/README.md
   go-filecoin-tutorial/Storing-on-Filecoin.html: basics/how-storage-works/storage-onramps.md
-  storage-providers/filecoin-economics/block-rewards: basics/what-is-filecoin/README.md
   mine/mining-rewards.html: storage-providers/filecoin-economics/block-rewards.md
-  smart-contracts/fundamentals/the-fvm: basics/what-is-filecoin/README.md
   storage-provider/how-providing-works/storage-provider/hardware-requirements: storage-providers/infrastructure/reference-architectures.md
   v: storage-providers/basics/quickstart-guide.md

@@ -107,5 +107,5 @@ That is it - you now have a dapp with a drag-and-drop interface to store IPFS Fi
 
 1. Check back on the [filecoin-pin-website repo](https://github.com/filecoin-project/filecoin-pin-website) - it will continue to be updated as new functionality is brought to filecoin-pin.
 2. Feel free to report any issues with the dApp demo to https://github.com/filecoin-project/filecoin-pin-website/issues
-3. Check out the the [other example uses of filecoin-pin](../).
+3. Check out the [other example uses of filecoin-pin](./).
 4. Ask questions or get help with filecoin-pin in the [supported communcation channels](https://github.com/filecoin-project/filecoin-pin?tab=readme-ov-file#support-info).
