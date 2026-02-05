@@ -6,6 +6,3 @@ https://filfox.info
 # Keep links in docs, but don't fail PR CI on transient network errors.
 https://docs.bacalhau.org
 https://www.bacalhau.org
-
-# Saturn links are currently timing out from CI runners.
-https://saturn.tech
