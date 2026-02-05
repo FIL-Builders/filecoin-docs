@@ -2,9 +2,7 @@
 # but links work fine in browsers
 https://filfox.info
 
-# spec.filecoin.io can be temporarily unavailable / flaky from CI runners.
-# Keep links in docs, but don't fail PR CI when the site is down.
-https://spec.filecoin.io
-
-# saturn.tech has intermittent availability and is being removed from docs.
-https://saturn.tech
+# Bacalhau sites currently fail intermittently from CI runners.
+# Keep links in docs, but don't fail PR CI on transient network errors.
+https://docs.bacalhau.org
+https://www.bacalhau.org
