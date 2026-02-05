@@ -74,8 +74,8 @@ export async function getAllFiles(
 export function normalizePath(inputPath: string): string {
   return inputPath
     .replace(/\\/g, '/')
-    .replace(/^\.\//, '')
-    .replace(/\/+$/, '');
+    .replace(/\/+$/, '')
+    .replace(/^\.\//, '');
 }
 
 export function getDirectory(filePath: string): string {
