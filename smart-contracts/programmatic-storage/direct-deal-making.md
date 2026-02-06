@@ -6,6 +6,12 @@ description: >-
 
 # Direct deal-making
 
+{% hint style="warning" %}
+This page documents a deprecated Deal Client workflow.
+
+For current guidance, read [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md) and use [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
+{% endhint %}
+
 There are services like deal aggregators that allow clients to create storage deals programmatically. However, aggregators are better suited to small-scale deals of under 4 GiB of total data. For those wishing to programmatically store larger blocks of data, _direct deal-making_ is a more suitable process.
 
 ## Steps
