@@ -168,6 +168,7 @@
   * [Deprecation notices](reference/general/deprecation-notices.md)
   * [Modern storage patterns](reference/general/modern-storage-patterns.md)
   * [Deal Client is deprecated](reference/general/deal-client-deprecated.md)
+  * [Legacy / Deprecated workflows](reference/general/legacy-deprecated-workflows.md)
   * [FOC documentation index](reference/general/foc-documentation-index.md)
 * [Exchanges](reference/exchanges/README.md)
   * [Exchange integration](reference/exchanges/exchange-integration.md)
