@@ -1,10 +1,7 @@
 name: Documentation Quality
 
 on:
-  pull_request:
-    branches: [main, staging, production]
   push:
-    branches: [main]
 
 jobs:
   lint:
