@@ -7,6 +7,14 @@ description: >-
 
 # The Filecoin Virtual Machine
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page references legacy Deal Client-era workflow guidance and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+{% endhint %}
+
 NOTE: As of January 2025, for developer support, please visit the [FILB](https://fil.builders/) website.  For Filecoin product updates, please visit the [FILOz](https://www.filoz.org/) website or see the Lotus [Github discussion page](https://github.com/filecoin-project/lotus/discussions).  
 
 ## Introduction
@@ -41,9 +49,10 @@ If you’re ready to start building on the FVM, here are some resources you shou
 
 * FVM Reference Implementation: The [Github repo](https://github.com/filecoin-project/ref-fvm) containing the reference implementation for FVM.
 * FVM Quickstart Guide: The Quickstart guide will walk you through deploying your first ERC-20 contract on FVM. In addition to being provided this code, we also walk you through the developer environment set-up.
-* Developing Contracts: If you are ready to build your dApp on FVM, you can skip ahead and review our [best practices](../developing-contracts/best-practices.md) section for developing contracts. Here, you can find a guide for the Filecoin solidity libraries, details on tools such as Foundry, Remix, and Hardhat, and tutorials for calling built-in actors and building client contracts.
+* Developing Contracts: If you are ready to build your dApp on FVM, you can skip ahead and review our [best practices](../developing-contracts/best-practices.md) section for developing contracts. Here, you can find a guide for the Filecoin solidity libraries and details on tools such as Foundry, Remix, and Hardhat.
+* Modern storage guidance: For current storage architecture guidance, use [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
 
-The next page will walk you through the process of deciding whether you need to use FVM’s programmatic storage when building a dApp with storage on Filecoin.
+For current storage architecture decisions, start from [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
 
 
 

@@ -6,6 +6,14 @@ description: >-
 
 # Programmatic storage
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page documents legacy Deal Client-era workflows and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+{% endhint %}
+
 Programmatic storage is a concept where storage operations are controlled, automated, or orchestrated through code. Processes like reading, writing, and data management can all happen automatically and without human intervention.
 
 ## Manual storage
@@ -32,20 +40,20 @@ Storage deals for less than 4 GiB of data are considered _small_ on the Filecoin
 
 To get around this problem, these developers can _aggregate_ their data into bundles. The deal-aggregation process bundles a collection of small storage deals with many others to create one large deal.
 
-Checkout out [lighthouse.storage](https://lighthouse.storage/documentation) for an example of a deal aggregator.
+Historically, [lighthouse.storage](https://lighthouse.storage/documentation) was used as an example of a deal aggregator.
 
 ### Large-scale storage
 
 Storage deals for more than 4 GiB don't suffer from the limitations of small-scale storage deals. Large-scale deals can be processed and sent to an SP directly without aggregating data.
 
-The client contract performs _direct_ deal making to automatically finds an SP to store your data. There are other considerations an SP must make when deciding to pick up your data deal proposals from the client contract. For example, some SPs may only deal with clients with whom they have an existing relationship with. For more information regarding client contracts and how they work, checkout the [client contract tutorial](../developing-contracts/client-contract-tutorial.md).
+In legacy workflows, the client contract performed _direct_ deal making to automatically find an SP to store your data. There are other considerations an SP must make when deciding to pick up your data deal proposals from the client contract. For example, some SPs may only deal with clients with whom they have an existing relationship with. For historical context, see the [client contract tutorial](../developing-contracts/client-contract-tutorial.md).
 
 1. **Upload data to a data depot**: Data depots hold your data for the duration of this process so that you don't have to maintain your connection to the network. Once an SP verifiably holds your data, the data depot discards your data. After uploading your data to a depot, the depot will give you all the information you need to fill out the client contract.
 2. **Deploy a client contract**: The deal client contract coordinates the handshaking required on FVM to load your data into the Filecoin network.
 3. **Create a deal-proposal payload**: Once your data is ready in the data depot and your client contract has been deployed, you can create your deal-proposal payload. This payload contains everything a storage provider needs to download and store a copy of your data.
 4. **Deal publication and activation**: An SP picks up your contract and downloads the data from the data depot.
 
-Check out the [Deal Making Starter Kit](https://github.com/filecoin-project/fvm-starter-kit-deal-making) for additional information on how this process works.
+For historical context, see the [Deal Making Starter Kit](https://github.com/filecoin-project/fvm-starter-kit-deal-making).
 
 
 

@@ -6,6 +6,14 @@ description: >-
 
 # Chain-Data Query
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page contains legacy Deal Client-era workflow guidance and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+{% endhint %}
+
 ### <mark style="color:blue;">Connecting to Filecoin networks via public RPC nodes</mark>
 
 To query chain state and data on any Filecoin network, it is necessary to connect to public node providers. However, it's important to note that most public node providers offer limited access, typically allowing read-only JSON RPC calls and `MPoolPush` to send signed messages to the Filecoin networks.
@@ -48,7 +56,7 @@ Block height:  1268350
 
 ### <mark style="color:blue;">Listen to smart contract events</mark>
 
-Since the Filecoin Virtual Machine (FVM) is EVM-compatible, we can use `ethers.js` to listen to smart contract events for specific contract actions on the Filecoin network. For instance, we can monitor ERC20 token `transfer` events or client contract `DealProposalCreate` events.
+Since the Filecoin Virtual Machine (FVM) is EVM-compatible, we can use `ethers.js` to listen to smart contract events for specific contract actions on the Filecoin network. For instance, we can monitor ERC20 token `transfer` events or application-specific storage events.
 
 #### **Ingredients**
 

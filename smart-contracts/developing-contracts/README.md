@@ -6,6 +6,14 @@ description: >-
 
 # Developing contracts
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page includes links to legacy Deal Client-era storage workflows and is retained for reference.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+{% endhint %}
+
 This section covers how to build dApps by writing smart contracts in the Filecoin Virtual Machine.  The docs in this section explain: 
 - How to [get test tokens](https://docs.filecoin.io/smart-contracts/developing-contracts/get-test-tokens), called tFIL, from a faucet.
 - How to set up [Remix](https://docs.filecoin.io/smart-contracts/developing-contracts/remix), to make use of Ethereum tooling while building Filecoin dApps.
@@ -14,7 +22,7 @@ This section covers how to build dApps by writing smart contracts in the Filecoi
 - Where to [find contract templates](https://docs.filecoin.io/smart-contracts/developing-contracts/solidity-libraries) from a range of third party Solidity libraries.  
 - How to [Call built-in actors](https://docs.filecoin.io/smart-contracts/developing-contracts/call-built-in-actors) using the Protocol API or the Solidity Library.
 - How to make use of the Filecoin [Solidity Libraries](https://docs.filecoin.io/smart-contracts/developing-contracts/filecoin.sol) to build FVM dApps using a language familiar to Ethereum developers.
-- How to perform a storage deal using the [direct dealmaking client contract](https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial).
+- Legacy direct-deal guidance is documented for reference in [Deal Client is deprecated](https://docs.filecoin.io/reference/general/deal-client-deprecated) and [Modern storage patterns](https://docs.filecoin.io/reference/general/modern-storage-patterns).
 - How to [replicate, renew, or repair (RaaS)](https://docs.filecoin.io/smart-contracts/developing-contracts/using-raas) storage deals on Filecoin.
 - How to [verify a contract](https://docs.filecoin.io/smart-contracts/developing-contracts/verify-a-contract) using one of Filecoin's many block explorers.
 - The [best practices](https://docs.filecoin.io/smart-contracts/developing-contracts/best-practices) for building FVM dApps. 
