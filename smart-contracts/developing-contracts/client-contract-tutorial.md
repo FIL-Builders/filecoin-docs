@@ -7,10 +7,12 @@ description: >-
 
 # Direct deal-making with Client contract
 
-{% hint style="warning" %}
-This tutorial documents a deprecated Deal Client workflow.
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
 
-For current guidance, read [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md) and use [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
+This tutorial documents a deprecated Deal Client workflow and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
 {% endhint %}
 
 In this tutorial we will cover the background of creating storage deals using smart contracts, and how to create storage deals with smart contracts on the [Filecoin virtual machine](../../reference/general/glossary.md#filecoin-virtual-machine).

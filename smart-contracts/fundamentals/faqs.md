@@ -6,6 +6,14 @@ description: >-
 
 # FAQs
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page includes legacy Deal Client-era guidance and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+{% endhint %}
+
 Here’s a collection of general FAQs that the team has gathered. If you are looking for more technical FAQs, please head to [Filecoin Community Discussion](https://github.com/filecoin-project/community/discussions/categories/q-a).
 
 ## **What is FVM**
@@ -103,7 +111,9 @@ You can use the npm [`@glif/filecoin-address`](https://www.npmjs.com/package/@gl
 
 ## **How do I bound the replicator factor from solidity FEVM?**
 
-Store a number limit on running `DealClient` and `publish_deal` and have it authorized to replicate.
+That legacy approach relied on Deal Client-specific logic and is no longer the recommended path.
+
+For current guidance, start with [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [PDP documentation](../../storage-providers/pdp/README.md).
 
 ## **How can I use FVM to store data to Filecoin**
 
