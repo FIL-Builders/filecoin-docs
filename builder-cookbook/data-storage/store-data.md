@@ -42,7 +42,7 @@ We will explain each option available for preparing your data into CAR files and
 
 1. [FVM Data Depot](https://data.lighthouse.storage/) - **legacy example**
 
-Upload files, generate CAR, and get CAR links - we can do all these on the FVM Data Depot website. After logging in and uploading files following this [tutorial](https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial#preparing-a-file-for-storage), we will get the following information for proposing a storage deal via smart contract.
+Upload files, generate CAR, and get CAR links - we can do all these on the FVM Data Depot website. This is a legacy workflow retained for reference; for current paths, use [Modern storage patterns](../../reference/general/modern-storage-patterns.md). For historical context, see [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md).
 
 * Piece CID & Payload CID
 * CAR size & piece size
@@ -165,7 +165,7 @@ A Javascript function to invoke the `makeDealProposal` method should be like:
   };
 </code></pre>
 
-A historical tutorial of proposal storage deals through the client contract remains available [here](https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial).
+For historical context on client-contract proposal flows, see [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md) and the [Legacy / Deprecated workflows index](../../reference/general/legacy-deprecated-workflows.md).
 
 ***
 
