@@ -6,7 +6,7 @@ description: >-
 
 # Using RaaS
 
-RaaS refers to replication, renewal and repair as a service, for data stored in storage deals on Filecoin. You can read more [here](../programmatic-storage/raas-interfaces.md).
+RaaS refers to replication, renewal and repair as a service, for data stored in storage deals on Filecoin. For current guidance, start with [Modern storage patterns](../../reference/general/modern-storage-patterns.md). Historical RaaS references are listed in [Legacy / Deprecated workflows](../../reference/general/legacy-deprecated-workflows.md).
 
 In this article, we will cover how to create storage deals, with replication, renew and repair requirements, via a smart contract. This utilizes the [RaaS Starter Kit](https://github.com/filecoin-project/raas-starter-kit).
 
