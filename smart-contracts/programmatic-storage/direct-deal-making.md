@@ -6,13 +6,15 @@ description: >-
 
 # Direct deal-making
 
-{% hint style="warning" %}
-This page documents a deprecated Deal Client workflow.
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
 
-For current guidance, read [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md) and use [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
+This page documents a deprecated Deal Client workflow and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
 {% endhint %}
 
-There are services like deal aggregators that allow clients to create storage deals programmatically. However, aggregators are better suited to small-scale deals of under 4 GiB of total data. For those wishing to programmatically store larger blocks of data, _direct deal-making_ is a more suitable process.
+There are services like deal aggregators that allow clients to create storage deals programmatically. In legacy workflows, _direct deal-making_ was used for larger data blocks.
 
 ## Steps
 
@@ -52,7 +54,7 @@ Here is a diagram showing each of these steps in turn:
 
 ## Next steps
 
-For a complete tutorial on how to use the client contract to initiate a deal from FVM, see our [client contract tutorial](../developing-contracts/client-contract-tutorial.md). A full explanation of the client contract in the context of a direct deal-making starter kit can be found [here](https://github.com/filecoin-project/fvm-starter-kit-deal-making/tree/main).
+For historical context on this deprecated approach, see [client contract tutorial](../developing-contracts/client-contract-tutorial.md) and the [direct deal-making starter kit](https://github.com/filecoin-project/fvm-starter-kit-deal-making/tree/main).
 
 
 

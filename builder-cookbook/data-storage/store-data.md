@@ -6,6 +6,14 @@ description: >-
 
 # Store Data
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page contains legacy Deal Client-era workflow guidance and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+{% endhint %}
+
 ### <mark style="color:blue;">Prepare data for Filecoin storage</mark>
 
 A CAR file is a standardized format for bundling and exchanging content-addressable data. It provides a way to organize and encapsulate data, ensuring it can be easily verified and retrieved.
@@ -20,9 +28,9 @@ To provide the data to the SP which we make storage deals with, we need to prepa
 
 #### Ingredients
 
-We can use the following tools to prepare your data into CAR for storage via FVM.
+Historically, these tools were used to prepare CAR files for Deal Client workflows.
 
-* [FVM Data Depot](https://data.lighthouse.storage/) - powered by [lighthouse.storage](https://www.lighthouse.storage/)
+* [FVM Data Depot](https://data.lighthouse.storage/) - legacy example powered by [lighthouse.storage](https://www.lighthouse.storage/)
 * CAR libraries\
   `web3.storage/ipfs-car` or `ipld/car`
 * IPFS node\
@@ -32,7 +40,7 @@ We can use the following tools to prepare your data into CAR for storage via FVM
 
 We will explain each option available for preparing your data into CAR files and obtaining the necessary information to initialize storage deals via FVM, as there are multiple ways to accomplish this.
 
-1. [FVM Data Depot](https://data.lighthouse.storage/) - **recommended**
+1. [FVM Data Depot](https://data.lighthouse.storage/) - **legacy example**
 
 Upload files, generate CAR, and get CAR links - we can do all these on the FVM Data Depot website. After logging in and uploading files following this [tutorial](https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial#preparing-a-file-for-storage), we will get the following information for proposing a storage deal via smart contract.
 
@@ -157,7 +165,7 @@ A Javascript function to invoke the `makeDealProposal` method should be like:
   };
 </code></pre>
 
-The full tutorial of proposal storage deals through the client contract can be found [here](https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial).
+A historical tutorial of proposal storage deals through the client contract remains available [here](https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial).
 
 ***
 
