@@ -56,3 +56,6 @@ This tool is no longer actively maintained, but it may still function. It can la
 1. Pick the variant that matches the status.
 2. Replace `REPLACEMENT_NAME` and `REPLACEMENT_LINK`, and adjust the first sentence if needed.
 3. Place the callout directly under the page title.
+
+
+* [Deprecated Projects](deprecated.md)

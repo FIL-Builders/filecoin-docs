@@ -7,6 +7,14 @@ description: >-
 
 # Direct deal-making with Client contract
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This tutorial documents a deprecated Deal Client workflow and is retained for reference only.
+
+**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+{% endhint %}
+
 In this tutorial we will cover the background of creating storage deals using smart contracts, and how to create storage deals with smart contracts on the [Filecoin virtual machine](../../reference/general/glossary.md#filecoin-virtual-machine).
 
 You can find a video form of this walkthrough on [ETHGlobal’s YouTube Channel](https://www.youtube.com/watch?v=27EV3gQGY9k).

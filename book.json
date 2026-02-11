@@ -2,5 +2,10 @@
   "structure": {
     "readme": "WELCOME.md"
   },
-  "plugins": ["filecoin", "-highlight"]
+  "plugins": ["filecoin", "-highlight", "-search", "-lunr"],
+  "pluginsConfig": {
+    "search": {
+      "maxIndexSize": 10000000
+    }
+  }
 }

@@ -33,7 +33,6 @@ These storage helpers provide libraries that abstract the Filecoin deal-making p
 Available storage helpers include:
 
 - [lighthouse.storage](https://www.lighthouse.storage/): An SDK for builders, providing tools for storing data from dApps.
-- [web3.storage](https://web3.storage/): A user-friendly client for accessing decentralized protocols like IPFS and UCAN.
 - [Akave](https://www.akave.ai/): A modular L2 solution for decentralized data management, combining Filecoin storage with encryption and easy-to-use interfaces.
 - [Storacha](https://storacha.network/): A decentralized hot storage network for scalable, user-owned data with decentralized permissions, leveraging Filecoin.
 - [Curio](https://curiostorage.org/): A next-gen platform within the Filecoin ecosystem, streamlining storage provider operations.

@@ -3,7 +3,7 @@ root: ./
 structure:
   readme: ./WELCOME.md
   summary: SUMMARY.md
-  
+
 redirects:
   about-filecoin/chat-and-discussion-forums: basics/project-and-community/forums-and-FIPs.md
   about-filecoin/contribution-tutorial: basics/project-and-community/ways-to-contribute.md
@@ -410,3 +410,6 @@ redirects:
   mine/mining-rewards.html: storage-providers/filecoin-economics/block-rewards.md
   storage-provider/how-providing-works/storage-provider/hardware-requirements: storage-providers/infrastructure/reference-architectures.md
   v: storage-providers/basics/quickstart-guide.md
+
+  # Deprecated pages
+  basics/how-retrieval-works/saturn: reference/general/deprecated/retrieval/README.md
