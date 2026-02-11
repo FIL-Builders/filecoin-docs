@@ -10,4 +10,4 @@ description: Reference-only index of legacy/deprecated workflows2.
 
 ## Deprecated Pages
 
-* [Saturn](../../deprecated/retrieval/saturn)
+* [Saturn](../../deprecated/retrieval/saturn.md)
