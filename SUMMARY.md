@@ -102,7 +102,6 @@
   * [Filecoin EVM runtime](smart-contracts/fundamentals/filecoin-evm-runtime.md)
   * [FEVM compatibility overview](smart-contracts/fundamentals/fevm-compatibility-overview.md)
   * [ERC-20 quickstart](smart-contracts/fundamentals/erc-20-quickstart.md)
-  * [Roadmap](smart-contracts/fundamentals/roadmap.md)
   * [Support](smart-contracts/fundamentals/support.md)
   * [FAQs](smart-contracts/fundamentals/faqs.md)
 * [Filecoin EVM-runtime](smart-contracts/filecoin-evm-runtime/README.md)
