@@ -10,7 +10,7 @@ Programmatic storage is a concept where storage operations are controlled, autom
 
 ## Manual storage
 
-A client must go through several steps to manually store something with a storage provider on Filecoin without using the FVM. These steps involve interacting with the Filecoin network, negotiating a deal with a storage provider, and performing various other operations to ensure the data is stored correctly and securely. We discuss how storage works in the [Basics section](../../basics/how-storage-works/) but let's quickly summarize the process here:
+A client must go through several steps to manually store something with a storage provider on Filecoin without using the FVM. These steps involve interacting with the Filecoin network, negotiating a deal with a storage provider, and performing various other operations to ensure the data is stored correctly and securely. We discuss how storage works in the [Basics section](../../store-retrieve-data/how-storage-works/) but let's quickly summarize the process here:
 
 1. **Identify a storage provider (SP)**: Clients must identify storage providers who will store their data. Clients usually pick their storage providers based on geographic location and bandwidth limitations, although other factors may impact their decision.
 2. **Negotiate a deal**: Clients negotiate deals with storage providers. These deals include terms like data size, price, deal duration, and collateral. The deal-making process happens off-chain, and once both parties agree to the terms of a deal, that deal is published on-chain for the rest of the network to see and validate. To successfully store data on Filecoin, clients need to have enough FIL to cover the deal's cost.

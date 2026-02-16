@@ -298,4 +298,4 @@ To review the Lighthouse documentation in its entirety, please visit: [https://d
 
 
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/builder-cookbook/data-storage/privacy-and-access-control)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/store-retrieve-data/data-storage/privacy-and-access-control)

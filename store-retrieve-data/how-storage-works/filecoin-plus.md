@@ -101,4 +101,4 @@ There are three resources you can use to check the current status of the Filecoi
 
 To learn more about Filecoin Plus, review [FIP003: Filecoin Plus Principles](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0003.md). 
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/basics/how-storage-works/filecoin-plus)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/store-retrieve-data/how-storage-works/filecoin-plus)

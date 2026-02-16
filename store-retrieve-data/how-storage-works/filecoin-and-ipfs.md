@@ -75,4 +75,4 @@ Filecoin has an active community of contributors to answer questions and help ne
 
 
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/basics/how-storage-works/filecoin-and-ipfs)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/store-retrieve-data/how-storage-works/filecoin-and-ipfs)

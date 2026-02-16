@@ -4,14 +4,12 @@ description: Top-level section for storing and retrieving data on Filecoin.
 
 # Store & Retrieve Data
 
-This section is the top-level landing area for data onboarding, storage, and retrieval workflows.
+This section is the top-level landing area for data onboarding, storage, and retrieval workflows on Filecoin.
 
-During IA migration, content is being consolidated from existing sections.
+## Core tracks
 
-Current source sections:
-
-* [How storage works](../basics/how-storage-works/README.md)
-* [How retrieval works](../basics/how-retrieval-works/README.md)
-* [Builder cookbook data storage](../builder-cookbook/data-storage/README.md)
+* [How storage works](./how-storage-works/README.md)
+* [How retrieval works](./how-retrieval-works/README.md)
+* [Data storage cookbook](./data-storage/README.md)
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/store-retrieve-data)

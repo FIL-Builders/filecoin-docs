@@ -14,7 +14,7 @@ We're going to cover the basic steps of _direct deal-making_.
 
 ### Package the data
 
-The client packages the data they want to store into a CAR file. They then upload this to a hosting intermediary service and generate a CID. [Storage on-ramp services](../../basics/how-storage-works/storage-onramps.md) are available to act as this intermediary.
+The client packages the data they want to store into a CAR file. They then upload this to a hosting intermediary service and generate a CID. [Storage on-ramp services](../../store-retrieve-data/how-storage-works/storage-onramps.md) are available to act as this intermediary.
 
 ### On-chain process
 

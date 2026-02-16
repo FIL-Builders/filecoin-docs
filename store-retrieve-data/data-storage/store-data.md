@@ -165,7 +165,7 @@ The full tutorial of proposal storage deals through the client contract can be f
 
 Filecoin is primarily designed for storing large data over extended periods. Due to economic considerations, it is generally not good for Service Providers (SPs) to accept small-scale datasets and allocate them to their 32 or 64 Gib storage sectors. As a result, it is unlikely that SPs will directly accept storage deals proposed by the client contract for small datasets.
 
-In the case of small datasets, a more viable option is to store them with [storage onramps](../../basics/how-storage-works/storage-onramps.md). Storage onramps combine multiple small datasets into a larger dataset and generate Proof of Deal Sub-piece Inclusion (PoDSI). PoDSI can be utilized to verify and provide evidence that the sub-piece datasets are included in a storage deal on the Filecoin network.
+In the case of small datasets, a more viable option is to store them with [storage onramps](../../store-retrieve-data/how-storage-works/storage-onramps.md). Storage onramps combine multiple small datasets into a larger dataset and generate Proof of Deal Sub-piece Inclusion (PoDSI). PoDSI can be utilized to verify and provide evidence that the sub-piece datasets are included in a storage deal on the Filecoin network.
 
 One of the storage onramps we can use is [Lighthouse.storage](https://lighthouse.storage/) which is a perpetual file storage protocol that provides both on-chain and off-chain deal aggregation services. It provides a solution for storing small datasets on Filecoin while also enabling verification of deal inclusion using PoDSI. This combination of services can be valuable for ensuring the integrity and accessibility of small datasets stored on the Filecoin network.
 
@@ -364,7 +364,7 @@ There are two sides to incentivizing data onboarding –the first is to incentiv
 * [Foundry](https://github.com/foundry-rs/foundry/blob/master/README.md)
 * [Solidity](https://docs.soliditylang.org/en/v0.8.23/)
 * [Filecoin Storage](https://dataonboarding.filecoin.io/)
-* [Filecoin Retrieval](https://docs.filecoin.io/basics/how-retrieval-works/basic-retrieval)
+* [Filecoin Retrieval](https://docs.filecoin.io/store-retrieve-data/how-retrieval-works/basic-retrieval)
 
 #### **Instructions**
 
@@ -422,4 +422,4 @@ function claim_bounty(uint64 deal_id) public {
 
 ***
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/builder-cookbook/data-storage/store-data)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/store-retrieve-data/data-storage/store-data)
