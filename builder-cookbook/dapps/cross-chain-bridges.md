@@ -177,7 +177,7 @@ Note that there is an expected finality period when conducting inter-chain messa
 1. [FIP86 for fast finality in Filecoin](https://github.com/filecoin-project/FIPs/pull/896)&#x20;
 2. [Ready-to-use EC finality calculator](https://github.com/filecoin-project/FIPs/discussions/919)&#x20;
 
-Learn more about cross-chain bridges and which bridges are available on which networks in the Filecoin Docs [here](https://docs.filecoin.io/smart-contracts/advanced/cross-chain-bridges).&#x20;
+Learn more about cross-chain bridges and which bridges are available on which networks in the Filecoin Docs [here](https://docs.filecoin.io/build-on-filecoin/advanced/cross-chain-bridges).&#x20;
 
 
 

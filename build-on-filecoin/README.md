@@ -4,17 +4,17 @@ description: Top-level section for building applications and smart contracts on 
 
 # Build on Filecoin
 
-This section is the top-level landing area for developers building on Filecoin.
+This section is the top-level landing area for FEVM development and application-building workflows on Filecoin.
 
-During IA migration, FEVM and developer-focused content is being consolidated from existing sections.
+## Start here
 
-Current source sections:
+* [FEVM compatibility overview](./fundamentals/fevm-compatibility-overview.md)
 
-* [Smart contracts](../smart-contracts/fundamentals/README.md)
-* [Builder cookbook](../builder-cookbook/overview.md)
+## Build tracks
 
-Start with:
-
-* [FEVM compatibility overview](../smart-contracts/fundamentals/fevm-compatibility-overview.md)
+* [Fundamentals](./fundamentals/README.md)
+* [Developing contracts](./developing-contracts/README.md)
+* [Advanced](./advanced/README.md)
+* [Programmatic storage](./programmatic-storage/README.md)
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/build-on-filecoin)

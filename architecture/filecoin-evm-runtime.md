@@ -8,7 +8,7 @@ description: >-
 
 The FEVM is the EVM-compatible runtime on top of the Filecoin Virtual Machine (FVM). It allows existing EVM toolchains and contracts to run on Filecoin while integrating with Filecoin-specific capabilities.
 
-For the canonical entry page, use [FEVM compatibility overview](../smart-contracts/fundamentals/fevm-compatibility-overview.md).
+For the canonical entry page, use [FEVM compatibility overview](../build-on-filecoin/fundamentals/fevm-compatibility-overview.md).
 
 ## What to expect on Filecoin
 
@@ -19,7 +19,7 @@ For the canonical entry page, use [FEVM compatibility overview](../smart-contrac
 ## Filecoin-specific references
 
 * [The Filecoin Virtual Machine](the-fvm.md)
-* [Call built-in actors](../smart-contracts/developing-contracts/call-built-in-actors.md)
+* [Call built-in actors](../build-on-filecoin/developing-contracts/call-built-in-actors.md)
 * [Filecoin.sol reference](../reference/built-in-actors/filecoin.sol.md)
 * [Modern storage patterns](../reference/general/modern-storage-patterns.md)
 

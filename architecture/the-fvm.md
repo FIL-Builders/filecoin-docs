@@ -40,8 +40,8 @@ Additional use cases enabled by FVM include, but are not limited to, tokenized d
 If you’re ready to start building on the FVM, here are some resources you should explore:
 
 * FVM Reference Implementation: The [Github repo](https://github.com/filecoin-project/ref-fvm) containing the reference implementation for FVM.
-* FEVM Compatibility Overview: Start with the [FEVM compatibility overview](../smart-contracts/fundamentals/fevm-compatibility-overview.md) for Filecoin-specific guidance and external Solidity/EVM fundamentals.
-* Developing Contracts: If you are ready to build your dApp on FVM, you can skip ahead and review our [best practices](../smart-contracts/developing-contracts/best-practices.md) section for developing contracts. Here, you can find a guide for the Filecoin solidity libraries, details on tools such as Foundry, Remix, and Hardhat, and tutorials for calling built-in actors and building client contracts.
+* FEVM Compatibility Overview: Start with the [FEVM compatibility overview](../build-on-filecoin/fundamentals/fevm-compatibility-overview.md) for Filecoin-specific guidance and external Solidity/EVM fundamentals.
+* Developing Contracts: If you are ready to build your dApp on FVM, you can skip ahead and review our [best practices](../build-on-filecoin/developing-contracts/best-practices.md) section for developing contracts. Here, you can find a guide for the Filecoin solidity libraries, details on tools such as Foundry, Remix, and Hardhat, and tutorials for calling built-in actors and building client contracts.
 
 The next page will walk you through the process of deciding whether you need to use FVM’s programmatic storage when building a dApp with storage on Filecoin.
 

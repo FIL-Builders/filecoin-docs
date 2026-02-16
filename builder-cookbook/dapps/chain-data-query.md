@@ -59,7 +59,7 @@ We will also use `ethers.js` to connect to the public Glif node to listen to the
 
 #### **Instructions**
 
-Let's consider the [wFIL contract](https://docs.filecoin.io/smart-contracts/advanced/wrapped-fil), an ERC-20 token on Filecoin, as an example for listening to its transfer event. To demonstrate how to listen to smart contract events using ethers, we will use the deployed wFIL token address on the Filecoin calibration network and a simplified ABI object for the transfer event. Typically, you would have the wFIL smart contract's Application Binary Interface (ABI) defined in an `abi.json` file.
+Let's consider the [wFIL contract](https://docs.filecoin.io/build-on-filecoin/advanced/wrapped-fil), an ERC-20 token on Filecoin, as an example for listening to its transfer event. To demonstrate how to listen to smart contract events using ethers, we will use the deployed wFIL token address on the Filecoin calibration network and a simplified ABI object for the transfer event. Typically, you would have the wFIL smart contract's Application Binary Interface (ABI) defined in an `abi.json` file.
 
 The code to listen to `transfer` events for the wFIL token.&#x20;
 

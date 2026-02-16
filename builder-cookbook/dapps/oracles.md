@@ -50,7 +50,7 @@ contract PriceContract is UsingTellor {
 
 Oracle contract address (on both Calibration Testnet and Mainnet): `0xb2CB696fE5244fB9004877e58dcB680cB86Ba444`
 
-To see additional addresses for Tellor Oracles, please see [this doc](https://docs.filecoin.io/smart-contracts/advanced/oracles).&#x20;
+To see additional addresses for Tellor Oracles, please see [this doc](https://docs.filecoin.io/build-on-filecoin/advanced/oracles).&#x20;
 
 
 

@@ -15,7 +15,7 @@ Filecoin is uniquely positioned to support large-scale off-chain computation bec
 
 ## Filecoin Virtual Machine
 
-For a concise FEVM entry point focused on compatibility and Filecoin-specific differences, see [FEVM compatibility overview](../../smart-contracts/fundamentals/fevm-compatibility-overview.md).
+For a concise FEVM entry point focused on compatibility and Filecoin-specific differences, see [FEVM compatibility overview](../../build-on-filecoin/fundamentals/fevm-compatibility-overview.md).
 
 The Filecoin Virtual Machine (FVM) is a runtime environment for executing smart contracts on the Filecoin network. These smart contracts allow users to run bounded computations and establish rules for storing and accessing data. The FVM ensures that these contracts are executed securely and reliably.
 
