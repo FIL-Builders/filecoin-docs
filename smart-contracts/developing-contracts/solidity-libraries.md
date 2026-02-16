@@ -8,7 +8,7 @@ description: >-
 
 ## OpenZeppelin
 
-[OpenZeppelin](https://www.openzeppelin.com/contracts) provides a library of battle-tested smart contract templates, including widely used implementations of ERC token standards. For a guided example that implements an ERC20 token on the Filecoin network, see [Example using an ERC20 contract](../fundamentals/erc-20-quickstart.md).
+[OpenZeppelin](https://www.openzeppelin.com/contracts) provides a library of battle-tested smart contract templates, including widely used implementations of ERC token standards. For FEVM-specific context, see the [FEVM compatibility overview](../fundamentals/fevm-compatibility-overview.md). For ERC-20 implementation patterns, use the [OpenZeppelin ERC-20 documentation](https://docs.openzeppelin.com/contracts/5.x/erc20).
 
 ### Benefits
 
@@ -38,7 +38,7 @@ npm install @openzeppelin/contracts
 2. Import the specific library you want to use.
 3. In your smart contract, inherit the library.
 
-Thanks to the FVM, your contract can be integrated and deployed on the Filecoin network with OpenZeppelin inheritance. For a guided example that implements an ERC20 token on the Filecoin network, see [Example using an ERC20 contract](../fundamentals/erc-20-quickstart.md).
+Thanks to the FVM, your contract can be integrated and deployed on the Filecoin network with OpenZeppelin inheritance. For FEVM-specific context, see the [FEVM compatibility overview](../fundamentals/fevm-compatibility-overview.md). For ERC-20 implementation patterns, use the [OpenZeppelin ERC-20 documentation](https://docs.openzeppelin.com/contracts/5.x/erc20).
 
 ### Example using an ERC-20 contract
 

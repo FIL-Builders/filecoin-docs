@@ -95,7 +95,7 @@ Developers can easily do so through the following block explorers:
 * [Filfox contract verifier](https://filfox.info/en/contract/)
 * [Beryx contract verifier](https://beryx.zondax.ch/contract\_verifier)
 
-You can find this tutorial in the [FEVM ERC-20 Quickstart](../fundamentals/erc-20-quickstart.md).
+For FEVM context, see the [FEVM compatibility overview](../fundamentals/fevm-compatibility-overview.md). For generic token tutorials, use external Solidity and OpenZeppelin documentation.
 
 
 
