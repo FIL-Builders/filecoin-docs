@@ -22,7 +22,7 @@ Legacy Deal Client flows depended on older toolchains and workflows that are no 
 
 ### PDP
 
-[PDP documentation](../../storage-providers/pdp/README.md) is the current in-repo reference for Proof of Data Possession workflows.
+[PDP documentation](../../provide-storage/pdp/README.md) is the current in-repo reference for Proof of Data Possession workflows.
 
 ### FOC
 

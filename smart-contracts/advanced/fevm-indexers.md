@@ -7,7 +7,7 @@ description: >-
 
 # FEVM Indexers
 
-> _Not to be confused with_ [_IPNI Indexer_](https://docs.filecoin.io/storage-providers/architecture/network-indexer)
+> _Not to be confused with_ [_IPNI Indexer_](https://docs.filecoin.io/provide-storage/architecture/network-indexer)
 
 Blockchain indexers are used for accessing blockchain data efficiently. They process and organize storage-optimized raw blockchain data into retrieve-optimized and well-queryable formats. This benefits developers and users looking to retrieve specific information because they don't need to:
 

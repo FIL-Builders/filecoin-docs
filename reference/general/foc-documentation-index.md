@@ -13,6 +13,6 @@ Use this page as a stable placeholder index until full FOC documentation is publ
 For current guidance:
 
 * Start from [Modern storage patterns](modern-storage-patterns.md).
-* Use [PDP documentation](../../storage-providers/pdp/README.md) for current in-repo modern storage workflows.
+* Use [PDP documentation](../../provide-storage/pdp/README.md) for current in-repo modern storage workflows.
 
 This page will be expanded as additional FOC documentation becomes available.
