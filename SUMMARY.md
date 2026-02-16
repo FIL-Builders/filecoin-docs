@@ -212,7 +212,6 @@
   * [RPCs](networks/calibration/rpcs.md)
 * [Local testnet](networks/local-testnet/README.md)
   * [Get test tokens](networks/local-testnet/get-test-tokens.md)
-* [Deprecated networks](networks/deprecated-networks/README.md)
 
 ## Builder Cookbook
 
