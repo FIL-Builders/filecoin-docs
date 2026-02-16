@@ -2,7 +2,7 @@
 
 The Builder Cookbook is designed to help builders quickly discover and learn the specific features required to develop robust solutions on Filecoin.&#x20;
 
-This comprehensive collection of straightforward recipes serves as a practical guide, showcasing the usage and best practices of core features on Filecoin, enabled by the [Filecoin Virtual Machine(FVM)](../smart-contracts/fundamentals/the-fvm.md).
+This comprehensive collection of straightforward recipes serves as a practical guide, showcasing the usage and best practices of core features on Filecoin, enabled by the [Filecoin Virtual Machine(FVM)](../architecture/the-fvm.md).
 
 ### **How to use this cookbook?**
 

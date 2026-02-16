@@ -17,7 +17,7 @@ The original roadmap milestones on this page described early FVM and FEVM rollou
 For current smart-contract development guidance:
 
 * [FEVM compatibility overview](fevm-compatibility-overview.md)
-* [Filecoin EVM runtime](filecoin-evm-runtime.md)
+* [Filecoin EVM runtime](../../architecture/filecoin-evm-runtime.md)
 * [Developing contracts](../developing-contracts/README.md)
 * [Advanced smart contracts](../advanced/README.md)
 

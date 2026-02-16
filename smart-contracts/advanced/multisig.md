@@ -22,7 +22,7 @@ There are several multisig wallet implementations on Filecoin. Builders can inte
 
 ### Filecoin Native Multisig
 
-The Filecoin Native [MultisigActor](/basics/the-blockchain/actors#multisigactor) is a built-in actor that does not interact directly with the Filecoin EVM. Like other Filecoin actors, native multisig addresses begin with `f2` and represent a group of transaction signers with a maximum of 256 signers. Signers may be external users or the MultisigActor itself and can include `f1` and `f3` [addresses](https://docs.filecoin.io/basics/the-blockchain/addresses).
+The Filecoin Native [MultisigActor](/architecture/the-blockchain/actors#multisigactor) is a built-in actor that does not interact directly with the Filecoin EVM. Like other Filecoin actors, native multisig addresses begin with `f2` and represent a group of transaction signers with a maximum of 256 signers. Signers may be external users or the MultisigActor itself and can include `f1` and `f3` [addresses](https://docs.filecoin.io/architecture/the-blockchain/addresses).
 
 #### Filecoin Native Multisig UIs
 

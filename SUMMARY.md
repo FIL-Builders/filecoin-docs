@@ -17,6 +17,15 @@
 ## Architecture
 
 * [Architecture](architecture/README.md)
+* [The blockchain](architecture/the-blockchain/README.md)
+  * [Actors](architecture/the-blockchain/actors.md)
+  * [Addresses](architecture/the-blockchain/addresses.md)
+  * [Blocks and tipsets](architecture/the-blockchain/blocks-and-tipsets.md)
+  * [Consensus](architecture/the-blockchain/consensus.md)
+  * [Drand](architecture/the-blockchain/drand.md)
+  * [Proofs](architecture/the-blockchain/proofs.md)
+* [The Filecoin Virtual Machine](architecture/the-fvm.md)
+* [Filecoin EVM runtime](architecture/filecoin-evm-runtime.md)
 
 ## Provide Storage
 
@@ -36,13 +45,6 @@
 
 ## Basics
 
-* [The blockchain](basics/the-blockchain/README.md)
-  * [Actors](basics/the-blockchain/actors.md)
-  * [Addresses](basics/the-blockchain/addresses.md)
-  * [Blocks and tipsets](basics/the-blockchain/blocks-and-tipsets.md)
-  * [Consensus](basics/the-blockchain/consensus.md)
-  * [Drand](basics/the-blockchain/drand.md)
-  * [Proofs](basics/the-blockchain/proofs.md)
 * [Assets](basics/assets/README.md)
   * [The FIL token](basics/assets/the-fil-token.md)
   * [Wallets](basics/assets/wallets.md)
@@ -122,8 +124,6 @@
 ## Smart contracts
 
 * [Fundamentals](smart-contracts/fundamentals/README.md)
-  * [The Filecoin Virtual Machine](smart-contracts/fundamentals/the-fvm.md)
-  * [Filecoin EVM runtime](smart-contracts/fundamentals/filecoin-evm-runtime.md)
   * [FEVM compatibility overview](smart-contracts/fundamentals/fevm-compatibility-overview.md)
   * [Support](smart-contracts/fundamentals/support.md)
   * [FAQs](smart-contracts/fundamentals/faqs.md)

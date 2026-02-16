@@ -8,7 +8,7 @@ description: >-
 
 The FEVM is the EVM-compatible runtime on top of the Filecoin Virtual Machine (FVM). It allows existing EVM toolchains and contracts to run on Filecoin while integrating with Filecoin-specific capabilities.
 
-For the canonical entry page, use [FEVM compatibility overview](fevm-compatibility-overview.md).
+For the canonical entry page, use [FEVM compatibility overview](../smart-contracts/fundamentals/fevm-compatibility-overview.md).
 
 ## What to expect on Filecoin
 
@@ -19,13 +19,13 @@ For the canonical entry page, use [FEVM compatibility overview](fevm-compatibili
 ## Filecoin-specific references
 
 * [The Filecoin Virtual Machine](the-fvm.md)
-* [Call built-in actors](../developing-contracts/call-built-in-actors.md)
-* [Filecoin.sol reference](../../reference/built-in-actors/filecoin.sol.md)
-* [Modern storage patterns](../../reference/general/modern-storage-patterns.md)
+* [Call built-in actors](../smart-contracts/developing-contracts/call-built-in-actors.md)
+* [Filecoin.sol reference](../reference/built-in-actors/filecoin.sol.md)
+* [Modern storage patterns](../reference/general/modern-storage-patterns.md)
 
 ## External EVM/Solidity references
 
 * [Solidity docs](https://docs.soliditylang.org/)
 * [Ethereum developer docs](https://ethereum.org/developers/docs/)
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/smart-contracts/fundamentals/filecoin-evm-runtime)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/architecture/filecoin-evm-runtime)

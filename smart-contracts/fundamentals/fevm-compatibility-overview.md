@@ -26,7 +26,7 @@ Filecoin is not just another EVM network. Filecoin-native capabilities include:
 
 Use these pages for Filecoin-specific implementation details:
 
-* [The Filecoin Virtual Machine](the-fvm.md)
+* [The Filecoin Virtual Machine](../../architecture/the-fvm.md)
 * [Call built-in actors](../developing-contracts/call-built-in-actors.md)
 * [Filecoin.sol reference](../../reference/built-in-actors/filecoin.sol.md)
 * [Modern storage patterns](../../reference/general/modern-storage-patterns.md)
@@ -45,6 +45,6 @@ Generic Solidity/EVM education is maintained outside Filecoin docs:
 
 * [Developing contracts](../developing-contracts/README.md)
 * [Advanced smart contracts](../advanced/README.md)
-* [Filecoin EVM runtime](filecoin-evm-runtime.md)
+* [Filecoin EVM runtime](../../architecture/filecoin-evm-runtime.md)
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/smart-contracts/fundamentals/fevm-compatibility-overview)

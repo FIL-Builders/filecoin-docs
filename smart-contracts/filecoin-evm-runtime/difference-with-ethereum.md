@@ -29,7 +29,7 @@ Filecoin EVM runtime emulates EVM self-destruct behavior but isn’t able to ent
 
 1. There is no gas refund for self-destruct.
 2. On self-destruct, the contract is marked as self-destructed, but is not actually deleted from the Filecoin state-tree. Instead, it simply behaves as if it does not exist. It acts like an empty contract.
-3. Unlike in the EVM, in Filecoin EVM runtime, self-destruct can _fail_ causing the executing contract to revert. Specifically, this can happen if the specified beneficiary address is an embedded [ID address](../../basics/the-blockchain/addresses.md) and no actor exists with the specified ID.
+3. Unlike in the EVM, in Filecoin EVM runtime, self-destruct can _fail_ causing the executing contract to revert. Specifically, this can happen if the specified beneficiary address is an embedded [ID address](../../architecture/the-blockchain/addresses.md) and no actor exists with the specified ID.
 4. If funds are sent to a self-destructed contract after it self-destructs but before the end of the transaction, those funds remain with the self-destructed contract. In Ethereum, these funds would vanish after the transaction finishes executing.
 
 ## CALLCODE
