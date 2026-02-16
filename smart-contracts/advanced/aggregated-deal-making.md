@@ -7,6 +7,14 @@ description: >-
 
 # Aggregated deal-making
 
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page contains legacy Deal Client-era workflow guidance and is retained for reference only.
+
+**Use instead:** [PDP (Proof of Data Possession)](../../storage-providers/pdp/README.md), [Modern storage patterns](../../reference/general/modern-storage-patterns.md), and [Legacy programmatic storage (deprecated)](../programmatic-storage/legacy-programmatic-storage-deprecated.md)
+{% endhint %}
+
 Filecoin is designed to store large data for extended periods. Small-scale data (<4 GiB) can be combined with other small deals into larger ones, either on-chain or off-chain. Smart contracts can handle programmatic data storing. This article explains the process, referring to small-scale data as _sub-piece data_.
 
 For context, a [_piece_](https://spec.filecoin.io/systems/filecoin\_files/piece/) of data in Filecoin refers to a unit of negotiation for data to be stored on Filecoin. A sub-piece refers to a sub-unit of that larger piece. These are typically small data like NFT images, short videos and more.
