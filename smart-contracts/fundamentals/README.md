@@ -36,6 +36,8 @@ You can improve speed and reduce gas fees by storing smart contract data on File
 
 ## Get started
 
+Start with the [FEVM compatibility overview](fevm-compatibility-overview.md) for a concise Filecoin-first explanation of EVM compatibility and links to external Solidity/EVM fundamentals.
+
 Let’s get building. Choose one of the following APIs. These are all storage helpers, or tools and services that abstract Filecoin’s robust deal making processes into simple, streamlined API calls.
 
 * [Akave Storage API](https://docs.akave.xyz/) - for projects needing S3 compatibility
