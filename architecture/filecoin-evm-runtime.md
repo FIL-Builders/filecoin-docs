@@ -20,8 +20,8 @@ For the canonical entry page, use [FEVM compatibility overview](../build-on-file
 
 * [The Filecoin Virtual Machine](the-fvm.md)
 * [Call built-in actors](../build-on-filecoin/developing-contracts/call-built-in-actors.md)
-* [Filecoin.sol reference](../reference/built-in-actors/filecoin.sol.md)
-* [Modern storage patterns](../reference/general/modern-storage-patterns.md)
+* [Filecoin.sol reference](../reference-resources/built-in-actors/filecoin.sol.md)
+* [Modern storage patterns](../reference-resources/general/modern-storage-patterns.md)
 
 ## External EVM/Solidity references
 

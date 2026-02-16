@@ -26,9 +26,9 @@ For Filecoin context, start with [FEVM compatibility overview](../fundamentals/f
 
 For calling Filecoin built-in actor methods from Solidity:
 
-* [Filecoin.sol reference](../../reference/built-in-actors/filecoin.sol.md)
+* [Filecoin.sol reference](../../reference-resources/built-in-actors/filecoin.sol.md)
 * [Call built-in actors](call-built-in-actors.md)
-* [Protocol API reference](../../reference/built-in-actors/protocol-api.md)
+* [Protocol API reference](../../reference-resources/built-in-actors/protocol-api.md)
 
 ## Other common libraries
 

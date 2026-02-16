@@ -6,7 +6,7 @@ description: >-
 # Call built-in actors
 
 {% hint style="info" %}
-For conceptual information on built-in actors, including their purposes, how they work and available types, see the [conceptual guide](../../reference/built-in-actors/)
+For conceptual information on built-in actors, including their purposes, how they work and available types, see the [conceptual guide](../../reference-resources/built-in-actors/)
 {% endhint %}
 
 Built-in actors can be invoked using the Protocol _JSON-RPC_ API or the Zondax _filecoin.sol_ API.

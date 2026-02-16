@@ -28,8 +28,8 @@ Use these pages for Filecoin-specific implementation details:
 
 * [The Filecoin Virtual Machine](../../architecture/the-fvm.md)
 * [Call built-in actors](../developing-contracts/call-built-in-actors.md)
-* [Filecoin.sol reference](../../reference/built-in-actors/filecoin.sol.md)
-* [Modern storage patterns](../../reference/general/modern-storage-patterns.md)
+* [Filecoin.sol reference](../../reference-resources/built-in-actors/filecoin.sol.md)
+* [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md)
 * [PDP documentation](../../provide-storage/pdp/README.md)
 
 ## Where to learn generic Solidity and EVM basics

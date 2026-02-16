@@ -45,7 +45,7 @@ contract MyFilecoinContract {
 }
 ```
 
-You can find the list of supported built-in actors and methods in the [Filecoin.sol documentation](../../reference/built-in-actors/filecoin.sol.md). You can access certain Filecoin-related features through these actors:
+You can find the list of supported built-in actors and methods in the [Filecoin.sol documentation](../../reference-resources/built-in-actors/filecoin.sol.md). You can access certain Filecoin-related features through these actors:
 
 * `AccountAPI.sol`: validates signatures from an address.
 * `MinerAPI.sol`: manages storage provider operation.
@@ -105,7 +105,7 @@ contract StorageDealQuery {
 Check out these links to learn more about the Filecoin.sol library.
 
 * [Filecoin-Solidity GitHub](https://github.com/filecoin-project/filecoin-solidity)
-* [Built-In Actor APIs](../../reference/built-in-actors/filecoin.sol.md)
+* [Built-In Actor APIs](../../reference-resources/built-in-actors/filecoin.sol.md)
 * [FEVM-Hardhat-K](https://github.com/filecoin-project/FEVM-Hardhat-Kit/)
 
 

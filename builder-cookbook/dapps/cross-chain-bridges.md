@@ -172,7 +172,7 @@ For more information on cross-chain messaging, see the Celer documentation [here
 
 ### <mark style="color:blue;">A note on Finality with Celer</mark>
 
-Note that there is an expected finality period when conducting inter-chain messaging with Celer.  See details on Filecoin's finality [here](https://docs.filecoin.io/reference/general/glossary#finality).  There are two incoming improvements that developers can follow for the latest developments:&#x20;
+Note that there is an expected finality period when conducting inter-chain messaging with Celer.  See details on Filecoin's finality [here](https://docs.filecoin.io/reference-resources/general/glossary#finality).  There are two incoming improvements that developers can follow for the latest developments:&#x20;
 
 1. [FIP86 for fast finality in Filecoin](https://github.com/filecoin-project/FIPs/pull/896)&#x20;
 2. [Ready-to-use EC finality calculator](https://github.com/filecoin-project/FIPs/discussions/919)&#x20;

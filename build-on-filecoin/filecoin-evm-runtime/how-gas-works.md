@@ -61,7 +61,7 @@ Filecoin nodes, such as Lotus, have several JSON-API API endpoints designed to h
 * `GasEstimateGasPremium`: estimates what `GasPremium` price you should set to ensure a message will be included in `N` epochs. The smaller `N` is the larger `GasPremium` is likely to be.
 * `GasEstimateFeeCap`: estimate the `GasFeeCap` according to `BaseFee` in the parent blocks.
 
-If you want to learn more about how to use those JSON-RPC APIs for the Filecoin gas model, please check the [JSON RPC API docs for Gas](../../reference/json-rpc/).
+If you want to learn more about how to use those JSON-RPC APIs for the Filecoin gas model, please check the [JSON RPC API docs for Gas](../../reference-resources/json-rpc/).
 
 Gas estimation varies from network to network. For example, the `BaseFee` on mainnet is different from the `BaseFee` on the Calibration testnet.
 
@@ -71,8 +71,8 @@ If you’d rather not calculate and estimate gas for every message, you can just
 
 Since Filecoin is fully EVM-compatible, Filecoin nodes also provide Ethereum-compatible APIs to support gas estimation:
 
-* [EthEstimateGas](../../reference/json-rpc/eth.md#ethestimategas): generates and returns an estimate of how much gas is necessary to allow the transaction to complete.
-* [EthMaxPriorityFeePerGas](../../reference/json-rpc/eth.md#ethmaxpriorityfeepergas): returns a fee per gas that is an estimate of how much you can pay as a priority fee, or “tip”, to get a transaction included in the current block.
+* [EthEstimateGas](../../reference-resources/json-rpc/eth.md#ethestimategas): generates and returns an estimate of how much gas is necessary to allow the transaction to complete.
+* [EthMaxPriorityFeePerGas](../../reference-resources/json-rpc/eth.md#ethmaxpriorityfeepergas): returns a fee per gas that is an estimate of how much you can pay as a priority fee, or “tip”, to get a transaction included in the current block.
 
 To request the current max priority fee in the network, you can send a request to a public Filecoin endpoint:
 
