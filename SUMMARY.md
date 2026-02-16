@@ -2,6 +2,30 @@
 
 * [Welcome to Filecoin Docs](WELCOME.md)
 
+## Overview
+
+* [Overview](overview/README.md)
+
+## Architecture
+
+* [Architecture](architecture/README.md)
+
+## Provide Storage
+
+* [Provide Storage](provide-storage/README.md)
+
+## Store & Retrieve Data
+
+* [Store & Retrieve Data](store-retrieve-data/README.md)
+
+## Build on Filecoin
+
+* [Build on Filecoin](build-on-filecoin/README.md)
+
+## Reference / Resources
+
+* [Reference / Resources](reference-resources/README.md)
+
 ## Basics
 
 * [What is Filecoin](basics/what-is-filecoin/README.md)
