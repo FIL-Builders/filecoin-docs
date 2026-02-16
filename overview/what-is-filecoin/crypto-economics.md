@@ -39,4 +39,4 @@ To ensure network security and reliable storage, storage providers must lock FIL
 
 FIL’s maximum circulating supply is capped at 2 billion FIL. However, this maximum will never be reached, as a portion of FIL is permanently removed from circulation through gas fees, penalties, and other mechanisms.
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/basics/what-is-filecoin/crypto-economics)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/overview/what-is-filecoin/crypto-economics)

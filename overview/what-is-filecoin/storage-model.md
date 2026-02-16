@@ -36,4 +36,4 @@ The deal-making process initially occurs _off-chain_. Once both parties agree to
 
 Sectors are the fundamental units of provable storage where storage providers securely store client data and generate PoSt (Proof of Spacetime) for the Filecoin network. Sectors come in standard sizes, typically `32 GiB` or `64 GiB`, and have a set lifespan that providers can extend before it expires.
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/basics/what-is-filecoin/storage-model)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/overview/what-is-filecoin/storage-model)

@@ -5,6 +5,14 @@
 ## Overview
 
 * [Overview](overview/README.md)
+* [What is Filecoin](overview/what-is-filecoin/README.md)
+  * [Crypto-economics](overview/what-is-filecoin/crypto-economics.md)
+  * [Blockchain](overview/what-is-filecoin/blockchain.md)
+  * [Storage model](overview/what-is-filecoin/storage-model.md)
+  * [Storage market](overview/what-is-filecoin/storage-market.md)
+  * [Retrieval market](overview/what-is-filecoin/retrieval-market.md)
+  * [Programming on Filecoin](overview/what-is-filecoin/programming-on-filecoin.md)
+  * [Networks](overview/what-is-filecoin/networks.md)
 
 ## Architecture
 
@@ -28,14 +36,6 @@
 
 ## Basics
 
-* [What is Filecoin](basics/what-is-filecoin/README.md)
-  * [Crypto-economics](basics/what-is-filecoin/crypto-economics.md)
-  * [Blockchain](basics/what-is-filecoin/blockchain.md)
-  * [Storage model](basics/what-is-filecoin/storage-model.md)
-  * [Storage market](basics/what-is-filecoin/storage-market.md)
-  * [Retrieval market](basics/what-is-filecoin/retrieval-market.md)
-  * [Programming on Filecoin](basics/what-is-filecoin/programming-on-filecoin.md)
-  * [Networks](basics/what-is-filecoin/networks.md)
 * [The blockchain](basics/the-blockchain/README.md)
   * [Actors](basics/the-blockchain/actors.md)
   * [Addresses](basics/the-blockchain/addresses.md)

@@ -19,4 +19,4 @@ Filecoin is used as a storage solution for a range of products, including from W
 
 Filecoin is compatible with various data types, including audio and video files. This versatility allows Web3 platforms like [Audius](https://audius.co/) and [Huddle01](https://huddle01.com/) to use Filecoin as a decentralized storage backend for music streaming and video conferencing.
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/basics/what-is-filecoin)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/overview/what-is-filecoin)

@@ -19,4 +19,4 @@ To request data retrieval, clients need to provide the following information to 
 
 Since most Filecoin nodes are also IPFS nodes, standard practice has been for Filecoin storage providers to also make available a hot copy of any given stored file through IPFS.  Since the algorithm that generates a content address (CID) is the same for both Filecoin and IPFS, the client can request the CID of a file they stored on Filecoin and retrieve it from IPFS, if there is an IPFS node that is able and willing to serve the file. 
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/basics/what-is-filecoin/retrieval-market)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/overview/what-is-filecoin/retrieval-market)
