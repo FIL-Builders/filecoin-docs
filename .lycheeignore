@@ -27,3 +27,12 @@ https://docs.filecoin.io/provide-storage
 https://docs.filecoin.io/store-retrieve-data
 https://docs.filecoin.io/build-on-filecoin
 https://github.com/runtimeverification/verified-build-on-filecoin/wiki/List-of-Security-Vulnerabilities#payable-multicall
+
+# Reference-resources URLs are valid for this IA but not yet live on docs.filecoin.io.
+https://docs.filecoin.io/reference-resources
+
+# Equivalent Lotus-hosted reference-resources URLs are also not live yet.
+https://lotus.filecoin.io/reference-resources
+
+# Alchemy's old reference-resources route currently returns 404.
+https://docs.alchemy.com/reference-resources/eth-getblockbynumber

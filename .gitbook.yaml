@@ -43,7 +43,7 @@ redirects:
   archive/archived-filecoin-backed-pinning-services: basics/project-and-community/filecoin-faqs.md
   archive/archived-get-started: provide-storage/basics/quickstart-guide.md
   archive/archived-infura-example: provide-storage/infrastructure/README.md
-  archive/archived-powergate: reference/general/README.md
+  archive/archived-powergate: reference-resources/general/README.md
   archive/archived-textile-buckets: build-on-filecoin/fundamentals/README.md
   archive/overview: overview/what-is-filecoin/README.md
   archive/store/overview/start-storing: provide-storage/basics/quickstart-guide.md
@@ -55,10 +55,10 @@ redirects:
   overview/what-is-filecoin/overview: overview/what-is-filecoin/README.md
   basics: overview/what-is-filecoin/README.md
   build/core-products/filecoin-backed-pinning-services: build-on-filecoin/fundamentals/README.md
-  build/core-products/powergate: reference/general/README.md
+  build/core-products/powergate: reference-resources/general/README.md
   build/core-products/protocol-implementations: nodes/implementations/README.md
-  build/developer-tools/wallets-signing-tools-api-clients: reference/general/README.md
-  build/estuary: reference/general/README.md
+  build/developer-tools/wallets-signing-tools-api-clients: reference-resources/general/README.md
+  build/estuary: reference-resources/general/README.md
   build/examples/meme-marketplace/overview: overview/what-is-filecoin/README.md
   build/examples/meme-marketplace/step-1-blockchain-and-contracts-setup: build-on-filecoin/developing-contracts/README.md
   build/examples/network-inspector/lotus-and-go-ipfs-interactions: build-on-filecoin/fundamentals/README.md
@@ -69,25 +69,25 @@ redirects:
   build/examples/web-applications/overview: build-on-filecoin/fundamentals/README.md
   build/examples: build-on-filecoin/fundamentals/README.md
   build/filecoin-pinning-services: basics/project-and-community/filecoin-faqs.md
-  build/fvm/basics/tools: reference/general/tools.md
+  build/fvm/basics/tools: reference-resources/general/tools.md
   build/get-building/get-started: basics/project-and-community/ways-to-contribute.md
   build/get-building/overview: build-on-filecoin/fundamentals/README.md
   build/get-building/storage-helpers: store-retrieve-data/how-storage-works/storage-onramps.md
   build/get-started: architecture/the-fvm.md
   build/local-devnet: networks/local-testnet/README.md
   build/lotus: nodes/implementations/lotus.md
-  build/lotus/api-token-generation: reference/built-in-actors/protocol-api.md
+  build/lotus/api-token-generation: reference-resources/built-in-actors/protocol-api.md
   build/lotus/api-tokens: nodes/implementations/lotus.md
   build/overview: architecture/the-fvm.md
   build/powergate: store-retrieve-data/how-storage-works/storage-onramps.md
-  build/signing-libraries: reference/general/README.md
+  build/signing-libraries: reference-resources/general/README.md
   build/start-building/deploy-your-application-to-the-filecoin-testnet: networks/local-testnet/README.md
   build/start-building/interacting-with-the-network: basics/project-and-community/ways-to-contribute.md
   build/storage-helpers: store-retrieve-data/how-storage-works/storage-onramps.md
   build/textile-buckets: build-on-filecoin/fundamentals/README.md
-  build/the-filecoin-ecosystem: reference/general/README.md
+  build/the-filecoin-ecosystem: reference-resources/general/README.md
   build/tools/filecoin-backed-pinning-services: build-on-filecoin/fundamentals/README.md
-  build/tools/powergate: reference/general/README.md
+  build/tools/powergate: reference-resources/general/README.md
   build: build-on-filecoin/fundamentals/README.md
   community/chat-and-discussion-forums: basics/project-and-community/forums-and-FIPs.md
   community/contribute/contribution-tutorial: basics/project-and-community/ways-to-contribute.md
@@ -110,34 +110,34 @@ redirects:
   developers/introduction/apps-and-filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   developers/introduction/filecoin-and-ipfs: architecture/the-fvm.md
   developers/introduction/overview: architecture/the-fvm.md
-  developers/reference/built-in-actors/account-actor: reference/built-in-actors/protocol-api.md
-  developers/reference/built-in-actors/datacap: reference/built-in-actors/protocol-api.md
-  developers/reference/built-in-actors/miner: reference/built-in-actors/protocol-api.md
-  developers/reference/built-in-actors/multisig: reference/built-in-actors/protocol-api.md
-  developers/reference/built-in-actors/storage-market-actor: reference/built-in-actors/protocol-api.md
-  developers/reference/built-in-actors/storage-power-actor: reference/built-in-actors/protocol-api.md
-  developers/reference/built-in-actors/verified-registry-actor: reference/built-in-actors/protocol-api.md
-  developers/reference/json-rpc/auth: reference/json-rpc/auth.md
-  developers/reference/json-rpc/beacon: reference/json-rpc/state.md
-  developers/reference/json-rpc/chain: reference/json-rpc/chain.md
+  developers/reference/built-in-actors/account-actor: reference-resources/built-in-actors/protocol-api.md
+  developers/reference/built-in-actors/datacap: reference-resources/built-in-actors/protocol-api.md
+  developers/reference/built-in-actors/miner: reference-resources/built-in-actors/protocol-api.md
+  developers/reference/built-in-actors/multisig: reference-resources/built-in-actors/protocol-api.md
+  developers/reference/built-in-actors/storage-market-actor: reference-resources/built-in-actors/protocol-api.md
+  developers/reference/built-in-actors/storage-power-actor: reference-resources/built-in-actors/protocol-api.md
+  developers/reference/built-in-actors/verified-registry-actor: reference-resources/built-in-actors/protocol-api.md
+  developers/reference/json-rpc/auth: reference-resources/json-rpc/auth.md
+  developers/reference/json-rpc/beacon: reference-resources/json-rpc/state.md
+  developers/reference/json-rpc/chain: reference-resources/json-rpc/chain.md
   developers/reference/json-rpc/client: networks/mainnet/rpcs.md
-  developers/reference/json-rpc/create: reference/json-rpc/create.md
-  developers/reference/json-rpc/eth: reference/json-rpc/eth.md
-  developers/reference/json-rpc/gas: reference/json-rpc/gas.md
-  developers/reference/json-rpc/i: reference/json-rpc/i.md
-  developers/reference/json-rpc/introduction: reference/json-rpc/README.md
-  developers/reference/json-rpc/log: reference/json-rpc/log.md
-  developers/reference/json-rpc/market: reference/json-rpc/market.md
-  developers/reference/json-rpc/miner: reference/json-rpc/miner.md
-  developers/reference/json-rpc/mpool: reference/json-rpc/mpool.md
-  developers/reference/json-rpc/msig: reference/json-rpc/msig.md
-  developers/reference/json-rpc/net: reference/json-rpc/net.md
-  developers/reference/json-rpc/paych: reference/json-rpc/paych.md
-  developers/reference/json-rpc/state: reference/json-rpc/state.md
-  developers/reference/json-rpc/sync: reference/json-rpc/sync.md
-  developers/reference/json-rpc/wallet: reference/json-rpc/wallet.md
-  developers/reference/specification: reference/general/specifications.md
-  developers/reference/tools: reference/general/tools.md
+  developers/reference/json-rpc/create: reference-resources/json-rpc/create.md
+  developers/reference/json-rpc/eth: reference-resources/json-rpc/eth.md
+  developers/reference/json-rpc/gas: reference-resources/json-rpc/gas.md
+  developers/reference/json-rpc/i: reference-resources/json-rpc/i.md
+  developers/reference/json-rpc/introduction: reference-resources/json-rpc/README.md
+  developers/reference/json-rpc/log: reference-resources/json-rpc/log.md
+  developers/reference/json-rpc/market: reference-resources/json-rpc/market.md
+  developers/reference/json-rpc/miner: reference-resources/json-rpc/miner.md
+  developers/reference/json-rpc/mpool: reference-resources/json-rpc/mpool.md
+  developers/reference/json-rpc/msig: reference-resources/json-rpc/msig.md
+  developers/reference/json-rpc/net: reference-resources/json-rpc/net.md
+  developers/reference/json-rpc/paych: reference-resources/json-rpc/paych.md
+  developers/reference/json-rpc/state: reference-resources/json-rpc/state.md
+  developers/reference/json-rpc/sync: reference-resources/json-rpc/sync.md
+  developers/reference/json-rpc/wallet: reference-resources/json-rpc/wallet.md
+  developers/reference/specification: reference-resources/general/specifications.md
+  developers/reference/tools: reference-resources/general/tools.md
   developers/smart-contracts/about/blueprints: architecture/the-fvm.md
   developers/smart-contracts/about/faqs: build-on-filecoin/fundamentals/faqs.md
   developers/smart-contracts/about/project: build-on-filecoin/fundamentals/roadmap.md
@@ -148,7 +148,7 @@ redirects:
   developers/smart-contracts/concepts/data-access: architecture/the-fvm.md
   developers/smart-contracts/concepts/ethereum-compatibility: build-on-filecoin/filecoin-evm-runtime/difference-with-ethereum.md
   developers/smart-contracts/concepts/filecoin-evm: architecture/filecoin-evm-runtime.md
-  developers/smart-contracts/concepts/gas: reference/general/glossary.md
+  developers/smart-contracts/concepts/gas: reference-resources/general/glossary.md
   developers/smart-contracts/concepts/tipsets: architecture/the-blockchain/blocks-and-tipsets.md
   developers/smart-contracts/filecoin-virtual-machine: architecture/the-fvm.md
   developers/smart-contracts/hardhat: build-on-filecoin/developing-contracts/hardhat.md
@@ -166,15 +166,15 @@ redirects:
   developers/storage-helpers/estuary: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/how-tos/blockchain-integration: overview/what-is-filecoin/README.md
   developers/storage-helpers/how-tos/data-encryption: store-retrieve-data/how-storage-works/storage-onramps.md
-  developers/storage-helpers/how-tos/permissions-and-access-control: reference/json-rpc/README.md
+  developers/storage-helpers/how-tos/permissions-and-access-control: reference-resources/json-rpc/README.md
   developers/storage-helpers/how-tos/retrieve-data: store-retrieve-data/how-retrieval-works/basic-retrieval.md
   developers/storage-helpers/nft-storage: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/overview: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/starling: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/web3-storage: store-retrieve-data/how-storage-works/storage-onramps.md
   developers: basics/project-and-community/filecoin-faqs.md
-  docs/apis/json-rpc: reference/json-rpc/README.md
-  docs/developers/api-access: reference/built-in-actors/protocol-api.md
+  docs/apis/json-rpc: reference-resources/json-rpc/README.md
+  docs/developers/api-access: reference-resources/built-in-actors/protocol-api.md
   docs/set-up/install: provide-storage/architecture/lotus-components.md
   docs/storage-providers/connectivity: provide-storage/infrastructure/network.md
   docs/storage-providers/lifecycle: provide-storage/basics/quickstart-guide.md
@@ -194,8 +194,8 @@ redirects:
   fvm/how-tos/quickstart: build-on-filecoin/fundamentals/erc-20-quickstart.md
   fvm/how-tos/use-a-faucet: build-on-filecoin/developing-contracts/get-test-tokens.md
   fvm/how-tos: architecture/the-fvm.md
-  fvm/reference/tools: reference/general/tools.md
-  fvm/reference: reference/general/tools.md
+  fvm/reference/tools: reference-resources/general/tools.md
+  fvm/reference: reference-resources/general/tools.md
   fvm: architecture/the-fvm.md
   get-started/explore-the-network: networks/mainnet/explorers.md
   get-started/explore/explore-the-network: networks/mainnet/explorers.md
@@ -210,7 +210,7 @@ redirects:
   get-started/lotus/configuration-and-advanced-usage: provide-storage/architecture/lotus-components.md
   get-started/lotus/installation: provide-storage/architecture/lotus-components.md
   get-started/lotus/ledger: basics/assets/transfer-fil.md
-  get-started/lotus/multisig: reference/general/README.md
+  get-started/lotus/multisig: reference-resources/general/README.md
   get-started/lotus/send-and-receive-fil: basics/assets/the-fil-token.md
   get-started/lotus/switch-networks: overview/what-is-filecoin/networks.md
   get-started/lotus/tips-running-in-china: provide-storage/basics/quickstart-guide.md
@@ -229,7 +229,7 @@ redirects:
   get-started/store-and-retrieve/troubleshooting: provide-storage/skills/storage.md
   get-started/store-and-retrieve: overview/what-is-filecoin/storage-market.md
   get-started: overview/what-is-filecoin/README.md
-  glossary: reference/general/glossary.md
+  glossary: reference-resources/general/glossary.md
   go-filecoin-tutorial/Explorer-and-Dashboard: networks/mainnet/explorers.md
   go-filecoin-tutorial/How-Filecoin-Works: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   go-filecoin-tutorial/Mining-Filecoin: overview/what-is-filecoin/storage-model.md
@@ -265,7 +265,7 @@ redirects:
   mine/lotus/custom-storage-layout: nodes/full-nodes/basic-setup.md
   mine/lotus/dagstore: overview/what-is-filecoin/README.md
   mine/lotus/gpus: provide-storage/infrastructure/reference-architectures.md
-  mine/lotus/message-pool: reference/json-rpc/mpool.md
+  mine/lotus/message-pool: reference-resources/json-rpc/mpool.md
   mine/lotus/miner-addresses: architecture/the-blockchain/addresses.md
   mine/lotus/miner-configuration: provide-storage/infrastructure/reference-architectures.md
   mine/lotus/miner-lifecycle: provide-storage/basics/quickstart-guide.md
@@ -273,7 +273,7 @@ redirects:
   mine/lotus/miner-upgrades: overview/what-is-filecoin/README.md
   mine/lotus/miner-wallets: basics/assets/wallets.md
   mine/lotus/seal-workers: provide-storage/architecture/sealing-pipeline.md
-  mine/lotus/sector-pledging: reference/general/glossary.md
+  mine/lotus/sector-pledging: reference-resources/general/glossary.md
   mine/lotus/split-markets-miners: provide-storage/architecture/lotus-components.md
   mine/lotus/splitstore: provide-storage/architecture/lotus-components.md
   mine/lotus: nodes/implementations/lotus.md
@@ -312,20 +312,20 @@ redirects:
   nodes/node-providers: nodes/full-nodes/node-providers.md
   project/related-projects: basics/project-and-community/related-projects.md
   project: basics/project-and-community/the-filecoin-project.md
-  reference/built-in-actors/filecoin-sol: reference/built-in-actors/README.md
-  reference/built-in-actors/overview: reference/built-in-actors/README.md
-  reference/built-in-actors: reference/built-in-actors/README.md
-  reference/exchanges: reference/exchanges/README.md
-  reference/general/overview: reference/general/README.md
-  reference/general: reference/general/README.md
-  reference/glossary: reference/general/glossary.md
-  reference/json-rpc/beacon: reference/general/README.md
-  reference/json-rpc/introduction: reference/json-rpc/README.md
-  reference/lotus-api: reference/built-in-actors/protocol-api.md
-  reference/overview: reference/general/README.md
-  reference/reference/glossary: reference/general/glossary.md
-  reference/reference/overview: reference/general/README.md
-  reference: reference/general/README.md
+  reference/built-in-actors/filecoin-sol: reference-resources/built-in-actors/README.md
+  reference/built-in-actors/overview: reference-resources/built-in-actors/README.md
+  reference/built-in-actors: reference-resources/built-in-actors/README.md
+  reference/exchanges: reference-resources/exchanges/README.md
+  reference/general/overview: reference-resources/general/README.md
+  reference/general: reference-resources/general/README.md
+  reference/glossary: reference-resources/general/glossary.md
+  reference/json-rpc/beacon: reference-resources/general/README.md
+  reference/json-rpc/introduction: reference-resources/json-rpc/README.md
+  reference/lotus-api: reference-resources/built-in-actors/protocol-api.md
+  reference/overview: reference-resources/general/README.md
+  reference/reference/glossary: reference-resources/general/glossary.md
+  reference/reference/overview: reference-resources/general/README.md
+  reference: reference-resources/general/README.md
   smart-contracts/advanced/wfil: build-on-filecoin/advanced/wrapped-fil.md
   smart-contracts/advanced/multicall: build-on-filecoin/advanced/multicall.md
   smart-contracts/advanced/multisig: build-on-filecoin/advanced/multisig.md
@@ -372,7 +372,7 @@ redirects:
   storage-provider/videos/implementations: nodes/implementations/README.md
   storage-provider/videos/opendata: overview/what-is-filecoin/README.md
   storage-provider/videos/pl: basics/project-and-community/ways-to-contribute.md
-  storage-provider/videos/rclone: reference/general/README.md
+  storage-provider/videos/rclone: reference-resources/general/README.md
   storage-provider/videos/roadmap2022: basics/project-and-community/the-filecoin-project.md
   storage-provider/videos/seagate: overview/what-is-filecoin/README.md
   storage-provider/videos/supermicro: overview/what-is-filecoin/README.md
@@ -392,7 +392,7 @@ redirects:
   store/overview: overview/what-is-filecoin/storage-model.md
   store/slate: overview/what-is-filecoin/README.md
   store/starling: overview/what-is-filecoin/README.md
-  store/tools/estuary: reference/general/README.md
+  store/tools/estuary: reference-resources/general/README.md
   store/tools/starling: basics/project-and-community/filecoin-faqs.md
   store/tools: store-retrieve-data/how-storage-works/storage-onramps.md
   store: store-retrieve-data/how-storage-works/storage-onramps.md
@@ -403,7 +403,7 @@ redirects:
   get-started/go-filecoin-tutorial/Home.html: provide-storage/basics/quickstart-guide.md
   get-started/go-filecoin-tutorial/Storing-on-Filecoin.html: provide-storage/basics/quickstart-guide.md
   getstarted/lotus/switing-networks: overview/what-is-filecoin/networks.md
-  go-filecoin-tutorial/Explorer-and-Dashboard.html: reference/general/README.md
+  go-filecoin-tutorial/Explorer-and-Dashboard.html: reference-resources/general/README.md
   go-filecoin-tutorial/Getting-Started.html: provide-storage/basics/quickstart-guide.md
   go-filecoin-tutorial/How-Filecoin-Works.html: overview/what-is-filecoin/README.md
   go-filecoin-tutorial/Storing-on-Filecoin.html: store-retrieve-data/how-storage-works/storage-onramps.md
