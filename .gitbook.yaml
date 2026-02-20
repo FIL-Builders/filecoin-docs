@@ -11,7 +11,7 @@ redirects:
   about-filecoin/filecoin-compared-to: basics/project-and-community/filecoin-compared-to.md
   about-filecoin/grammar-formatting-and-style: basics/project-and-community/ways-to-contribute.md
   about-filecoin/how-filecoin-works: overview/what-is-filecoin/storage-model.md
-  about-filecoin/ipfs-and-filecoin: basics/how-storage-works/filecoin-and-ipfs.md
+  about-filecoin/ipfs-and-filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   about-filecoin/managing-assets: provide-storage/basics/quickstart-guide.md
   about-filecoin/network-performance: networks/mainnet/network-performance.md
   about-filecoin/project: basics/project-and-community/the-filecoin-project.md
@@ -19,7 +19,7 @@ redirects:
   about-filecoin/social-media: basics/project-and-community/social-media.md
   about-filecoin/ways-to-contribute: basics/project-and-community/ways-to-contribute.md
   about-filecoin/what-is-filecoin: overview/what-is-filecoin/README.md
-  about-filecoin/why-filecoin: basics/how-storage-works/filecoin-and-ipfs.md
+  about-filecoin/why-filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   about-filecoin/wrapped-filecoin: smart-contracts/advanced/wrapped-fil.md
   about-filecoin/writing-guide: basics/project-and-community/ways-to-contribute.md
   about-filecoin: overview/what-is-filecoin/README.md
@@ -72,18 +72,18 @@ redirects:
   build/fvm/basics/tools: reference/general/tools.md
   build/get-building/get-started: basics/project-and-community/ways-to-contribute.md
   build/get-building/overview: smart-contracts/fundamentals/README.md
-  build/get-building/storage-helpers: basics/how-storage-works/storage-onramps.md
+  build/get-building/storage-helpers: store-retrieve-data/how-storage-works/storage-onramps.md
   build/get-started: architecture/the-fvm.md
   build/local-devnet: networks/local-testnet/README.md
   build/lotus: nodes/implementations/lotus.md
   build/lotus/api-token-generation: reference/built-in-actors/protocol-api.md
   build/lotus/api-tokens: nodes/implementations/lotus.md
   build/overview: architecture/the-fvm.md
-  build/powergate: basics/how-storage-works/storage-onramps.md
+  build/powergate: store-retrieve-data/how-storage-works/storage-onramps.md
   build/signing-libraries: reference/general/README.md
   build/start-building/deploy-your-application-to-the-filecoin-testnet: networks/local-testnet/README.md
   build/start-building/interacting-with-the-network: basics/project-and-community/ways-to-contribute.md
-  build/storage-helpers: basics/how-storage-works/storage-onramps.md
+  build/storage-helpers: store-retrieve-data/how-storage-works/storage-onramps.md
   build/textile-buckets: smart-contracts/fundamentals/README.md
   build/the-filecoin-ecosystem: reference/general/README.md
   build/tools/filecoin-backed-pinning-services: smart-contracts/fundamentals/README.md
@@ -107,7 +107,7 @@ redirects:
   developers/infrastructure/network-performance: networks/mainnet/network-performance.md
   developers/infrastructure/networks: overview/what-is-filecoin/networks.md
   developers/infrastructure/node-providers: nodes/full-nodes/node-providers.md
-  developers/introduction/apps-and-filecoin: basics/how-storage-works/filecoin-and-ipfs.md
+  developers/introduction/apps-and-filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   developers/introduction/filecoin-and-ipfs: architecture/the-fvm.md
   developers/introduction/overview: architecture/the-fvm.md
   developers/reference/built-in-actors/account-actor: reference/built-in-actors/protocol-api.md
@@ -162,16 +162,16 @@ redirects:
   developers/smart-contracts/how-tos/test-a-contract: smart-contracts/developing-contracts/verify-a-contract/verify-a-contract.md
   developers/smart-contracts/how-tos/use-a-faucet: smart-contracts/developing-contracts/get-test-tokens.md
   developers/smart-contracts/quickstart: smart-contracts/fundamentals/erc-20-quickstart.md
-  developers/storage-helpers/ceramic: basics/how-storage-works/storage-onramps.md
-  developers/storage-helpers/estuary: basics/how-storage-works/storage-onramps.md
+  developers/storage-helpers/ceramic: store-retrieve-data/how-storage-works/storage-onramps.md
+  developers/storage-helpers/estuary: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/how-tos/blockchain-integration: overview/what-is-filecoin/README.md
-  developers/storage-helpers/how-tos/data-encryption: basics/how-storage-works/storage-onramps.md
+  developers/storage-helpers/how-tos/data-encryption: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/how-tos/permissions-and-access-control: reference/json-rpc/README.md
-  developers/storage-helpers/how-tos/retrieve-data: basics/how-retrieval-works/basic-retrieval.md
-  developers/storage-helpers/nft-storage: basics/how-storage-works/storage-onramps.md
-  developers/storage-helpers/overview: basics/how-storage-works/storage-onramps.md
-  developers/storage-helpers/starling: basics/how-storage-works/storage-onramps.md
-  developers/storage-helpers/web3-storage: basics/how-storage-works/storage-onramps.md
+  developers/storage-helpers/how-tos/retrieve-data: store-retrieve-data/how-retrieval-works/basic-retrieval.md
+  developers/storage-helpers/nft-storage: store-retrieve-data/how-storage-works/storage-onramps.md
+  developers/storage-helpers/overview: store-retrieve-data/how-storage-works/storage-onramps.md
+  developers/storage-helpers/starling: store-retrieve-data/how-storage-works/storage-onramps.md
+  developers/storage-helpers/web3-storage: store-retrieve-data/how-storage-works/storage-onramps.md
   developers: basics/project-and-community/filecoin-faqs.md
   docs/apis/json-rpc: reference/json-rpc/README.md
   docs/developers/api-access: reference/built-in-actors/protocol-api.md
@@ -219,22 +219,22 @@ redirects:
   get-started/overview/get-started: smart-contracts/fundamentals/README.md
   get-started/overview: overview/what-is-filecoin/README.md
   get-started/resources: provide-storage/basics/quickstart-guide.md
-  get-started/store-and-retrieve/conclusion: basics/how-retrieval-works/basic-retrieval.md
-  get-started/store-and-retrieve/introduction: basics/how-retrieval-works/basic-retrieval.md
-  get-started/store-and-retrieve/lotus-only-retrieval: basics/how-retrieval-works/basic-retrieval.md
-  get-started/store-and-retrieve/retrieve-data: basics/how-retrieval-works/basic-retrieval.md
-  get-started/store-and-retrieve/set-up: basics/how-retrieval-works/basic-retrieval.md
+  get-started/store-and-retrieve/conclusion: store-retrieve-data/how-retrieval-works/basic-retrieval.md
+  get-started/store-and-retrieve/introduction: store-retrieve-data/how-retrieval-works/basic-retrieval.md
+  get-started/store-and-retrieve/lotus-only-retrieval: store-retrieve-data/how-retrieval-works/basic-retrieval.md
+  get-started/store-and-retrieve/retrieve-data: store-retrieve-data/how-retrieval-works/basic-retrieval.md
+  get-started/store-and-retrieve/set-up: store-retrieve-data/how-retrieval-works/basic-retrieval.md
   get-started/store-and-retrieve/setup: overview/what-is-filecoin/README.md
-  get-started/store-and-retrieve/store-data: basics/how-storage-works/README.md
+  get-started/store-and-retrieve/store-data: store-retrieve-data/how-storage-works/README.md
   get-started/store-and-retrieve/troubleshooting: provide-storage/skills/storage.md
   get-started/store-and-retrieve: overview/what-is-filecoin/storage-market.md
   get-started: overview/what-is-filecoin/README.md
   glossary: reference/general/glossary.md
   go-filecoin-tutorial/Explorer-and-Dashboard: networks/mainnet/explorers.md
-  go-filecoin-tutorial/How-Filecoin-Works: basics/how-storage-works/filecoin-and-ipfs.md
+  go-filecoin-tutorial/How-Filecoin-Works: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   go-filecoin-tutorial/Mining-Filecoin: overview/what-is-filecoin/storage-model.md
   go-filecoin-tutorial/Mining-Filecoin.html: overview/what-is-filecoin/storage-model.md
-  go-filecoin-tutorial/Storing-on-Filecoin: basics/how-storage-works/README.md
+  go-filecoin-tutorial/Storing-on-Filecoin: store-retrieve-data/how-storage-works/README.md
   go-filecoin-tutorial/getting-started: provide-storage/basics/quickstart-guide.md
   go-filecoin-tutorial/storing-on-filecoin: provide-storage/filecoin-deals/storage-deals.md
   how-to/install-filecoin: provide-storage/basics/quickstart-guide.md
@@ -252,7 +252,7 @@ redirects:
   intro/intro-to-filecoin/what-is-filecoin: overview/what-is-filecoin/README.md
   intro: overview/what-is-filecoin/README.md
   introduction/faq: smart-contracts/fundamentals/faqs.md
-  introduction/ipfs-and-filecoin: basics/how-storage-works/filecoin-and-ipfs.md
+  introduction/ipfs-and-filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   introduction/what-is-filecoin: overview/what-is-filecoin/README.md
   introduction/why-filecoin: smart-contracts/fundamentals/faqs.md
   mine/connectivity: provide-storage/basics/README.md
@@ -382,21 +382,21 @@ redirects:
   storage-provider/videos/why: overview/what-is-filecoin/README.md
   storage-provider: provide-storage/basics/README.md
   store/estuary: provide-storage/basics/quickstart-guide.md
-  store/filecoin-plus/overview: basics/how-storage-works/filecoin-plus.md
-  store/filecoin-plus: basics/how-storage-works/filecoin-plus.md
-  store/lotus/retrieve-data: basics/how-retrieval-works/README.md
+  store/filecoin-plus/overview: store-retrieve-data/how-storage-works/filecoin-plus.md
+  store/filecoin-plus: store-retrieve-data/how-storage-works/filecoin-plus.md
+  store/lotus/retrieve-data: store-retrieve-data/how-retrieval-works/README.md
   store/lotus/store-data: overview/what-is-filecoin/storage-model.md
-  store/lotus/very-large-files: basics/how-storage-works/filecoin-and-ipfs.md
+  store/lotus/very-large-files: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   store/lotus: nodes/implementations/lotus.md
-  store/overview/start-storing: basics/how-storage-works/filecoin-plus.md
+  store/overview/start-storing: store-retrieve-data/how-storage-works/filecoin-plus.md
   store/overview: overview/what-is-filecoin/storage-model.md
   store/slate: overview/what-is-filecoin/README.md
   store/starling: overview/what-is-filecoin/README.md
   store/tools/estuary: reference/general/README.md
   store/tools/starling: basics/project-and-community/filecoin-faqs.md
-  store/tools: basics/how-storage-works/storage-onramps.md
-  store: basics/how-storage-works/storage-onramps.md
-  about-Filecoin/ipfs-and-Filecoin: basics/how-storage-works/filecoin-and-ipfs.md
+  store/tools: store-retrieve-data/how-storage-works/storage-onramps.md
+  store: store-retrieve-data/how-storage-works/storage-onramps.md
+  about-Filecoin/ipfs-and-Filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   about-filecoin/what-is-filecoin/?ref=blog.dclimate.net: overview/what-is-filecoin/README.md
   about-filecoin/what-is-filecoin/?ref=infura.ghost.io: overview/what-is-filecoin/README.md
   get-started/go-filecoin-tutorial/Getting-Started.html: provide-storage/basics/quickstart-guide.md
@@ -406,7 +406,7 @@ redirects:
   go-filecoin-tutorial/Explorer-and-Dashboard.html: reference/general/README.md
   go-filecoin-tutorial/Getting-Started.html: provide-storage/basics/quickstart-guide.md
   go-filecoin-tutorial/How-Filecoin-Works.html: overview/what-is-filecoin/README.md
-  go-filecoin-tutorial/Storing-on-Filecoin.html: basics/how-storage-works/storage-onramps.md
+  go-filecoin-tutorial/Storing-on-Filecoin.html: store-retrieve-data/how-storage-works/storage-onramps.md
   mine/mining-rewards.html: provide-storage/filecoin-economics/block-rewards.md
   storage-provider/how-providing-works/storage-provider/hardware-requirements: provide-storage/infrastructure/reference-architectures.md
   v: provide-storage/basics/quickstart-guide.md
