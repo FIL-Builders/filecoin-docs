@@ -7,7 +7,7 @@ structure:
 redirects:
   about-filecoin/chat-and-discussion-forums: basics/project-and-community/forums-and-FIPs.md
   about-filecoin/contribution-tutorial: basics/project-and-community/ways-to-contribute.md
-  about-filecoin/faq: smart-contracts/fundamentals/faqs.md
+  about-filecoin/faq: build-on-filecoin/fundamentals/faqs.md
   about-filecoin/filecoin-compared-to: basics/project-and-community/filecoin-compared-to.md
   about-filecoin/grammar-formatting-and-style: basics/project-and-community/ways-to-contribute.md
   about-filecoin/how-filecoin-works: overview/what-is-filecoin/storage-model.md
@@ -20,11 +20,11 @@ redirects:
   about-filecoin/ways-to-contribute: basics/project-and-community/ways-to-contribute.md
   about-filecoin/what-is-filecoin: overview/what-is-filecoin/README.md
   about-filecoin/why-filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
-  about-filecoin/wrapped-filecoin: smart-contracts/advanced/wrapped-fil.md
+  about-filecoin/wrapped-filecoin: build-on-filecoin/advanced/wrapped-fil.md
   about-filecoin/writing-guide: basics/project-and-community/ways-to-contribute.md
   about-filecoin: overview/what-is-filecoin/README.md
   about/assets/fil-token: basics/assets/the-fil-token.md
-  about/assets/wrapped-filecoin: smart-contracts/advanced/wrapped-fil.md
+  about/assets/wrapped-filecoin: build-on-filecoin/advanced/wrapped-fil.md
   about/basics/filecoin-compared-to: basics/project-and-community/filecoin-compared-to.md
   about/basics/filecoin-faq: basics/project-and-community/filecoin-faqs.md
   about/basics/how-filecoin-works: overview/what-is-filecoin/README.md
@@ -44,34 +44,34 @@ redirects:
   archive/archived-get-started: provide-storage/basics/quickstart-guide.md
   archive/archived-infura-example: provide-storage/infrastructure/README.md
   archive/archived-powergate: reference/general/README.md
-  archive/archived-textile-buckets: smart-contracts/fundamentals/README.md
+  archive/archived-textile-buckets: build-on-filecoin/fundamentals/README.md
   archive/overview: overview/what-is-filecoin/README.md
   archive/store/overview/start-storing: provide-storage/basics/quickstart-guide.md
   archive: overview/what-is-filecoin/README.md
   basics/interplanetary-consensus/ipc-agent: basics/interplanetary-consensus/README.md
   basics/interplanetary-consensus/overview: basics/interplanetary-consensus/README.md
-  basics/project-and-community/filecoin-faq: smart-contracts/fundamentals/faqs.md
+  basics/project-and-community/filecoin-faq: build-on-filecoin/fundamentals/faqs.md
   architecture/the-blockchain/tipsets: architecture/the-blockchain/blocks-and-tipsets.md
   overview/what-is-filecoin/overview: overview/what-is-filecoin/README.md
   basics: overview/what-is-filecoin/README.md
-  build/core-products/filecoin-backed-pinning-services: smart-contracts/fundamentals/README.md
+  build/core-products/filecoin-backed-pinning-services: build-on-filecoin/fundamentals/README.md
   build/core-products/powergate: reference/general/README.md
   build/core-products/protocol-implementations: nodes/implementations/README.md
   build/developer-tools/wallets-signing-tools-api-clients: reference/general/README.md
   build/estuary: reference/general/README.md
   build/examples/meme-marketplace/overview: overview/what-is-filecoin/README.md
-  build/examples/meme-marketplace/step-1-blockchain-and-contracts-setup: smart-contracts/developing-contracts/README.md
-  build/examples/network-inspector/lotus-and-go-ipfs-interactions: smart-contracts/fundamentals/README.md
-  build/examples/network-inspector/overview: smart-contracts/fundamentals/README.md
+  build/examples/meme-marketplace/step-1-blockchain-and-contracts-setup: build-on-filecoin/developing-contracts/README.md
+  build/examples/network-inspector/lotus-and-go-ipfs-interactions: build-on-filecoin/fundamentals/README.md
+  build/examples/network-inspector/overview: build-on-filecoin/fundamentals/README.md
   build/examples/network-inspector/step-3-set-up-the-lotus-and-go-ipfs-api-clients: nodes/implementations/lotus.md
   build/examples/sample-architectures: provide-storage/infrastructure/reference-architectures.md
-  build/examples/simple-pinning-service/overview: smart-contracts/fundamentals/README.md
-  build/examples/web-applications/overview: smart-contracts/fundamentals/README.md
-  build/examples: smart-contracts/fundamentals/README.md
+  build/examples/simple-pinning-service/overview: build-on-filecoin/fundamentals/README.md
+  build/examples/web-applications/overview: build-on-filecoin/fundamentals/README.md
+  build/examples: build-on-filecoin/fundamentals/README.md
   build/filecoin-pinning-services: basics/project-and-community/filecoin-faqs.md
   build/fvm/basics/tools: reference/general/tools.md
   build/get-building/get-started: basics/project-and-community/ways-to-contribute.md
-  build/get-building/overview: smart-contracts/fundamentals/README.md
+  build/get-building/overview: build-on-filecoin/fundamentals/README.md
   build/get-building/storage-helpers: store-retrieve-data/how-storage-works/storage-onramps.md
   build/get-started: architecture/the-fvm.md
   build/local-devnet: networks/local-testnet/README.md
@@ -84,11 +84,11 @@ redirects:
   build/start-building/deploy-your-application-to-the-filecoin-testnet: networks/local-testnet/README.md
   build/start-building/interacting-with-the-network: basics/project-and-community/ways-to-contribute.md
   build/storage-helpers: store-retrieve-data/how-storage-works/storage-onramps.md
-  build/textile-buckets: smart-contracts/fundamentals/README.md
+  build/textile-buckets: build-on-filecoin/fundamentals/README.md
   build/the-filecoin-ecosystem: reference/general/README.md
-  build/tools/filecoin-backed-pinning-services: smart-contracts/fundamentals/README.md
+  build/tools/filecoin-backed-pinning-services: build-on-filecoin/fundamentals/README.md
   build/tools/powergate: reference/general/README.md
-  build: smart-contracts/fundamentals/README.md
+  build: build-on-filecoin/fundamentals/README.md
   community/chat-and-discussion-forums: basics/project-and-community/forums-and-FIPs.md
   community/contribute/contribution-tutorial: basics/project-and-community/ways-to-contribute.md
   community/contribute/grammar-formatting-and-style: basics/project-and-community/ways-to-contribute.md
@@ -103,7 +103,7 @@ redirects:
   developers/infrastructure/development-wallets: basics/assets/wallets.md
   developers/infrastructure/how-tos/run-a-local-network: networks/local-testnet/README.md
   developers/infrastructure/how-tos/spin-up-a-lite-node: nodes/lite-nodes/spin-up-a-lite-node.md
-  developers/infrastructure/libraries: smart-contracts/developing-contracts/client-contract-tutorial.md
+  developers/infrastructure/libraries: build-on-filecoin/developing-contracts/client-contract-tutorial.md
   developers/infrastructure/network-performance: networks/mainnet/network-performance.md
   developers/infrastructure/networks: overview/what-is-filecoin/networks.md
   developers/infrastructure/node-providers: nodes/full-nodes/node-providers.md
@@ -139,29 +139,29 @@ redirects:
   developers/reference/specification: reference/general/specifications.md
   developers/reference/tools: reference/general/tools.md
   developers/smart-contracts/about/blueprints: architecture/the-fvm.md
-  developers/smart-contracts/about/faqs: smart-contracts/fundamentals/faqs.md
-  developers/smart-contracts/about/project: smart-contracts/fundamentals/roadmap.md
-  developers/smart-contracts/about/support: smart-contracts/fundamentals/support.md
+  developers/smart-contracts/about/faqs: build-on-filecoin/fundamentals/faqs.md
+  developers/smart-contracts/about/project: build-on-filecoin/fundamentals/roadmap.md
+  developers/smart-contracts/about/support: build-on-filecoin/fundamentals/support.md
   developers/smart-contracts/about/use-cases: architecture/the-fvm.md
   developers/smart-contracts/concepts/accounts-and-assets: architecture/the-blockchain/addresses.md
   developers/smart-contracts/concepts/actors-and-contracts: architecture/the-blockchain/actors.md
   developers/smart-contracts/concepts/data-access: architecture/the-fvm.md
-  developers/smart-contracts/concepts/ethereum-compatibility: smart-contracts/filecoin-evm-runtime/difference-with-ethereum.md
+  developers/smart-contracts/concepts/ethereum-compatibility: build-on-filecoin/filecoin-evm-runtime/difference-with-ethereum.md
   developers/smart-contracts/concepts/filecoin-evm: architecture/filecoin-evm-runtime.md
   developers/smart-contracts/concepts/gas: reference/general/glossary.md
   developers/smart-contracts/concepts/tipsets: architecture/the-blockchain/blocks-and-tipsets.md
   developers/smart-contracts/filecoin-virtual-machine: architecture/the-fvm.md
-  developers/smart-contracts/hardhat: smart-contracts/developing-contracts/hardhat.md
+  developers/smart-contracts/hardhat: build-on-filecoin/developing-contracts/hardhat.md
   developers/smart-contracts/how-tos/add-to-metamask: basics/assets/metamask-setup.md
-  developers/smart-contracts/how-tos/calculate-gas: smart-contracts/filecoin-evm-runtime/how-gas-works.md
+  developers/smart-contracts/how-tos/calculate-gas: build-on-filecoin/filecoin-evm-runtime/how-gas-works.md
   developers/smart-contracts/how-tos/call-built-in-actor: architecture/the-blockchain/actors.md
-  developers/smart-contracts/how-tos/deploy-a-contract: smart-contracts/developing-contracts/remix.md
-  developers/smart-contracts/how-tos/future-proof: smart-contracts/developing-contracts/best-practices.md
-  developers/smart-contracts/how-tos/get-test-tokens: smart-contracts/developing-contracts/get-test-tokens.md
-  developers/smart-contracts/how-tos/invoke-a-contract: smart-contracts/fundamentals/README.md
-  developers/smart-contracts/how-tos/test-a-contract: smart-contracts/developing-contracts/verify-a-contract/verify-a-contract.md
-  developers/smart-contracts/how-tos/use-a-faucet: smart-contracts/developing-contracts/get-test-tokens.md
-  developers/smart-contracts/quickstart: smart-contracts/fundamentals/erc-20-quickstart.md
+  developers/smart-contracts/how-tos/deploy-a-contract: build-on-filecoin/developing-contracts/remix.md
+  developers/smart-contracts/how-tos/future-proof: build-on-filecoin/developing-contracts/best-practices.md
+  developers/smart-contracts/how-tos/get-test-tokens: build-on-filecoin/developing-contracts/get-test-tokens.md
+  developers/smart-contracts/how-tos/invoke-a-contract: build-on-filecoin/fundamentals/README.md
+  developers/smart-contracts/how-tos/test-a-contract: build-on-filecoin/developing-contracts/verify-a-contract/verify-a-contract.md
+  developers/smart-contracts/how-tos/use-a-faucet: build-on-filecoin/developing-contracts/get-test-tokens.md
+  developers/smart-contracts/quickstart: build-on-filecoin/fundamentals/erc-20-quickstart.md
   developers/storage-helpers/ceramic: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/estuary: store-retrieve-data/how-storage-works/storage-onramps.md
   developers/storage-helpers/how-tos/blockchain-integration: overview/what-is-filecoin/README.md
@@ -178,11 +178,11 @@ redirects:
   docs/set-up/install: provide-storage/architecture/lotus-components.md
   docs/storage-providers/connectivity: provide-storage/infrastructure/network.md
   docs/storage-providers/lifecycle: provide-storage/basics/quickstart-guide.md
-  downloadtion/faq: smart-contracts/fundamentals/faqs.md
-  fvm/basics/faqs: smart-contracts/fundamentals/faqs.md
+  downloadtion/faq: build-on-filecoin/fundamentals/faqs.md
+  fvm/basics/faqs: build-on-filecoin/fundamentals/faqs.md
   fvm/basics/introduction: architecture/the-fvm.md
-  fvm/basics/quickstart: smart-contracts/fundamentals/erc-20-quickstart.md
-  fvm/basics/support: smart-contracts/fundamentals/support.md
+  fvm/basics/quickstart: build-on-filecoin/fundamentals/erc-20-quickstart.md
+  fvm/basics/support: build-on-filecoin/fundamentals/support.md
   fvm/basics: architecture/the-fvm.md
   fvm/concepts/accounts-and-assets: architecture/the-blockchain/addresses.md
   fvm/concepts/actors-and-contracts: architecture/the-blockchain/actors.md
@@ -190,9 +190,9 @@ redirects:
   fvm/concepts/tipsets: architecture/the-blockchain/blocks-and-tipsets.md
   fvm/concepts: architecture/the-fvm.md
   fvm/how-tos/add-to-metamask: basics/assets/metamask-setup.md
-  fvm/how-tos/deploy-a-contract: smart-contracts/developing-contracts/README.md
-  fvm/how-tos/quickstart: smart-contracts/fundamentals/erc-20-quickstart.md
-  fvm/how-tos/use-a-faucet: smart-contracts/developing-contracts/get-test-tokens.md
+  fvm/how-tos/deploy-a-contract: build-on-filecoin/developing-contracts/README.md
+  fvm/how-tos/quickstart: build-on-filecoin/fundamentals/erc-20-quickstart.md
+  fvm/how-tos/use-a-faucet: build-on-filecoin/developing-contracts/get-test-tokens.md
   fvm/how-tos: architecture/the-fvm.md
   fvm/reference/tools: reference/general/tools.md
   fvm/reference: reference/general/tools.md
@@ -216,7 +216,7 @@ redirects:
   get-started/lotus/tips-running-in-china: provide-storage/basics/quickstart-guide.md
   get-started/lotus/troubleshooting: nodes/implementations/lotus.md
   get-started/lotus: nodes/implementations/lotus.md
-  get-started/overview/get-started: smart-contracts/fundamentals/README.md
+  get-started/overview/get-started: build-on-filecoin/fundamentals/README.md
   get-started/overview: overview/what-is-filecoin/README.md
   get-started/resources: provide-storage/basics/quickstart-guide.md
   get-started/store-and-retrieve/conclusion: store-retrieve-data/how-retrieval-works/basic-retrieval.md
@@ -251,10 +251,10 @@ redirects:
   intro/intro-to-filecoin/storage-model: overview/what-is-filecoin/storage-model.md
   intro/intro-to-filecoin/what-is-filecoin: overview/what-is-filecoin/README.md
   intro: overview/what-is-filecoin/README.md
-  introduction/faq: smart-contracts/fundamentals/faqs.md
+  introduction/faq: build-on-filecoin/fundamentals/faqs.md
   introduction/ipfs-and-filecoin: store-retrieve-data/how-storage-works/filecoin-and-ipfs.md
   introduction/what-is-filecoin: overview/what-is-filecoin/README.md
-  introduction/why-filecoin: smart-contracts/fundamentals/faqs.md
+  introduction/why-filecoin: build-on-filecoin/fundamentals/faqs.md
   mine/connectivity: provide-storage/basics/README.md
   mine/hardware-requirements: provide-storage/infrastructure/reference-architectures.md
   mine/how-mining-works: provide-storage/basics/quickstart-guide.md
@@ -288,7 +288,7 @@ redirects:
   networks/hyperspace/add-to-metamask: basics/assets/metamask-setup.md
   networks/hyperspace/details: networks/deprecated-networks/README.md
   networks/hyperspace/explorers: networks/calibration/explorers.md
-  networks/hyperspace/get-test-tokens: smart-contracts/developing-contracts/get-test-tokens.md
+  networks/hyperspace/get-test-tokens: build-on-filecoin/developing-contracts/get-test-tokens.md
   networks/hyperspace/rpcs: networks/calibration/rpcs.md
   networks/local-testnet/set-up: networks/local-testnet/README.md
   networks/local-testnet: networks/local-testnet/README.md
@@ -326,20 +326,20 @@ redirects:
   reference/reference/glossary: reference/general/glossary.md
   reference/reference/overview: reference/general/README.md
   reference: reference/general/README.md
-  smart-contracts/advanced/wfil: smart-contracts/advanced/wrapped-fil.md
-  smart-contracts/advanced/multicall: smart-contracts/advanced/multicall.md
-  smart-contracts/advanced/multisig: smart-contracts/advanced/multisig.md
-  smart-contracts/advanced/fevm-indexers: smart-contracts/advanced/fevm-indexers.md
-  smart-contracts/developing-contracts: smart-contracts/developing-contracts/best-practices.md
-  smart-contracts/filecoin-evm-runtime/differences-with-ethereum: smart-contracts/fundamentals/README.md
-  smart-contracts/filecoin-evm-runtime/filforwader: smart-contracts/filecoin-evm-runtime/filforwarder.md
-  smart-contracts/filecoin-evm-runtime: smart-contracts/filecoin-evm-runtime/actor-types.md
+  smart-contracts/advanced/wfil: build-on-filecoin/advanced/wrapped-fil.md
+  smart-contracts/advanced/multicall: build-on-filecoin/advanced/multicall.md
+  smart-contracts/advanced/multisig: build-on-filecoin/advanced/multisig.md
+  smart-contracts/advanced/fevm-indexers: build-on-filecoin/advanced/fevm-indexers.md
+  smart-contracts/developing-contracts: build-on-filecoin/developing-contracts/best-practices.md
+  smart-contracts/filecoin-evm-runtime/differences-with-ethereum: build-on-filecoin/fundamentals/README.md
+  smart-contracts/filecoin-evm-runtime/filforwader: build-on-filecoin/filecoin-evm-runtime/filforwarder.md
+  smart-contracts/filecoin-evm-runtime: build-on-filecoin/filecoin-evm-runtime/actor-types.md
   smart-contracts/filforwader: basics/assets/transfer-fil.md
   smart-contracts/filforwarder: basics/assets/transfer-fil.md
   smart-contracts/fundamentals/overview: nodes/implementations/README.md
   smart-contracts/fundamentals: architecture/the-fvm.md
   smart-contracts/wallets/fil-to-zero-x: basics/assets/transfer-fil.md
-  smart-contracts/wallets/filforwader: smart-contracts/filecoin-evm-runtime/filforwarder.md
+  smart-contracts/wallets/filforwader: build-on-filecoin/filecoin-evm-runtime/filforwarder.md
   smart-contracts/wallets/metamask: basics/assets/metamask-setup.md
   smart-contracts/wallets/transfer-fil: basics/assets/transfer-fil.md
   smart-contracts: architecture/the-fvm.md
@@ -365,7 +365,7 @@ redirects:
   storage-provider/storage-provider-rewards: provide-storage/filecoin-economics/block-rewards.md
   storage-provider/videos/actors: architecture/the-blockchain/actors.md
   storage-provider/videos/cryptoecon: overview/what-is-filecoin/crypto-economics.md
-  storage-provider/videos/fvm: smart-contracts/fundamentals/README.md
+  storage-provider/videos/fvm: build-on-filecoin/fundamentals/README.md
   storage-provider/videos/gdpr: provide-storage/skills/linux.md
   storage-provider/videos/green: overview/what-is-filecoin/README.md
   storage-provider/videos/hardware: provide-storage/infrastructure/reference-architectures.md
