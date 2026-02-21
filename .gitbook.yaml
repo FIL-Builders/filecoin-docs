@@ -416,3 +416,5 @@ redirects:
   smart-contracts/developing-contracts/using-raas: deprecated/smart-contracts/developing-contracts/using-raas.md
   smart-contracts/programmatic-storage/raas: deprecated/smart-contracts/programmatic-storage/raas.md
   smart-contracts/programmatic-storage/raas-interfaces: deprecated/smart-contracts/programmatic-storage/raas-interfaces.md
+  basics/how-retrieval-works/saturn: deprecated/saturn.md
+  store-retrieve-data/how-retrieval-works/saturn: deprecated/saturn.md
