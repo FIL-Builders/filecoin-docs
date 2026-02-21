@@ -219,3 +219,6 @@
 
 * [Deprecated content](deprecated/README.md)
   * [Saturn](deprecated/saturn.md)
+  * [Using RaaS](deprecated/smart-contracts/developing-contracts/using-raas.md)
+  * [Data replication, renewal and repair (RaaS)](deprecated/smart-contracts/programmatic-storage/raas.md)
+  * [RaaS interfaces](deprecated/smart-contracts/programmatic-storage/raas-interfaces.md)
