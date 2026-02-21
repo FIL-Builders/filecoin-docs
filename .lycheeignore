@@ -21,3 +21,6 @@ https://eoracle.gitbook.io/eoracle/price-feeds/integration-guide
 
 # WeChat mobile page intermittently times out from CI runners.
 https://www.wechat.com/mobile
+
+# Brendan Gregg perf video intermittently times out from CI runners.
+https://www.brendangregg.com/blog/2015-12-03/linux-perf-60s-video.html
