@@ -8,7 +8,7 @@ description: Public RPC endpoints are available for the Calibration testnet.
 [Chainlist](https://chainlist.org/?search=filecoin\&testnets=true) contains a dynamically updated list of available Filecoin RPCs. Select **Include Testnets** to view available test networks. [Find out more at chainlist.org's Filecoin listings](https://chainlist.org/?search=filecoin\&testnets=true).
 {% endhint %}
 
-These endpoints are limited to [read-only Filecoin JSON RPC API calls](../../reference/json-rpc/) and [`MPoolPush`](../../reference/json-rpc/mpool.md) for sending messages that have already been signed.
+These endpoints are limited to [read-only Filecoin JSON RPC API calls](../../reference-resources/json-rpc/) and [`MPoolPush`](../../reference-resources/json-rpc/mpool.md) for sending messages that have already been signed.
 
 ## [Ankr](https://www.ankr.com/rpc/filecoin)
 

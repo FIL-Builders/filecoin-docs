@@ -1,26 +1,57 @@
 ---
 description: >-
-  Reference-only guide to official oracle resources for Filecoin smart
-  contracts.
+  Learn how to use oracle smart contracts to access external data sources when
+  building an FVM dApp.
 ---
 
 # Oracles
 
-{% hint style="info" %}
-This page is reference-only.
+### <mark style="color:blue;">Obtain Price Feeds with the Tellor Oracle</mark>&#x20;
 
-We do not maintain step-by-step third-party oracle tutorials here.
-Use the official oracle documentation links below.
-{% endhint %}
+Tellor is an Oracle solution that enables price and Filecoin network data feeds for FVM dApps.  To see important disclaimers about the use of Tellor, please review the [Tellor Documentation](https://docs.tellor.io/) and [this tutorial](https://youtu.be/AQIDqTLguyI?si=CuSY3uArgKJNVcYL).
 
-### <mark style="color:blue;">Feed token prices to smart contract</mark>
+**Ingredients**
 
-Use these official references to evaluate and implement oracle integrations:
+* [Solidity](https://docs.soliditylang.org/en/v0.8.23/)&#x20;
+* [UsingTellor](https://github.com/tellor-io/sampleUsingTellor?tab=readme-ov-file#2-how-to-use) package&#x20;
 
-* [Filecoin oracle overview](../../smart-contracts/advanced/oracles.md)
-* [eOracle documentation](https://docs.eo.app/docs/)
-* [Tellor documentation](https://docs.tellor.io/)
+**Instructions**
 
-When evaluating providers, confirm current network support, trust assumptions, and update cadence in the provider docs.
+1. Inherit the UsingTellor contract in your code.   An example, pulled from the [sample project for UsingTellor](https://github.com/tellor-io/sampleUsingTellor?tab=readme-ov-file#2-how-to-use), is shown just below.&#x20;
+
+```solidity
+contract PriceContract is UsingTellor {
+
+  uint256 public btcPrice;
+
+  //This Contract now has access to all functions in UsingTellor
+
+  constructor(address payable _tellorAddress) UsingTellor(_tellorAddress) {}
+
+  function setBtcPrice() public {
+
+    bytes memory _b = abi.encode("SpotPrice",abi.encode("btc","usd"));
+    bytes32 _queryId = keccak256(_b);
+
+    uint256 _timestamp;
+    bytes memory _value;
+
+    (_value, _timestamp) = getDataBefore(_queryId, block.timestamp - 15 minutes);
+
+    require(_timestamp > 0, "No data exists");
+    require(block.timestamp - _timestamp < 24 hours, "Data is too old");
+
+    btcPrice = abi.decode(_value,(uint256));
+  }
+}
+```
+
+2. Pass the Tellor address as a constructor argument.&#x20;
+
+Oracle contract address (on both Calibration Testnet and Mainnet): `0xb2CB696fE5244fB9004877e58dcB680cB86Ba444`
+
+To see additional addresses for Tellor Oracles, please see [this doc](https://docs.filecoin.io/build-on-filecoin/advanced/oracles).&#x20;
+
+
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/builder-cookbook/dapps/oracles)

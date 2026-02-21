@@ -2,10 +2,8 @@
 # but links work fine in browsers
 https://filfox.info
 
-# Bacalhau sites currently fail intermittently from CI runners.
-# Keep links in docs, but don't fail PR CI on transient network errors.
-https://docs.bacalhau.org
-https://www.bacalhau.org
+# Saturn links are currently timing out from CI runners.
+https://saturn.tech
 
 # Airtable feedback links intermittently return 502 from CI runners.
 https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form
@@ -22,5 +20,19 @@ https://eoracle.gitbook.io/eoracle/price-feeds/integration-guide
 # WeChat mobile page intermittently times out from CI runners.
 https://www.wechat.com/mobile
 
-# Brendan Gregg perf video intermittently times out from CI runners.
-https://www.brendangregg.com/blog/2015-12-03/linux-perf-60s-video.html
+# New IA paths return 404 on docs.filecoin.io until migration is deployed.
+https://docs.filecoin.io/overview
+https://docs.filecoin.io/architecture
+https://docs.filecoin.io/provide-storage
+https://docs.filecoin.io/store-retrieve-data
+https://docs.filecoin.io/build-on-filecoin
+https://github.com/runtimeverification/verified-build-on-filecoin/wiki/List-of-Security-Vulnerabilities#payable-multicall
+
+# Reference-resources URLs are valid for this IA but not yet live on docs.filecoin.io.
+https://docs.filecoin.io/reference-resources
+
+# Equivalent Lotus-hosted reference-resources URLs are also not live yet.
+https://lotus.filecoin.io/reference-resources
+
+# Alchemy's old reference-resources route currently returns 404.
+https://docs.alchemy.com/reference-resources/eth-getblockbynumber

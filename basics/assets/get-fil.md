@@ -30,7 +30,7 @@ Purchasing cryptocurrency varies from exchange to exchange, but the process is u
 
 ### Address compatibility
 
-Some exchanges allow users to fund and withdraw FIL using any of the [Filecoin address type](../../smart-contracts/filecoin-evm-runtime/address-types.md). However, some exchanges only support one or a handful of the available address types. Most exchanges do not currently support [f410 addresses](../the-blockchain/addresses.md).
+Some exchanges allow users to fund and withdraw FIL using any of the [Filecoin address type](../../build-on-filecoin/filecoin-evm-runtime/address-types.md). However, some exchanges only support one or a handful of the available address types. Most exchanges do not currently support [f410 addresses](../../architecture/the-blockchain/addresses.md).
 
 If your exchange does not yet support Filecoin Eth-style 0x addresses, you must create a wallet to _relay_ the funds through. Take a look at the [Transfer FIL page](transfer-fil.md) for details on how to transfer your funds safely.
 

@@ -33,7 +33,7 @@ Apart from that, you just need to follow the standard process using your preferr
 
 ## 0x => f address
 
-If you want to transfer FIL tokens from an Ethereum style `0x` address to another Filecoin address type, like an `f1` or `f3` address, follow the steps in [FilForwarder](../../smart-contracts/filecoin-evm-runtime/filforwarder.md) tutorial.
+If you want to transfer FIL tokens from an Ethereum style `0x` address to another Filecoin address type, like an `f1` or `f3` address, follow the steps in [FilForwarder](../../build-on-filecoin/filecoin-evm-runtime/filforwarder.md) tutorial.
 
 ## f => 0x address
 
