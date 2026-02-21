@@ -17,6 +17,7 @@ This section covers how to build dApps by writing smart contracts in the Filecoi
 - How to perform a storage deal using the [direct dealmaking client contract](https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial).
 - Legacy direct-deal guidance is documented for reference in [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md) and [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
 - Legacy RaaS guidance is archived in [Using RaaS (deprecated)](../../deprecated/smart-contracts/developing-contracts/using-raas.md).
+- Legacy direct-deal guidance is documented for reference in [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md) and [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
 - How to [verify a contract](https://docs.filecoin.io/smart-contracts/developing-contracts/verify-a-contract) using one of Filecoin's many block explorers.
 - The [best practices](https://docs.filecoin.io/smart-contracts/developing-contracts/best-practices) for building FVM dApps. 
 
