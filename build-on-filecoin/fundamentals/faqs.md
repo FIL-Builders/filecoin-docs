@@ -11,7 +11,7 @@ description: >-
 
 This page includes legacy Deal Client-era guidance and is retained for reference only.
 
-**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+**Use instead:** [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference-resources/general/deal-client-deprecated.md)
 {% endhint %}
 
 Here’s a collection of general FAQs that the team has gathered. If you are looking for more technical FAQs, please head to [Filecoin Community Discussion](https://github.com/filecoin-project/community/discussions/categories/q-a).
@@ -109,7 +109,7 @@ You can use the npm [`@glif/filecoin-address`](https://www.npmjs.com/package/@gl
 
 That legacy approach relied on Deal Client-specific logic and is no longer the recommended path.
 
-For current guidance, start with [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [PDP documentation](../../storage-providers/pdp/README.md).
+For current guidance, start with [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md) and [PDP documentation](../../provide-storage/pdp/README.md).
 
 ## **How can I use FVM to store data to Filecoin**
 

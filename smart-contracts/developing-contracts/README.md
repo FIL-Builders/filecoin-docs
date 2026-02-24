@@ -11,7 +11,7 @@ description: >-
 
 This page includes links to legacy Deal Client-era storage workflows and is retained for reference.
 
-**Use instead:** [PDP (Proof of Data Possession)](../../storage-providers/pdp/README.md), [Modern storage patterns](../../reference/general/modern-storage-patterns.md), and [Legacy programmatic storage (deprecated)](../programmatic-storage/legacy-programmatic-storage-deprecated.md)
+**Use instead:** [PDP (Proof of Data Possession)](../../provide-storage/pdp/README.md), [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md), and [Legacy programmatic storage (deprecated)](../../build-on-filecoin/programmatic-storage/legacy-programmatic-storage-deprecated.md)
 {% endhint %}
 
 This section covers how to build dApps by writing smart contracts in the Filecoin Virtual Machine.  The docs in this section explain: 
@@ -22,7 +22,7 @@ This section covers how to build dApps by writing smart contracts in the Filecoi
 - Where to [find contract templates](https://docs.filecoin.io/smart-contracts/developing-contracts/solidity-libraries) from a range of third party Solidity libraries.  
 - How to [Call built-in actors](https://docs.filecoin.io/smart-contracts/developing-contracts/call-built-in-actors) using the Protocol API or the Solidity Library.
 - How to make use of the Filecoin [Solidity Libraries](https://docs.filecoin.io/smart-contracts/developing-contracts/filecoin.sol) to build FVM dApps using a language familiar to Ethereum developers.
-- Legacy direct-deal guidance is documented for reference in [PDP (Proof of Data Possession)](../../storage-providers/pdp/README.md), [Modern storage patterns](../../reference/general/modern-storage-patterns.md), and [Legacy programmatic storage (deprecated)](../programmatic-storage/legacy-programmatic-storage-deprecated.md).
+- Legacy direct-deal guidance is documented for reference in [PDP (Proof of Data Possession)](../../provide-storage/pdp/README.md), [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md), and [Legacy programmatic storage (deprecated)](../../build-on-filecoin/programmatic-storage/legacy-programmatic-storage-deprecated.md).
 - How to [replicate, renew, or repair (RaaS)](https://docs.filecoin.io/smart-contracts/developing-contracts/using-raas) storage deals on Filecoin.
 - How to [verify a contract](https://docs.filecoin.io/smart-contracts/developing-contracts/verify-a-contract) using one of Filecoin's many block explorers.
 - The [best practices](https://docs.filecoin.io/smart-contracts/developing-contracts/best-practices) for building FVM dApps. 

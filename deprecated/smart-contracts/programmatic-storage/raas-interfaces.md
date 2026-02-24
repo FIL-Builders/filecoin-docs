@@ -9,7 +9,7 @@ description: Archived historical reference for deprecated RaaS interfaces guidan
 
 This page is retained for historical context only and is no longer maintained.
 
-**Use instead:** [PDP (Proof of Data Possession)](../../../storage-providers/pdp/README.md) and [Modern storage patterns](../../../reference/general/modern-storage-patterns.md)
+**Use instead:** [PDP (Proof of Data Possession)](../../../provide-storage/pdp/README.md) and [Modern storage patterns](../../../reference-resources/general/modern-storage-patterns.md)
 {% endhint %}
 
 RaaS interface guidance has been archived and removed from the primary docs

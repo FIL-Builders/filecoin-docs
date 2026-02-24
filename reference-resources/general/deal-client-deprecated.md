@@ -25,7 +25,7 @@ Filecoin guidance has shifted toward modern storage patterns that are easier to 
 Use modern storage patterns as the primary path:
 
 * [Modern storage patterns](modern-storage-patterns.md) (canonical replacement page)
-* [PDP documentation](../../storage-providers/pdp/README.md)
+* [PDP documentation](../../provide-storage/pdp/README.md)
 * [FOC documentation index](foc-documentation-index.md)
 
 ## Transition guidance

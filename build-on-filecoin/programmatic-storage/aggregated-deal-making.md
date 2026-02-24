@@ -9,7 +9,7 @@ description: Aggregation of smaller data pieces to store on Filecoin
 
 This page documents legacy Deal Client-era workflows and is retained for reference only.
 
-**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+**Use instead:** [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference-resources/general/deal-client-deprecated.md)
 {% endhint %}
 
 Filecoin is designed to store large data for extended periods. Small-scale data (<4 GiB) can be combined with other small deals into larger ones, either on-chain or off-chain. Smart contracts can handle programmatic data storing. This article explains the process, referring to small-scale data as _sub-piece data_.

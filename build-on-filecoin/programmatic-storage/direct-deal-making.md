@@ -11,7 +11,7 @@ description: >-
 
 This page documents a deprecated Deal Client workflow and is retained for reference only.
 
-**Use instead:** [Modern storage patterns](../../reference/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference/general/deal-client-deprecated.md)
+**Use instead:** [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md) and [Deal Client is deprecated](../../reference-resources/general/deal-client-deprecated.md)
 {% endhint %}
 
 There are services like deal aggregators that allow clients to create storage deals programmatically. In legacy workflows, _direct deal-making_ was used for larger data blocks.

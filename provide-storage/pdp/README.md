@@ -32,14 +32,14 @@ Use PDP when you need one or more of the following:
 
 PDP replaces older programmatic-storage patterns that centered on direct Deal Client and RaaS-heavy walkthroughs. Those workflows are maintained only as deprecated reference material and are not the default path for new builds.
 
-For migration context, start at [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
+For migration context, start at [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md).
 
 ## Getting started paths
 
-1. **Understand the modern model** via [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
+1. **Understand the modern model** via [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md).
 2. **Run PDP infrastructure in-repo** with [Install & Run PDP](install-and-run-pdp.md).
 3. **Use FOC/PDP tooling docs** from official external sources below.
-4. **Choose an ingestion path** with the in-repo [Storage onramps overview](../../basics/how-storage-works/storage-onramps.md).
+4. **Choose an ingestion path** with the in-repo [Storage onramps overview](../../store-retrieve-data/how-storage-works/storage-onramps.md).
 
 ## Official PDP/FOC links
 

@@ -28,7 +28,7 @@ When building production flows, validate key management, signer auth, and recove
 For condition-based access control and policy design:
 
 * [Lighthouse access-control docs](https://docs.lighthouse.storage/how-to/encryption-features/access-control-conditions)
-* [Filecoin smart contracts best practices](../../smart-contracts/developing-contracts/best-practices.md)
-* [Built-in actors reference](../../reference/built-in-actors/README.md)
+* [Filecoin smart contracts best practices](../../build-on-filecoin/developing-contracts/best-practices.md)
+* [Built-in actors reference](../../reference-resources/built-in-actors/README.md)
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/store-retrieve-data/data-storage/privacy-and-access-control)

@@ -17,7 +17,7 @@ Use this page to pick an integration area, then continue in the official docs fo
 
 ## Chain and contract data
 
-* [Filecoin JSON-RPC reference](../../reference/json-rpc/README.md)
+* [Filecoin JSON-RPC reference](../../reference-resources/json-rpc/README.md)
 * [Filecoin mainnet RPC providers](../../networks/mainnet/rpcs.md)
 * [Filecoin Calibration RPC providers](../../networks/calibration/rpcs.md)
 * [Ethers.js documentation](https://docs.ethers.org/v5/)

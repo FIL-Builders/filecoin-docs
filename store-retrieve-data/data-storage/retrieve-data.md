@@ -17,8 +17,8 @@ Use the official resources below for current retrieval implementation guidance.
 
 Use these references for retrieval architecture and client implementations:
 
-* [Basic retrieval on Filecoin](../../basics/how-retrieval-works/basic-retrieval.md)
-* [Serving retrievals](../../basics/how-retrieval-works/serving-retrievals.md)
+* [Basic retrieval on Filecoin](../../store-retrieve-data/how-retrieval-works/basic-retrieval.md)
+* [Serving retrievals](../../store-retrieve-data/how-retrieval-works/serving-retrievals.md)
 * [Lassie repository](https://github.com/filecoin-project/lassie)
 * [Saturn network overview](https://saturn.tech/)
 

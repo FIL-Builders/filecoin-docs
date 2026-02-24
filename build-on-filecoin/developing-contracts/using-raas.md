@@ -6,7 +6,7 @@ description: >-
 
 # Using RaaS
 
-RaaS refers to replication, renewal and repair as a service, for data stored in storage deals on Filecoin. For current guidance, start with [PDP (Proof of Data Possession)](../../storage-providers/pdp/README.md) and [Modern storage patterns](../../reference/general/modern-storage-patterns.md). Historical RaaS references are listed in [Legacy programmatic storage (deprecated)](../programmatic-storage/legacy-programmatic-storage-deprecated.md).
+RaaS refers to replication, renewal and repair as a service, for data stored in storage deals on Filecoin. For current guidance, start with [PDP (Proof of Data Possession)](../../provide-storage/pdp/README.md) and [Modern storage patterns](../../reference-resources/general/modern-storage-patterns.md). Historical RaaS references are listed in [Legacy programmatic storage (deprecated)](../programmatic-storage/legacy-programmatic-storage-deprecated.md).
 
 In this article, we will cover how to create storage deals, with replication, renew and repair requirements, via a smart contract. This utilizes the [RaaS Starter Kit](https://github.com/filecoin-project/raas-starter-kit).
 

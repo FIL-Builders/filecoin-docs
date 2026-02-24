@@ -23,20 +23,20 @@ This page is a reference-only index of legacy workflows kept for historical cont
 ### Tutorials and workflow pages
 
 * [Chain-Data Query](../../builder-cookbook/dapps/chain-data-query.md) (DC-001)
-* [Store Data](../../builder-cookbook/data-storage/store-data.md) (DC-002)
-* [Aggregated deal-making (Advanced)](../../smart-contracts/advanced/aggregated-deal-making.md) (DC-003)
-* [Developing contracts](../../smart-contracts/developing-contracts/README.md) (DC-004)
-* [Direct deal-making with Client contract](../../smart-contracts/developing-contracts/client-contract-tutorial.md) (DC-005)
-* [FAQs](../../smart-contracts/fundamentals/faqs.md) (DC-006)
-* [The Filecoin Virtual Machine](../../smart-contracts/fundamentals/the-fvm.md) (DC-007)
-* [Programmatic storage](../../smart-contracts/programmatic-storage/README.md) (DC-008)
-* [Aggregated deal-making (Programmatic storage)](../../smart-contracts/programmatic-storage/aggregated-deal-making.md) (DC-009)
-* [Direct deal-making](../../smart-contracts/programmatic-storage/direct-deal-making.md) (DC-010)
+* [Store Data](../../store-retrieve-data/data-storage/store-data.md) (DC-002)
+* [Aggregated deal-making (Advanced)](../../build-on-filecoin/advanced/aggregated-deal-making.md) (DC-003)
+* [Developing contracts](../../build-on-filecoin/developing-contracts/README.md) (DC-004)
+* [Direct deal-making with Client contract](../../build-on-filecoin/developing-contracts/client-contract-tutorial.md) (DC-005)
+* [FAQs](../../build-on-filecoin/fundamentals/faqs.md) (DC-006)
+* [The Filecoin Virtual Machine](../../architecture/the-fvm.md) (DC-007)
+* [Programmatic storage](../../build-on-filecoin/programmatic-storage/README.md) (DC-008)
+* [Aggregated deal-making (Programmatic storage)](../../build-on-filecoin/programmatic-storage/aggregated-deal-making.md) (DC-009)
+* [Direct deal-making](../../build-on-filecoin/programmatic-storage/direct-deal-making.md) (DC-010)
 
 ### Protocol/API references (kept as reference docs)
 
 These are API/reference pages from GER-565 that are not workflow tutorials:
 
-* [Protocol API](../../reference/built-in-actors/protocol-api.md) (DC-012)
-* [Filecoin.sol built-in actor reference](../../reference/built-in-actors/filecoin.sol.md) (DC-011)
-* [Call built-in actors](../../smart-contracts/developing-contracts/call-built-in-actors.md) (DC-013)
+* [Protocol API](../../reference-resources/built-in-actors/protocol-api.md) (DC-012)
+* [Filecoin.sol built-in actor reference](../../reference-resources/built-in-actors/filecoin.sol.md) (DC-011)
+* [Call built-in actors](../../build-on-filecoin/developing-contracts/call-built-in-actors.md) (DC-013)

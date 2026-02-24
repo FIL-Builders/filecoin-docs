@@ -12,7 +12,7 @@ description: >-
 This page is retained for historical context only and is no longer maintained as
 active guidance.
 
-**Use instead:** [Basic retrieval](../basics/how-retrieval-works/basic-retrieval.md) and [Serving retrievals](../basics/how-retrieval-works/serving-retrievals.md)
+**Use instead:** [Basic retrieval](../store-retrieve-data/how-retrieval-works/basic-retrieval.md) and [Serving retrievals](../store-retrieve-data/how-retrieval-works/serving-retrievals.md)
 {% endhint %}
 
 Saturn was previously documented here as a retrieval-oriented workflow in the
