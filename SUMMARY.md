@@ -236,3 +236,5 @@
   * [Using RaaS](deprecated/smart-contracts/developing-contracts/using-raas.md)
   * [Data replication, renewal and repair (RaaS)](deprecated/smart-contracts/programmatic-storage/raas.md)
   * [RaaS interfaces](deprecated/smart-contracts/programmatic-storage/raas-interfaces.md)
+  * [Roadmap](deprecated/smart-contracts/fundamentals/roadmap.md)
+  * [ERC-20 quickstart](deprecated/smart-contracts/fundamentals/erc-20-quickstart.md)
