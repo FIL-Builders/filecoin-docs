@@ -36,3 +36,7 @@ https://lotus.filecoin.io/reference-resources
 
 # Alchemy's old reference-resources route currently returns 404.
 https://docs.alchemy.com/reference-resources/eth-getblockbynumber
+
+# Akave docs endpoints intermittently time out from CI runners.
+https://docs.akave.ai
+https://docs.akave.xyz
