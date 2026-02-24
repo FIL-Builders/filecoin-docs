@@ -37,7 +37,7 @@ Use these pages for Filecoin-specific implementation details:
 Generic Solidity/EVM education is maintained outside Filecoin docs:
 
 * [Solidity documentation](https://docs.soliditylang.org/)
-* [Ethereum developer documentation](https://ethereum.org/developers/docs/)
+* [Ethereum developer documentation](https://ethereum.org/developers/)
 * [Hardhat documentation](https://hardhat.org/docs)
 * [Foundry book](https://book.getfoundry.sh/)
 

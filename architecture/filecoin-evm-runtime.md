@@ -26,6 +26,6 @@ For the canonical entry page, use [FEVM compatibility overview](../build-on-file
 ## External EVM/Solidity references
 
 * [Solidity docs](https://docs.soliditylang.org/)
-* [Ethereum developer docs](https://ethereum.org/developers/docs/)
+* [Ethereum developer docs](https://ethereum.org/developers/)
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/architecture/filecoin-evm-runtime)

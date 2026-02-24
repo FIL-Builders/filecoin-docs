@@ -40,6 +40,6 @@ For calling Filecoin built-in actor methods from Solidity:
 For Solidity/EVM fundamentals and tutorials:
 
 * [Solidity documentation](https://docs.soliditylang.org/)
-* [Ethereum developer docs](https://ethereum.org/developers/docs/)
+* [Ethereum developer docs](https://ethereum.org/developers/)
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/build-on-filecoin/developing-contracts/solidity-libraries)
