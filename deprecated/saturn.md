@@ -15,11 +15,14 @@ active guidance.
 **Use instead:** [Basic retrieval](../basics/how-retrieval-works/basic-retrieval.md) and [Serving retrievals](../basics/how-retrieval-works/serving-retrievals.md)
 {% endhint %}
 
-Saturn was previously documented here as a retrieval-oriented workflow in the
-Filecoin ecosystem.
+<figure><img src="../../.gitbook/assets/basics-how-retrieval-works-saturn-saturn-homepage (1).webp" alt=""><figcaption><p><a href="https://saturn.tech/">https://saturn.tech/</a></p></figcaption></figure>
 
-This archived page intentionally omits external onboarding links and operational
-instructions. Current retrieval guidance lives in the standard retrieval docs
-linked above.
+Saturn is a Web3 CDN in Filecoin’s retrieval market. On one side of the network, websites buy fast, low-cost content delivery. On the other side, Saturn node operators earn Filecoin by fulfilling requests.
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/deprecated/saturn)
+Saturn is trustless, permissionless, and inclusive. Anyone can run Saturn software, contribute to the network, and earn Filecoin.
+
+Content on Saturn is IPFS content-addressed. Every piece of content is immutable, and every response is verifiable.
+
+Incentives unite, align, and grow the network. Node operators earn Filecoin for accelerating web content, and websites get faster content delivery for less.
+
+Find out more over at [saturn.tech](https://saturn.tech).
