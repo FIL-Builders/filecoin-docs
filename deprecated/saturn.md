@@ -15,7 +15,7 @@ active guidance.
 **Use instead:** [Basic retrieval](../basics/how-retrieval-works/basic-retrieval.md) and [Serving retrievals](../basics/how-retrieval-works/serving-retrievals.md)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/basics-how-retrieval-works-saturn-saturn-homepage.webp" alt=""><figcaption><p><a href="https://saturn.tech/">https://saturn.tech/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/basics-how-retrieval-works-saturn-saturn-homepage.webp" alt=""><figcaption><p><a href="https://saturn.tech/">https://saturn.tech/</a></p></figcaption></figure>
 
 Saturn is a Web3 CDN in Filecoin’s retrieval market. On one side of the network, websites buy fast, low-cost content delivery. On the other side, Saturn node operators earn Filecoin by fulfilling requests.
 
