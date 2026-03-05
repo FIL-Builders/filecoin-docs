@@ -39,7 +39,7 @@ For migration context, start at [Modern storage patterns](../../reference/genera
 1. **Understand the modern model** via [Modern storage patterns](../../reference/general/modern-storage-patterns.md).
 2. **Run PDP infrastructure in-repo** with [Install & Run PDP](install-and-run-pdp.md).
 3. **Use FOC/PDP tooling docs** from official external sources below.
-4. **Choose an ingestion path** with the in-repo [Storage onramps overview](../../basics/how-storage-works/storage-onramps.md).
+4. **Choose an ingestion path** with the in-repo [Storage onramps overview](../../getting-started/how-storage-works/storage-onramps.md).
 
 ## Official PDP/FOC links
 

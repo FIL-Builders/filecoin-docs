@@ -24,7 +24,7 @@ Get ready to dive into the heart of the Filecoin network with [Lotus](https://lo
 
 ## <img src="../../.gitbook/assets/storage-provider-basics-quickstart-guide-icon.png" alt="" data-size="line"> Hands-on learning and exploration
 
-It’s time to roll up your sleeves and embark on a hands-on adventure. With a multitude of options at your disposal, setting up a [local devnet](../../networks/local-testnet/) environment is the easiest and most exciting way to kickstart your Filecoin journey. Immerse yourself in the captivating world of sealing sectors and witness firsthand how this critical process works. Feel the thrill of experimentation as you delve deeper into the inner workings of this remarkable technology.
+It’s time to roll up your sleeves and embark on a hands-on adventure. With a multitude of options at your disposal, setting up a [local devnet](../../networks-and-tools/networks/local-testnet/) environment is the easiest and most exciting way to kickstart your Filecoin journey. Immerse yourself in the captivating world of sealing sectors and witness firsthand how this critical process works. Feel the thrill of experimentation as you delve deeper into the inner workings of this remarkable technology.
 
 ## <img src="../../.gitbook/assets/storage-provider-basics-quickstart-guide-icon.png" alt="" data-size="line"> Transforming into a storage provider
 

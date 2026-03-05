@@ -37,7 +37,3 @@ For managed ingestion paths and simpler onboarding, see the [Storage onramps ove
 * Start with **PDP** when your workflow needs verifiable storage/proof semantics.
 * Use **onramps** when you want a managed ingestion path rather than low-level deal orchestration.
 * Use **FOC** resources for newer ecosystem patterns as they are published.
-
-## Migration from Deal Client
-
-If you're maintaining a legacy Deal Client workflow, apply the templates from [Deprecation notices](deprecation-notices.md) and move users to one of the modern paths above.
