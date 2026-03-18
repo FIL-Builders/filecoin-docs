@@ -68,55 +68,9 @@
   * [Get FIL](networks-and-tools/assets/get-fil.md)
   * [Transfer FIL](networks-and-tools/assets/transfer-fil.md)
 
-## Build on Filecoin
+## Provide Storage
 
-* [Development Frameworks](build/development-frameworks/README.md)
-  * [Remix](build/development-frameworks/remix.md)
-  * [Hardhat](build/development-frameworks/hardhat.md)
-  * [Foundry](build/development-frameworks/foundry.md)
-
-* [Developing contracts](build/developing-contracts/README.md)
-  * [Get test tokens](build/developing-contracts/get-test-tokens.md)
-  * [ERC-20 quickstart](build/developing-contracts/erc-20-quickstart.md)
-  * [Call built-in actors](build/developing-contracts/call-built-in-actors.md)
-  * [Filecoin.sol](build/developing-contracts/filecoin.sol.md)
-  * [Solidity libraries](build/developing-contracts/solidity-libraries.md)
-  * [Best practices](build/developing-contracts/best-practices.md)
-
-* [Contract verification](build/verification/README.md)
-  * [Verify using Hardhat](build/verification/hardhat.md)
-  * [Verify using Foundry](build/verification/foundry.md)
-  * [Verify using Blockscout](build/verification/blockscout.md)
-  * [Verify using Filfox](build/verification/filfox.md)
-
-* [Advanced](build/advanced/README.md)
-  * [Wrapped FIL](build/advanced/wrapped-fil.md)
-  * [Oracles](build/advanced/oracles.md)
-  * [Multicall](build/advanced/multicall.md)
-  * [Multisig](build/advanced/multisig.md)
-  * [FEVM Indexers](build/advanced/fevm-indexers.md)
-  * [Cross-chain bridges](build/advanced/cross-chain-bridges.md)
-  * [Contract automation](build/advanced/contract-automation.md)
-  * [Relay](build/advanced/relay.md)
-  * [Decentralized databases](build/advanced/decentralized-databases.md)
-
-* [Cookbook](build/cookbook/overview.md)
-  * [Table of Contents](build/cookbook/table-of-contents.md)
-  * [Data Storage](build/cookbook/data-storage/README.md)
-    * [Store Data](build/cookbook/data-storage/store-data.md)
-    * [Retrieve Data](build/cookbook/data-storage/retrieve-data.md)
-    * [Privacy & Access Control](build/cookbook/data-storage/privacy-and-access-control.md)
-  * [Filecoin Pin](build/cookbook/filecoin-pin/README.md)
-    * [Filecoin Pin CLI](build/cookbook/filecoin-pin/filecoin-pin-cli.md)
-    * [Filecoin Pin Github Action](build/cookbook/filecoin-pin/github-action.md)
-    * [Filecoin Pin dApp Demo](build/cookbook/filecoin-pin/dapp-demo.md)
-    * [Filecoin Pin for ERC-8004 Agents](build/cookbook/filecoin-pin/erc-8004-agent-registration.md)
-    * [FAQ](build/cookbook/filecoin-pin/faq.md)
-
-## Storage Providers
-
-* [Basics](storage-providers/basics/README.md)
-  * [Quickstart guide](storage-providers/basics/quickstart-guide.md)
+* [Getting started](storage-providers/getting-started.md)
 * [Filecoin economics](storage-providers/filecoin-economics/README.md)
   * [Storage proving](storage-providers/filecoin-economics/storage-proving.md)
   * [FIL collateral](storage-providers/filecoin-economics/fil-collateral.md)
@@ -165,14 +119,52 @@
   * [About PDP](storage-providers/pdp/README.md)
   * [Install & Run PDP](storage-providers/pdp/install-and-run-pdp.md)
 
+## Build on Filecoin
+
+* [Getting started](build/getting-started.md)
+* [Development Frameworks](build/development-frameworks/README.md)
+  * [Remix](build/development-frameworks/remix.md)
+  * [Hardhat](build/development-frameworks/hardhat.md)
+  * [Foundry](build/development-frameworks/foundry.md)
+
+* [Developing contracts](build/developing-contracts/README.md)
+  * [Get test tokens](build/developing-contracts/get-test-tokens.md)
+  * [ERC-20 quickstart](build/developing-contracts/erc-20-quickstart.md)
+  * [Call built-in actors](build/developing-contracts/call-built-in-actors.md)
+  * [Filecoin.sol](build/developing-contracts/filecoin.sol.md)
+  * [Solidity libraries](build/developing-contracts/solidity-libraries.md)
+  * [Best practices](build/developing-contracts/best-practices.md)
+  * [Support](build/developing-contracts/support.md)
+
+* [Contract verification](build/verification/README.md)
+  * [Verify using Hardhat](build/verification/hardhat.md)
+  * [Verify using Foundry](build/verification/foundry.md)
+  * [Verify using Blockscout](build/verification/blockscout.md)
+  * [Verify using Filfox](build/verification/filfox.md)
+
+* [Advanced](build/advanced/README.md)
+  * [Wrapped FIL](build/advanced/wrapped-fil.md)
+  * [Oracles](build/advanced/oracles.md)
+  * [Multicall](build/advanced/multicall.md)
+  * [Multisig](build/advanced/multisig.md)
+  * [FEVM Indexers](build/advanced/fevm-indexers.md)
+  * [Cross-chain bridges](build/advanced/cross-chain-bridges.md)
+  * [Contract automation](build/advanced/contract-automation.md)
+  * [Relay](build/advanced/relay.md)
+  * [Decentralized databases](build/advanced/decentralized-databases.md)
+  * [Privacy & Access Control](build/advanced/privacy-and-access-control.md)
+
+* [Cookbook](build/cookbook/README.md)
+  * [Store data](build/cookbook/store-data.md)
+  * [Retrieve data](build/cookbook/retrieve-data.md)
+
 ## Reference
 
 * [General](reference/general/README.md)
   * [Glossary](reference/general/glossary.md)
   * [Specifications](reference/general/specifications.md)
   * [Tools](reference/general/tools.md)
-  * [Modern storage patterns](reference/general/modern-storage-patterns.md)
-  * [FOC documentation index](reference/general/foc-documentation-index.md)
+  * [Moved content](reference/general/moved-content.md)
 * [Exchanges](reference/exchanges/README.md)
   * [Exchange integration](reference/exchanges/exchange-integration.md)
 * [Built-in actors](reference/built-in-actors/README.md)

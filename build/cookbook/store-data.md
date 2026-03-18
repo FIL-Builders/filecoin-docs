@@ -32,29 +32,28 @@ Recommended outputs before proposing storage workflows:
 
 Use maintained Filecoin guidance for large-data programmatic storage:
 
-* [PDP documentation](../../../storage-providers/pdp/README.md)
-* [Modern storage patterns](../../../reference/general/modern-storage-patterns.md)
+* [PDP documentation](../../storage-providers/pdp/README.md)
 
 ### <mark style="color:blue;">Store small data with storage onramps</mark>
 
 For smaller datasets and managed ingestion paths:
 
-* [Storage onramps overview](../../../getting-started/how-storage-works/storage-onramps.md)
+* [Storage onramps overview](../../getting-started/how-storage-works/storage-onramps.md)
 * [Lighthouse documentation](https://docs.lighthouse.storage/)
 
 ### <mark style="color:blue;">Monitor storage deal status from a smart contract</mark>
 
 For actor-level deal status lookups and contract integration references:
 
-* [Built-in actors overview](../../../reference/built-in-actors/README.md)
-* [Protocol API reference](../../../reference/built-in-actors/protocol-api.md)
-* [Filecoin.sol reference](../../../reference/built-in-actors/filecoin.sol.md)
+* [Built-in actors overview](../../reference/built-in-actors/README.md)
+* [Protocol API reference](../../reference/built-in-actors/protocol-api.md)
+* [Filecoin.sol reference](../../reference/built-in-actors/filecoin.sol.md)
 
 ### <mark style="color:blue;">Incentivized data storage</mark>
 
 For incentive design and onboarding programs:
 
 * [Filecoin Data Onboarding](https://dataonboarding.filecoin.io/)
-* [Filecoin storage market basics](../../../getting-started/what-is-filecoin/storage-market.md)
+* [Filecoin storage market basics](../../getting-started/what-is-filecoin/storage-market.md)
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/cookbook/data-storage/store-data)

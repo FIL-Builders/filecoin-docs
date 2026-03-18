@@ -1,10 +1,18 @@
 ---
 description: >-
-  This page explains the direct deal-making process in regards to the Filecoin
+  Archived historical reference for the deprecated Direct deal-making page.
   network.
 ---
 
-# Direct deal-making
+# Direct deal-making (deprecated)
+
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page is retained for historical context only and is no longer maintained.
+
+**Use instead:** [Getting started guide](../../../build/getting-started.md) for Filecoin development.
+{% endhint %}
 
 There are services like deal aggregators that allow clients to create storage deals programmatically. However, aggregators are better suited to small-scale deals of under 4 GiB of total data. For those wishing to programmatically store larger blocks of data, _direct deal-making_ is a more suitable process.
 

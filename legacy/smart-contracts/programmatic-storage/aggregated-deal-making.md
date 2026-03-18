@@ -1,8 +1,16 @@
 ---
-description: Aggregation of smaller data pieces to store on Filecoin
+description: Archived historical reference for the deprecated Aggregated deal-making page.
 ---
 
-# Aggregated deal-making
+# Aggregated deal-making (deprecated)
+
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page is retained for historical context only and is no longer maintained.
+
+**Use instead:** [Getting started guide](../../../build/getting-started.md) for Filecoin development.
+{% endhint %}
 
 Filecoin is designed to store large data for extended periods. Small-scale data (<4 GiB) can be combined with other small deals into larger ones, either on-chain or off-chain. Smart contracts can handle programmatic data storing. This article explains the process, referring to small-scale data as _sub-piece data_.
 

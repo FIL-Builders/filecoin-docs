@@ -6,7 +6,7 @@ description: >-
 keywords: "earn FIL, Filecoin rewards, storage provider rewards, stake FIL, staking FIL, Filecoin staking, become storage provider, FIL staking alternative"
 ---
 
-# Basics
+# Getting started
 
 The Filecoin network provides decentralized data storage and makes sure data is verified, always available, and immutable. Storage providers in the Filecoin network are in charge of storing, providing content and issuing new blocks.
 
@@ -18,6 +18,13 @@ Follow these steps to begin your storage provider journey:
 2. Plan your business
 3. Make sure you have the right skills
 4. Build the right infrastructure
+5. Get to know the ecosystem
+6. Understand ROI and collateral
+7. Get started with Lotus
+8. Set up a local development environment
+9. Become a storage provider
+10. Supercharge your mainnet experience with Boost
+11. Explore verified deals and ecosystem tools
 
 ## Understand Filecoin economics
 
@@ -25,25 +32,25 @@ To understand how you can run a profitable business as a Filecoin storage provid
 
 Storage providers can also add additional value to clients when they offer certain certifications. These can enable a storage provider to charge customers additional fees for storing data in compliance with those standards, for example, HIPAA, SOC2, PCI, GDPR and others.
 
-[Filecoin economics ->](../filecoin-economics/storage-proving.md)
+[Filecoin economics ->](./filecoin-economics/storage-proving.md)
 
 ## Plan your business <a href="#plan-your-business" id="plan-your-business"></a>
 
-The hardware and other requirements for running a Filecoin storage provider business are significantly higher than regular blockchain mining operations. The mechanisms are designed this way because, in contrast to some other blockchain solutions, where you can simply configure one or more nodes to “mine” tokens, the Filecoin network’s primary goal is to provide decentralized storage for humanity’s most valuable data.
+The hardware and other requirements for running a Filecoin storage provider business are significantly higher than regular blockchain mining operations. The mechanisms are designed this way because, in contrast to some other blockchain solutions, where you can simply configure one or more nodes to "mine" tokens, the Filecoin network's primary goal is to provide decentralized storage for humanity's most valuable data.
 
 You need to understand the various earning mechanisms in the Filecoin network.
 
-[Filecoin deals ->](../filecoin-deals/storage-deals.md)
+[Filecoin deals ->](./filecoin-deals/storage-deals.md)
 
 ### Daily fees and startup readiness (FIP-0100)
 
 With the activation of [FIP-0100](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0100.md) in network version 25, all new sectors — and any sectors that are extended or updated — incur a daily fee.
 
-This fee replaces the previous batch fee model and introduces a predictable cost structure tied to each sector’s quality-adjusted power and the network’s circulating supply.
+This fee replaces the previous batch fee model and introduces a predictable cost structure tied to each sector's quality-adjusted power and the network's circulating supply.
 
 The fee begins accruing the day after a sector is committed or extended. It is deducted automatically at the end of each proving deadline.
 
-The network first draws from vesting block rewards. If those are insufficient, it draws from the miner’s available balance. If both are empty, the unpaid amount becomes **fee debt**.
+The network first draws from vesting block rewards. If those are insufficient, it draws from the miner's available balance. If both are empty, the unpaid amount becomes **fee debt**.
 
 Fee debt does not directly cause faults. However, it can impact operations:
 
@@ -53,12 +60,12 @@ Fee debt does not directly cause faults. However, it can impact operations:
 
 To avoid this, storage providers should:
 
-- Keep a FIL buffer in the miner actor’s balance.
+- Keep a FIL buffer in the miner actor's balance.
 - Avoid fully withdrawing unlocked funds unless upcoming rewards will cover future fees.
 
 ### Startup considerations
 
-Miners become eligible to win block rewards once they reach **10 TiB of raw byte power (RBP)**.
+Miners become eligible to win block rewards once they reach **10 TiB of raw byte power (RBP)**.
 
 However, rewards are not guaranteed as soon as that threshold is met. Block production is probabilistic, and smaller miners may wait longer to win a block — especially when competing against larger ones.
 
@@ -80,7 +87,7 @@ As will become clear, running a storage operation is a serious business, with cl
 
 You will need skilled people to operate your storage provider business. Depending on the size and complexity of your setup this can be 1 person with skills across many different domains, or multiple dedicated people or teams.
 
-[People and skills ->](../skills/linux.md)
+[People and skills ->](./skills/linux.md)
 
 ## Build the right infrastructure <a href="#build-the-right-infrastructure" id="build-the-right-infrastructure"></a>
 
@@ -88,8 +95,50 @@ At the lowest level, you will need datacenter infrastructure. You need people ca
 
 Take availability and suitable redundancy into consideration when choosing your datacenter or collocation provider. Any unavailability of your servers, network or storage can result in automatic financial penalties on the Filecoin network.
 
-[Software architecture ->](../architecture/lotus-components.md)
+[Software architecture ->](./architecture/lotus-components.md)
 
-[Infrastructure ->](../skills/storage.md)
+[Infrastructure ->](./skills/storage.md)
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/storage-providers/basics)
+## Get to know the ecosystem <a href="#get-to-know-the-ecosystem" id="get-to-know-the-ecosystem"></a>
+
+One of the enriching elements of the Filecoin ecosystem lies in its vibrant community. Within this dynamic network, you will find individuals eager to share their experiences and offer solutions to the challenges they have encountered. Whether it is navigating the intricacies of storage provider operations or overcoming hurdles on the blockchain, this supportive community stands ready to help. Embrace the spirit of collaboration and tap into this remarkable network.
+
+[Filecoin Slack ->](https://filecoin.io/slack)
+
+## Understand ROI and collateral <a href="#understand-roi-and-collateral" id="understand-roi-and-collateral"></a>
+
+To run a successful storage provider business, it is crucial to understand the concept of Return on Investment (ROI) and the significance of collateral. By planning ahead and considering various factors, such as CAPEX, OPEX, network variables, and collateral requirements, you can make informed decisions that impact your business's profitability and desired capacity.
+
+[ROI calculator ->](https://calc.filecoin.eu)
+
+## Get started with Lotus <a href="#get-started-with-lotus" id="get-started-with-lotus"></a>
+
+Lotus is the leading reference implementation of the Filecoin protocol and the most widely used software stack for interacting with the blockchain and operating a storage provider setup. Understanding Lotus is fundamental to navigating the Filecoin network and building a reliable storage operation.
+
+[Lotus documentation ->](https://lotus.filecoin.io)
+
+## Set up a local development environment <a href="#set-up-a-local-development-environment" id="set-up-a-local-development-environment"></a>
+
+Setting up a local development network (devnet) is the most accessible way to begin your hands-on Filecoin journey. A local devnet lets you experiment with sealing sectors and observe firsthand how the process works without risking real FIL or affecting the mainnet.
+
+[Local devnet ->](../networks-and-tools/networks/local-testnet/)
+
+## Become a storage provider <a href="#become-a-storage-provider" id="become-a-storage-provider"></a>
+
+Once ready, determine your starting capacity and architect a solution to accommodate it. Equip yourself with the necessary hardware and test your setup on the calibration testnet to fine-tune your skills and ensure seamless operations before joining the mainnet.
+
+[Reference architectures ->](./infrastructure/reference-architectures.md)
+
+## Supercharge your mainnet experience with Boost <a href="#supercharge-your-mainnet-experience-with-boost" id="supercharge-your-mainnet-experience-with-boost"></a>
+
+As you step into the mainnet, Boost is the software designed to help you secure storage deals and offer efficient data retrieval services to data owners. Deploying Boost unlocks your ability to participate in deal-making and serve clients across the Filecoin network.
+
+[Boost documentation ->](https://boost.filecoin.io)
+
+## Explore verified deals and ecosystem tools <a href="#explore-verified-deals-and-ecosystem-tools" id="explore-verified-deals-and-ecosystem-tools"></a>
+
+Within the Filecoin network there are many programs and tools designed to enhance your storage provider setup. Explore the documentation to gain insights into verified deals, client programs, and other resources that can improve your operations and expand your client base.
+
+[Filecoin programs ->](./filecoin-deals/filecoin-programs.md)
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/storage-providers/getting-started)

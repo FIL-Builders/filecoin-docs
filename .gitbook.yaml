@@ -3,7 +3,7 @@ root: ./
 structure:
   readme: ./WELCOME.md
   summary: SUMMARY.md
-  
+
 redirects:
   about: getting-started/what-is-filecoin/README.md
   about-Filecoin/ipfs-and-Filecoin: getting-started/how-storage-works/filecoin-and-ipfs.md
@@ -15,7 +15,7 @@ redirects:
   about-filecoin/grammar-formatting-and-style: getting-started/community/ways-to-contribute.md
   about-filecoin/how-filecoin-works: getting-started/what-is-filecoin/storage-model.md
   about-filecoin/ipfs-and-filecoin: getting-started/how-storage-works/filecoin-and-ipfs.md
-  about-filecoin/managing-assets: storage-providers/basics/quickstart-guide.md
+  about-filecoin/managing-assets: storage-providers/getting-started.md
   about-filecoin/network-performance: networks-and-tools/networks/mainnet/network-performance.md
   about-filecoin/project: getting-started/community/the-filecoin-project.md
   about-filecoin/related-projects: getting-started/community/related-projects.md
@@ -63,12 +63,12 @@ redirects:
   archive: getting-started/what-is-filecoin/README.md
   archive/apps-and-filecoin: getting-started/what-is-filecoin/README.md
   archive/archived-filecoin-backed-pinning-services: getting-started/community/filecoin-faqs.md
-  archive/archived-get-started: storage-providers/basics/quickstart-guide.md
+  archive/archived-get-started: storage-providers/getting-started.md
   archive/archived-infura-example: storage-providers/infrastructure/README.md
   archive/archived-powergate: reference/general/README.md
   archive/archived-textile-buckets: core-concepts/filecoin-virtual-machine/README.md
   archive/overview: getting-started/what-is-filecoin/README.md
-  archive/store/overview/start-storing: storage-providers/basics/quickstart-guide.md
+  archive/store/overview/start-storing: storage-providers/getting-started.md
   basics: getting-started/what-is-filecoin/README.md
   basics/assets: networks-and-tools/assets/README.md
   basics/assets/get-fil: networks-and-tools/assets/get-fil.md
@@ -172,14 +172,14 @@ redirects:
   build/the-filecoin-ecosystem: reference/general/README.md
   build/tools/filecoin-backed-pinning-services: core-concepts/filecoin-virtual-machine/README.md
   build/tools/powergate: reference/general/README.md
-  builder-cookbook: build/cookbook/overview.md
-  builder-cookbook/dapps: build/cookbook/overview.md
-  builder-cookbook/dapps/chain-data-query: build/cookbook/overview.md
-  builder-cookbook/dapps/cross-chain-bridges: build/cookbook/overview.md
+  builder-cookbook: build/cookbook/README.md
+  builder-cookbook/dapps: build/cookbook/README.md
+  builder-cookbook/dapps/chain-data-query: build/cookbook/README.md
+  builder-cookbook/dapps/cross-chain-bridges: build/cookbook/README.md
   builder-cookbook/dapps/decentralized-database: build/advanced/decentralized-databases.md
-  builder-cookbook/dapps/oracles: build/cookbook/overview.md
-  builder-cookbook/overview: build/cookbook/overview.md
-  builder-cookbook/table-of-contents: build/cookbook/table-of-contents.md
+  builder-cookbook/dapps/oracles: build/cookbook/README.md
+  builder-cookbook/overview: build/cookbook/README.md
+  builder-cookbook/table-of-contents: build/cookbook/README.md
   community: getting-started/community/forums-and-FIPs.md
   community/chat-and-discussion-forums: getting-started/community/forums-and-FIPs.md
   community/contribute/contribution-tutorial: getting-started/community/ways-to-contribute.md
@@ -268,7 +268,7 @@ redirects:
   docs/developers/api-access: reference/built-in-actors/protocol-api.md
   docs/set-up/install: storage-providers/architecture/lotus-components.md
   docs/storage-providers/connectivity: storage-providers/infrastructure/network.md
-  docs/storage-providers/lifecycle: storage-providers/basics/quickstart-guide.md
+  docs/storage-providers/lifecycle: storage-providers/getting-started.md
   downloadtion/faq: getting-started/community/faqs.md
   fvm: core-concepts/filecoin-virtual-machine/README.md
   fvm/basics: core-concepts/filecoin-virtual-machine/README.md
@@ -292,12 +292,12 @@ redirects:
   get-started/explore-the-network: networks-and-tools/networks/mainnet/explorers.md
   get-started/explore/explore-the-network: networks-and-tools/networks/mainnet/explorers.md
   get-started/explore/resources: networks-and-tools/networks/mainnet/explorers.md
-  get-started/go-filecoin-tutorial/Getting-Started: storage-providers/basics/quickstart-guide.md
-  get-started/go-filecoin-tutorial/Getting-Started.html: storage-providers/basics/quickstart-guide.md
+  get-started/go-filecoin-tutorial/Getting-Started: storage-providers/getting-started.md
+  get-started/go-filecoin-tutorial/Getting-Started.html: storage-providers/getting-started.md
   get-started/go-filecoin-tutorial/Home: storage-providers/nodes/implementations/README.md
-  get-started/go-filecoin-tutorial/Home.html: storage-providers/basics/quickstart-guide.md
+  get-started/go-filecoin-tutorial/Home.html: storage-providers/getting-started.md
   get-started/go-filecoin-tutorial/Storing-on-Filecoin: storage-providers/nodes/implementations/lotus.md
-  get-started/go-filecoin-tutorial/Storing-on-Filecoin.html: storage-providers/basics/quickstart-guide.md
+  get-started/go-filecoin-tutorial/Storing-on-Filecoin.html: storage-providers/getting-started.md
   get-started/go-filecoin-tutorial/storing-on-filecoin: getting-started/what-is-filecoin/storage-market.md
   get-started/go-filecoin-tutorial/troubleshooting-&-faq.html: storage-providers/nodes/implementations/lotus.md
   get-started/lotus: storage-providers/nodes/implementations/lotus.md
@@ -309,11 +309,11 @@ redirects:
   get-started/lotus/multisig: reference/general/README.md
   get-started/lotus/send-and-receive-fil: networks-and-tools/assets/the-fil-token.md
   get-started/lotus/switch-networks: getting-started/what-is-filecoin/networks.md
-  get-started/lotus/tips-running-in-china: storage-providers/basics/quickstart-guide.md
+  get-started/lotus/tips-running-in-china: storage-providers/getting-started.md
   get-started/lotus/troubleshooting: storage-providers/nodes/implementations/lotus.md
   get-started/overview: getting-started/what-is-filecoin/README.md
   get-started/overview/get-started: core-concepts/filecoin-virtual-machine/README.md
-  get-started/resources: storage-providers/basics/quickstart-guide.md
+  get-started/resources: storage-providers/getting-started.md
   get-started/store-and-retrieve: getting-started/what-is-filecoin/storage-market.md
   get-started/store-and-retrieve/conclusion: getting-started/how-retrieval-works/basic-retrieval.md
   get-started/store-and-retrieve/introduction: getting-started/how-retrieval-works/basic-retrieval.md
@@ -327,16 +327,16 @@ redirects:
   glossary: reference/general/glossary.md
   go-filecoin-tutorial/Explorer-and-Dashboard: networks-and-tools/networks/mainnet/explorers.md
   go-filecoin-tutorial/Explorer-and-Dashboard.html: reference/general/README.md
-  go-filecoin-tutorial/Getting-Started.html: storage-providers/basics/quickstart-guide.md
+  go-filecoin-tutorial/Getting-Started.html: storage-providers/getting-started.md
   go-filecoin-tutorial/How-Filecoin-Works: getting-started/how-storage-works/filecoin-and-ipfs.md
   go-filecoin-tutorial/How-Filecoin-Works.html: getting-started/what-is-filecoin/README.md
   go-filecoin-tutorial/Mining-Filecoin: getting-started/what-is-filecoin/storage-model.md
   go-filecoin-tutorial/Mining-Filecoin.html: getting-started/what-is-filecoin/storage-model.md
   go-filecoin-tutorial/Storing-on-Filecoin: getting-started/how-storage-works/README.md
   go-filecoin-tutorial/Storing-on-Filecoin.html: getting-started/how-storage-works/storage-onramps.md
-  go-filecoin-tutorial/getting-started: storage-providers/basics/quickstart-guide.md
+  go-filecoin-tutorial/getting-started: storage-providers/getting-started.md
   go-filecoin-tutorial/storing-on-filecoin: storage-providers/filecoin-deals/storage-deals.md
-  how-to/install-filecoin: storage-providers/basics/quickstart-guide.md
+  how-to/install-filecoin: storage-providers/getting-started.md
   how-to/join-a-network: networks-and-tools/networks/mainnet/README.md
   how-to/networks: networks-and-tools/networks/mainnet/README.md
   how-to/store/prepare-data: storage-providers/filecoin-deals/storage-deals.md
@@ -354,10 +354,10 @@ redirects:
   introduction/ipfs-and-filecoin: getting-started/how-storage-works/filecoin-and-ipfs.md
   introduction/what-is-filecoin: getting-started/what-is-filecoin/README.md
   introduction/why-filecoin: getting-started/community/faqs.md
-  mine: storage-providers/basics/README.md
-  mine/connectivity: storage-providers/basics/README.md
+  mine: storage-providers/getting-started.md
+  mine/connectivity: storage-providers/getting-started.md
   mine/hardware-requirements: storage-providers/infrastructure/reference-architectures.md
-  mine/how-mining-works: storage-providers/basics/quickstart-guide.md
+  mine/how-mining-works: storage-providers/getting-started.md
   mine/lotus: storage-providers/nodes/implementations/lotus.md
   mine/lotus/ao.com: storage-providers/nodes/implementations/README.md
   mine/lotus/backup-and-restore: storage-providers/infrastructure/backup-and-disaster-recovery.md
@@ -369,8 +369,8 @@ redirects:
   mine/lotus/message-pool: reference/json-rpc/mpool.md
   mine/lotus/miner-addresses: core-concepts/filecoin-virtual-machine/addresses.md
   mine/lotus/miner-configuration: storage-providers/infrastructure/reference-architectures.md
-  mine/lotus/miner-lifecycle: storage-providers/basics/quickstart-guide.md
-  mine/lotus/miner-setup: storage-providers/basics/quickstart-guide.md
+  mine/lotus/miner-lifecycle: storage-providers/getting-started.md
+  mine/lotus/miner-setup: storage-providers/getting-started.md
   mine/lotus/miner-upgrades: getting-started/what-is-filecoin/README.md
   mine/lotus/miner-wallets: networks-and-tools/assets/wallets.md
   mine/lotus/seal-workers: storage-providers/architecture/sealing-pipeline.md
@@ -380,9 +380,9 @@ redirects:
   mine/mining-architectures: storage-providers/infrastructure/reference-architectures.md
   mine/mining-rewards: storage-providers/filecoin-economics/block-rewards.md
   mine/mining-rewards.html: storage-providers/filecoin-economics/block-rewards.md
-  mine/mining-troubleshooting: storage-providers/basics/README.md
+  mine/mining-troubleshooting: storage-providers/getting-started.md
   mine/slashing: storage-providers/filecoin-economics/slashing.md
-  mine/spacerace: storage-providers/basics/README.md
+  mine/spacerace: storage-providers/getting-started.md
   networks: networks-and-tools/networks/mainnet/README.md
   networks/calibration: networks-and-tools/networks/calibration/README.md
   networks/calibration/add-to-metamask: networks-and-tools/assets/metamask-setup.md
@@ -518,19 +518,19 @@ redirects:
   smart-contracts/wallets/metamask: networks-and-tools/assets/metamask-setup.md
   smart-contracts/wallets/transfer-fil: networks-and-tools/assets/transfer-fil.md
   software: storage-providers/architecture/lotus-components.md
-  storage-provider: storage-providers/basics/README.md
+  storage-provider: storage-providers/getting-started.md
   storage-provider/architecture/Lotus-components: storage-providers/architecture/lotus-components.md
   storage-provider/architecture/lotus-automation: storage-providers/architecture/lotus-automation.md
   storage-provider/architectures: storage-providers/infrastructure/reference-architectures.md
   storage-provider/basics/how-providing-storage-works: getting-started/what-is-filecoin/storage-model.md
-  storage-provider/basics/overview: storage-providers/basics/README.md
+  storage-provider/basics/overview: storage-providers/getting-started.md
   storage-provider/filecoin-deals/filecoin-programs: storage-providers/filecoin-deals/filecoin-programs.md
   storage-provider/hardware-requirements: storage-providers/skills/storage.md
   storage-provider/hardware/architectures: storage-providers/infrastructure/reference-architectures.md
   storage-provider/hardware/hardware-requirements: storage-providers/infrastructure/reference-architectures.md
   storage-provider/how-providing-works: getting-started/what-is-filecoin/storage-model.md
   storage-provider/how-providing-works/storage-provider/hardware-requirements: storage-providers/infrastructure/reference-architectures.md
-  storage-provider/overview: storage-providers/basics/README.md
+  storage-provider/overview: storage-providers/getting-started.md
   storage-provider/rewards: storage-providers/filecoin-economics/block-rewards.md
   storage-provider/rewards/slashing: storage-providers/filecoin-economics/slashing.md
   storage-provider/rewards/storage-provider-rewards: storage-providers/filecoin-economics/block-rewards.md
@@ -556,9 +556,12 @@ redirects:
   storage-provider/videos/why: getting-started/what-is-filecoin/README.md
   storage-providers/filecoin-deals/filecoin-programs/sign-in: storage-providers/filecoin-deals/filecoin-programs.md
   storage-providers/filecoin-deals/filecoin-programs/sign-up: storage-providers/filecoin-deals/filecoin-programs.md
+  storage-providers/basics: storage-providers/getting-started.md
+  storage-providers/basics/quickstart-guide: storage-providers/getting-started.md
+  storage-providers/basics/quickstart-guide.html: storage-providers/getting-started.md
   store: getting-started/how-storage-works/storage-onramps.md
   store-retrieve-data/how-retrieval-works/saturn: legacy/projects/saturn.md
-  store/estuary: storage-providers/basics/quickstart-guide.md
+  store/estuary: storage-providers/getting-started.md
   store/filecoin-plus: getting-started/how-storage-works/filecoin-plus.md
   store/filecoin-plus/overview: getting-started/how-storage-works/filecoin-plus.md
   store/lotus: storage-providers/nodes/implementations/lotus.md
@@ -572,4 +575,4 @@ redirects:
   store/tools: getting-started/how-storage-works/storage-onramps.md
   store/tools/estuary: reference/general/README.md
   store/tools/starling: getting-started/community/filecoin-faqs.md
-  v: storage-providers/basics/quickstart-guide.md
+  v: storage-providers/getting-started.md

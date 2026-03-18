@@ -11,7 +11,7 @@ description: >-
 
 These workflows are retained for historical/reference context only.
 
-**Use instead:** [PDP (Proof of Data Possession)](../../../storage-providers/pdp/README.md) and [Modern storage patterns](../../../reference/general/modern-storage-patterns.md)
+**Use instead:** [Getting started guide](../../../build/getting-started.md) for Filecoin development.
 {% endhint %}
 
 ## Why this page exists
@@ -31,5 +31,5 @@ Earlier Filecoin programmatic-storage docs centered on Deal Client and RaaS-styl
 When migrating from any legacy page above:
 
 1. Start with [PDP (Proof of Data Possession)](../../../storage-providers/pdp/README.md).
-2. Use [Modern storage patterns](../../../reference/general/modern-storage-patterns.md) for stable replacement guidance.
+2. Use [Getting started](../../../build/getting-started.md) for stable replacement guidance.
 3. If you need managed ingestion flows, review [Storage onramps](../../../getting-started/how-storage-works/storage-onramps.md).

@@ -59,7 +59,7 @@ To facilitate on-chain token exchange, the FVM may support decentralized exchang
 
 Although not an immediate focus, token bridges will eventually connect Filecoin to EVM, Move, and Cosmos chains, enabling cross-chain wrapped tokens. While Filecoin currently offers unique value without needing to bootstrap liquidity from other chains, long-term integration with other blockchains is anticipated.
 
-In addition to these, the FVM could support various other use cases, such as data access control ([Medusa](https://cryptonet.org/projects/project-medusa-scalable-threshold-network-on-chain)), trustless reputation systems, replication workers, storage bounties, and L2 networks. For more details on potential use cases, see our [Request for Startups](https://protocollabs.notion.site/Request-for-Startups-FVM-edition-8cd3e76982d14e29b33335ca458fb087) post.
+In addition to these, the FVM could support various other use cases, such as data access control, trustless reputation systems, replication workers, storage bounties, and L2 networks. For more details on potential use cases, see our [Request for Startups](https://protocollabs.notion.site/Request-for-Startups-FVM-edition-8cd3e76982d14e29b33335ca458fb087) post.
 
 If you are interested in building these use cases, the following solution blueprints may be helpful:
 

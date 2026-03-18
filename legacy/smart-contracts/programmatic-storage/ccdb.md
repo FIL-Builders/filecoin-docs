@@ -1,10 +1,17 @@
 ---
 description: >-
-  Onboard data from any Ethereum-compatible L1 to Filecoin using cross-chain
-  data bridge.
+  Archived historical reference for the deprecated Cross-Chain Data Bridge (CCDB) page.
 ---
 
-# Cross-Chain Data Bridge(CCDB)
+# Cross-Chain Data Bridge(CCDB) (deprecated)
+
+{% hint style="danger" %}
+**DEPRECATED - DO NOT USE**
+
+This page is retained for historical context only and is no longer maintained.
+
+**Use instead:** [Getting started guide](../../../build/getting-started.md) for Filecoin development.
+{% endhint %}
 
 ## Introduction
 

@@ -81,18 +81,12 @@ The Filecoin EVM runtime is deployed on Filecoin mainnet via the [Filecoin nv18 
 
 **🔄 Ability to deploy Wasm actors to mainnet**
 
-_To complete midway through 2023_
-
 Developers will be able to deploy custom smart contracts written in Rust, AssemblyScript, or Go, and compiled to WASM bytecode. SDKs, tutorials, and other developer materials will be generally available. This milestone requires a network upgrade.
 
 ### 🔮 Milestone 3+
 
 **🔮 Further incremental protocol refactors to enhance programmability**
 
-_To complete in 2023_
-
 A series of additional incremental protocol upgrades (besides nv17) to move system functionality from privileged space to user space. The result will be a lighter and less opinionated base Filecoin protocol, where storage markets, deal-making, incentives, etc. are extensible, modular, and highly customizable through user-deployed actors. Enhanced programming features such as user-provided cron, asynchronous call patterns, and more will start to be developed at this stage.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/architecture/roadmap)
