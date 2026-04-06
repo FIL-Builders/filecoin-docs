@@ -26,7 +26,7 @@ Filecoin Green aims to measure the environmental impacts of Filecoin and verifia
 
 Spade automates the process of renewing storage deals on the Filecoin network, ensuring the longevity of data stored on the blockchain. This is particularly useful for datasets that need to be preserved for extended periods, far beyond the standard deal duration. By using Spade, organizations and individuals can manage and maintain their data storage deals more efficiently, guaranteeing that valuable data remains accessible and secure over time.
 
-## [Singularity](https://github.com/data-preservation-programs/singularity)
+## [Singularity](https://data-programs.gitbook.io/singularity)
 
 [![Github Repo stars](https://img.shields.io/github/stars/data-preservation-programs/singularity?style=for-the-badge)](https://github.com/data-preservation-programs/singularity) [![GitHub last commit](https://img.shields.io/github/last-commit/data-preservation-programs/singularity?style=for-the-badge)](https://github.com/data-preservation-programs/singularity/graphs/commit-activity) [![Read the doc](https://img.shields.io/badge/docs-gitbook.io-blue?style=for-the-badge)](https://data-programs.gitbook.io/singularity) [![Join Slack](https://img.shields.io/badge/join-Slack-purple?style=for-the-badge)](https://filecoinproject.slack.com/archives/C05JABREATH)
 
