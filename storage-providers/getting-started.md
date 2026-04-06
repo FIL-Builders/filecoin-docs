@@ -87,7 +87,7 @@ As will become clear, running a storage operation is a serious business, with cl
 
 You will need skilled people to operate your storage provider business. Depending on the size and complexity of your setup this can be 1 person with skills across many different domains, or multiple dedicated people or teams.
 
-[People and skills ->](./skills/linux.md)
+[Core competencies ->](./core-competencies/README.md)
 
 ## Build the right infrastructure <a href="#build-the-right-infrastructure" id="build-the-right-infrastructure"></a>
 
@@ -97,7 +97,7 @@ Take availability and suitable redundancy into consideration when choosing your 
 
 [Software architecture ->](./architecture/lotus-components.md)
 
-[Infrastructure ->](./skills/storage.md)
+[Infrastructure ->](./infrastructure/README.md)
 
 ## Get to know the ecosystem <a href="#get-to-know-the-ecosystem" id="get-to-know-the-ecosystem"></a>
 
