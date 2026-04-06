@@ -23,13 +23,8 @@ Earlier Filecoin programmatic-storage docs centered on Deal Client and RaaS-styl
 * [Aggregated deal-making](aggregated-deal-making.md)
 * [Direct deal-making](direct-deal-making.md)
 * [Cross-Chain Data Bridge (CCDB)](ccdb.md)
-
-## Legacy topics no longer retained as standalone pages
-
-The older RaaS pages are no longer maintained as separate docs:
-
-* Data replication, renewal and repair (RaaS)
-* RaaS interfaces
+* [Data replication, renewal and repair (RaaS)](../../deprecated/smart-contracts/programmatic-storage/raas.md)
+* [RaaS interfaces](../../deprecated/smart-contracts/programmatic-storage/raas-interfaces.md)
 
 ## Migration guidance
 
