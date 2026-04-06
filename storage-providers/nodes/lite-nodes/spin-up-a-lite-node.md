@@ -80,7 +80,7 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
     ```shell
     git checkout v1.34.1
     ```
-4. Done! You can move on to the [Build](https://docs.filecoin.io/storage-providers/nodes/lite-nodes/spin-up-a-lite-node/#build-the-binary) section.
+4. Done! You can move on to the [Build](#build-the-binary) section.
 {% endtab %}
 
 {% tab title="MacOS ARM" %}
@@ -113,7 +113,7 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
     export FFI_BUILD_FROM_SOURCE=1
     export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
     ```
-5. Done! You can move on to the [Build](https://docs.filecoin.io/storage-providers/nodes/lite-nodes/spin-up-a-lite-node/#build-the-binary) section.
+5. Done! You can move on to the [Build](#build-the-binary) section.
 {% endtab %}
 
 {% tab title="Ubuntu" %}
@@ -139,7 +139,7 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
     ```shell
     git checkout v1.34.1
     ```
-4.  If your processor was released later than an AMD Zen or Intel Ice Lake CPU, enable SHA extensions by adding these two environment variables. If in doubt, ignore this command and move on to [the next section](https://docs.filecoin.io/storage-providers/nodes/lite-nodes/spin-up-a-lite-node/#build-the-binary).
+4.  If your processor was released later than an AMD Zen or Intel Ice Lake CPU, enable SHA extensions by adding these two environment variables. If in doubt, ignore this command and move on to [the next section](#build-the-binary).
 
     ```shell
     export RUSTFLAGS="-C target-cpu=native -g"
