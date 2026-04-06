@@ -12,7 +12,7 @@ Get ready to dive into the valuable resources of the [storage provider documenta
 
 ## <img src="../../.gitbook/assets/storage-provider-basics-quickstart-guide-icon.png" alt="" data-size="line"> Gain insights into ROI and collateral’s role
 
-To run a successful storage provider business, it’s crucial to understand the concept of [Return on Investment (ROI)](https://calc.filecoin.eu) and the significance of collateral. By planning ahead and considering various factors, such as CAPEX, OPEX, network variables, and collateral requirements, you can make informed decisions that impact your business’s profitability and desired capacity.
+To run a successful storage provider business, it’s crucial to understand the concept of [Return on Investment (ROI)](../filecoin-deals/return-on-investment.md) and the significance of collateral. By planning ahead and considering various factors, such as CAPEX, OPEX, network variables, and collateral requirements, you can make informed decisions that impact your business’s profitability and desired capacity.
 
 ## <img src="../../.gitbook/assets/storage-provider-basics-quickstart-guide-icon.png" alt="" data-size="line"> Get to know the ecosystem
 
