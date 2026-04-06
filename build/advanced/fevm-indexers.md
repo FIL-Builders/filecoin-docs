@@ -7,12 +7,12 @@ description: >-
 
 # FEVM Indexers
 
-> _Not to be confused with_ [_IPNI Indexer_](https://docs.filecoin.io/storage-providers/architecture/network-indexer)
+> _Not to be confused with_ [_IPNI Indexer_](../../storage-providers/architecture/network-indexer.md)
 
 Blockchain indexers are used for accessing blockchain data efficiently. They process and organize storage-optimized raw blockchain data into retrieve-optimized and well-queryable formats. This benefits developers and users looking to retrieve specific information because they don't need to:
 
-1. Run their own [archival node](https://docs.filecoin.io/networks-and-tools/networks/mainnet/rpcs).
-2. Parse entire blockchain histories to crawl for events that might not exist for thousands of [tipsets](https://docs.filecoin.io/core-concepts/filecoin-virtual-machine/blocks-and-tipsets#tipsets).
+1. Run their own [archival node](../../networks-and-tools/networks/mainnet/rpcs.md).
+2. Parse entire blockchain histories to crawl for events that might not exist for thousands of [tipsets](../../core-concepts/filecoin-virtual-machine/blocks-and-tipsets.md#tipsets).
 3. Spend significant time required to retrieve data from the blockchain node.
 4. Determine complex interconnections between smart contracts.
 5. Spend substantial compute power to calculate advanced queries.
@@ -107,7 +107,7 @@ Use the Goldsky Playground or integrate it into your app to consume indexed data
 
 #### Querying Subgraphs on Filecoin FEVM
 
-There are many ways to query existing subgraphs, including numerous well-known libraries for [JavaScript](https://thegraph.com/docs/en/querying/querying-from-an-application/) and [Python](https://thegraph.com/docs/en/querying/querying-with-python/). But even without any third-party tooling, querying a subgraph is no more complicated than querying [RPC nodes](https://docs.filecoin.io/reference/json-rpc). The only complexity is that you have to know the schema of the subgraph beforehand, similar to knowing SQL database tables and columns before being able to query them. Luckily, The Graph provides several ways to discover the subgraph schema. The most convenient one is called the ["Playground"](https://graphql.org/blog/2020-04-03-graphiql-graphql-playground/), and it is available upon a GET request to the subgraph query URL. Alternatively, you may use the discovery method that exists on every subgraph, called the [Introspection Query](https://graphql.org/learn/introspection/).
+There are many ways to query existing subgraphs, including numerous well-known libraries for [JavaScript](https://thegraph.com/docs/en/querying/querying-from-an-application/) and [Python](https://thegraph.com/docs/en/querying/querying-with-python/). But even without any third-party tooling, querying a subgraph is no more complicated than querying [RPC nodes](../../reference/json-rpc/README.md). The only complexity is that you have to know the schema of the subgraph beforehand, similar to knowing SQL database tables and columns before being able to query them. Luckily, The Graph provides several ways to discover the subgraph schema. The most convenient one is called the ["Playground"](https://graphql.org/blog/2020-04-03-graphiql-graphql-playground/), and it is available upon a GET request to the subgraph query URL. Alternatively, you may use the discovery method that exists on every subgraph, called the [Introspection Query](https://graphql.org/learn/introspection/).
 
 #### Developing Subgraphs on Filecoin FEVM
 
@@ -122,7 +122,7 @@ Just as with database data queried through SQL, subgraphs have to be stored some
 [Protofire (aka Glif Nodes)](https://api.node.glif.io) offers public access to The Graph services, simplifying the process of deploying and managing subgraphs.
 
 1. **Connect Your Wallet**
-   * On the [Protofire (Glif Nodes) platform - SUBGRAPHS](https://api.node.glif.io/graph), connect your [Filecoin-compatible wallet](https://docs.filecoin.io/networks-and-tools/assets/wallets).
+   * On the [Protofire (Glif Nodes) platform - SUBGRAPHS](https://api.node.glif.io/graph), connect your [Filecoin-compatible wallet](../../networks-and-tools/assets/wallets.md).
 2. **Create an API Key**
    * Choose the **API keys** tab.
    * Click **Create new key**.

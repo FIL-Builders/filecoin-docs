@@ -95,7 +95,7 @@ curl https://sh.rustup.rs -sSf | sh -s -- -y
 source "$HOME/.cargo/env"
 ```
 
-5. Done! You can move on to the [Pre-build](https://docs.filecoin.io/networks-and-tools/networks/local-testnet/set-up/#pre-build) section.
+5. Done! You can move on to the [Pre-build](#pre-build) section.
 {% endtab %}
 {% endtabs %}
 
@@ -116,7 +116,7 @@ Before we can build the Lotus binaries, thereâ€™s some setup we need to do. Weâ€
     ```shell
     git checkout releases
     ```
-3. Done! You can move on to the [Build](https://docs.filecoin.io/networks-and-tools/networks/local-testnet/set-up/#build) section.
+3. Done! You can move on to the [Build](#build) section.
 {% endtab %}
 
 {% tab title="MacOS ARM" %}
@@ -138,7 +138,7 @@ Before we can build the Lotus binaries, thereâ€™s some setup we need to do. Weâ€
     export FFI_BUILD_FROM_SOURCE=1
     export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
     ```
-4. Done! You can move on to the [Build](https://docs.filecoin.io/networks-and-tools/networks/local-testnet/set-up/#build) section.
+4. Done! You can move on to the [Build](#build) section.
 {% endtab %}
 
 {% tab title="Ubuntu" %}
@@ -161,8 +161,8 @@ Before we can build the Lotus binaries, thereâ€™s some setup we need to do. Weâ€
     ```
 
     \
-    If in doubt, ignore this command and move on to [the next section](https://docs.filecoin.io/networks-and-tools/networks/local-testnet/set-up/#build).
-4. Done! You can move on to the [Build](https://docs.filecoin.io/networks-and-tools/networks/local-testnet/set-up/#build) section.
+    If in doubt, ignore this command and move on to [the next section](#build).
+4. Done! You can move on to the [Build](#build) section.
 {% endtab %}
 {% endtabs %}
 

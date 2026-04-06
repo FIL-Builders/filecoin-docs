@@ -72,4 +72,4 @@ When calling an Ethereum method that allows the user to ask for the `latest` blo
 
 
 
-[Was this page helpful?](https://docs.filecoin.io/build/architecture/filecoin-evm-runtime/difference-with-ethereum)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/core-concepts/filecoin-evm-runtime/difference-with-ethereum)

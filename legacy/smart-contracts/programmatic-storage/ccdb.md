@@ -52,7 +52,7 @@ A combination of on-chain contracts and off-chain services powers the cross-chai
 
 ### High-Level Workflow
 
-<figure><img src="../../.gitbook/assets/CCDB.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CCDB.gif" alt=""><figcaption></figcaption></figure>
 
 The bridge’s workflow can be summarized in a multi-step process:
 

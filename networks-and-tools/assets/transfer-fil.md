@@ -13,16 +13,16 @@ There are four paths for transferring FIL tokens across the Filecoin network, de
 
 |                        | From an `0x` address                                                                                                | From a `f` address                                                                                       |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **To an `0x` address** | [`0x` => `0x` address](https://docs.filecoin.io/networks-and-tools/assets/transfer-fil/#eth-style-address-to-eth-style-address) | [`f` =>`0x` address](https://docs.filecoin.io/networks-and-tools/assets/transfer-fil/#filecoin-to-eth-style-address) |
-| **To a `f` address**   | [`0x` => `f` address](https://docs.filecoin.io/networks-and-tools/assets/transfer-fil/#eth-style-address-to-filecoin)           | [`f` => `f` address](https://docs.filecoin.io/networks-and-tools/assets/transfer-fil/#filecoin-to-filecoin)          |
+| **To an `0x` address** | [`0x` => `0x` address](#eth-style-address-to-eth-style-address) | [`f` =>`0x` address](#filecoin-to-eth-style-address) |
+| **To a `f` address**   | [`0x` => `f` address](#eth-style-address-to-filecoin)           | [`f` => `f` address](#filecoin-to-filecoin)          |
 
 {% hint style="warning" %}
 **ASSETS ON THE FILECOIN NETWORK ARE NOT AVAILABLE ON ANY OTHER NETWORK**\
 \
-Remember that Filecoin is fully compatible with Ethereum tools, like wallets. But that doesn’t mean you’re using the Ethereum network. These instructions transfer assets only within the Filecoin network. [Learn how to configure your Ethereum wallet on the Filecoin network](https://docs.filecoin.io/networks-and-tools/assets/metamask-setup/).
+Remember that Filecoin is fully compatible with Ethereum tools, like wallets. But that doesn’t mean you’re using the Ethereum network. These instructions transfer assets only within the Filecoin network. [Learn how to configure your Ethereum wallet on the Filecoin network](./metamask-setup.md).
 {% endhint %}
 
-## 0x => 0x address
+## 0x => 0x address <a href="#eth-style-address-to-eth-style-address" id="eth-style-address-to-eth-style-address"></a>
 
 If you want to transfer FIL tokens from one `f4` address to another `f4` address using their corresponding `0x` addresses, you need to understand how to convert between `f4` and `0x` addresses.
 
@@ -31,11 +31,11 @@ If you want to transfer FIL tokens from one `f4` address to another `f4` address
 
 Apart from that, you just need to follow the standard process using your preferred Ethereum-compatible wallet, like MetaMask, MethWallet, etc. For instance, [MetaMask has a simple guide](https://support.metamask.io/manage-crypto/move-crypto/send/how-to-send-tokens-from-your-metamask-wallet/) for how to send Ethereum from one account to another.
 
-## 0x => f address
+## 0x => f address <a href="#eth-style-address-to-filecoin" id="eth-style-address-to-filecoin"></a>
 
 If you want to transfer FIL tokens from an Ethereum style `0x` address to another Filecoin address type, like an `f1` or `f3` address, follow the steps in [FilForwarder](../../core-concepts/filecoin-evm-runtime/filforwarder.md) tutorial.
 
-## f => 0x address
+## f => 0x address <a href="#filecoin-to-eth-style-address" id="filecoin-to-eth-style-address"></a>
 
 Most wallets and exchanges currently support Filecoin `f1` or `f3` addresses, and many of them already fully support `f4` and `0x` addresses, including [OKX](https://www.okx.com/price/filecoin-fil), [Kraken](https://www.kraken.com/), [Btcturk](https://www.btcturk.com/), etc. But there are some exchanges that are still implementing the support for `f4` addresses. If your preferred wallets and exchanges don’t let you directly transfer FIL to an `f4` or Ethereum-style `0x` address, We recommend filing a support issue with the exchange to help accelerate the support of `f4` addresses.
 
@@ -85,7 +85,7 @@ If you want to transfer your FIL tokens from the `f1\f3` to the `0x` address, bu
 
 If you are transferring FIL from any exchange to your `0x` address on MetaMask, make sure the exchange supports withdrawing FIL to the `0x` or `f410` address. If not, you will need extra steps to withdraw FIL to your `0x` address. Let’s take Coinbase as an example; you can follow this [Guide: How to transfer FIL from Coinbase to a Metamask Wallet (0x)](https://filecointldr.io/article/guide-how-to-transfer-fil-from-coinbase-to-a-metamask-wallet-0x).
 
-## f to f address <a href="#f-to-f-address" id="f-to-f-address"></a>
+## f to f address <a href="#filecoin-to-filecoin" id="filecoin-to-filecoin"></a>
 
 There are no special steps or requirements for sending Filecoin from one Filecoin-style address to another on the Filecoin network.
 
