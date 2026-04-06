@@ -107,7 +107,7 @@
   * [Network](storage-providers/infrastructure/network.md)
   * [Backup and disaster recovery](storage-providers/infrastructure/backup-and-disaster-recovery.md)
   * [Reference architectures](storage-providers/infrastructure/reference-architectures.md)
-* [Skills](storage-providers/skills/README.md)
+* [Core Competencies](storage-providers/skills/README.md)
   * [Linux](storage-providers/skills/linux.md)
   * [Network](storage-providers/skills/network.md)
   * [Security](storage-providers/skills/security.md)
