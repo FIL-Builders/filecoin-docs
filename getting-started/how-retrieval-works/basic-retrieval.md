@@ -23,7 +23,8 @@ Lassie fetches content in content-addressed archive (CAR) form, so in most cases
 #### Retrieve using Lassie
 
 Make sure that you have [Go](https://go.dev/) installed and that your `GOPATH` is set up. By default, your `GOPATH` will be set to `~/go`.\
-**Install Lassie** [**#**](#retrieve-using-lassie)
+
+##### Install Lassie
 
 1.  Download the [Lassie Binary from the latest release](https://github.com/filecoin-project/lassie/releases/latest) based on your system architecture.
 
