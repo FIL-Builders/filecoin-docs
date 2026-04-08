@@ -16,7 +16,7 @@ Follow these steps to begin your storage provider journey:
 
 1. Understand Filecoin economics
 2. Plan your business
-3. Make sure you have the right skills
+3. Build the right core competencies
 4. Build the right infrastructure
 5. Get to know the ecosystem
 6. Understand ROI and collateral
@@ -81,7 +81,7 @@ While the amount of FIL required is relatively small compared to overall infrast
 
 To estimate how much FIL may be needed, review the [FIP-0100 discussion thread](https://github.com/filecoin-project/FIPs/discussions/1105) or use the [real-time fee calculator](https://penalty.660688.xyz/dailyfee) to model your expected onboarding rate.
 
-## Make sure you have the right skills <a href="#make-sure-you-have-the-right-skills" id="make-sure-you-have-the-right-skills"></a>
+## Build the right core competencies <a href="#build-the-right-core-competencies" id="build-the-right-core-competencies"></a>
 
 As will become clear, running a storage operation is a serious business, with client data and pledged funds at stake. You will be required to run a highly-available service, and there are automatic financial penalties if you cannot demonstrate data availability to the network. There are many things that can go wrong in a data center, on your network, on your OS, or at an application level.
 
