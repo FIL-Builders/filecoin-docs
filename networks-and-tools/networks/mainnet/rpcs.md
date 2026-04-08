@@ -25,7 +25,7 @@ In order to check the current benchmarked performance of each of the below endpo
 
 ## Additional Notes:
 
-*   Glif Nodes offers a [Lotus Lite node](https://docs.filecoin.io/storage-providers/nodes/lite-nodes/spin-up-a-lite-node) endpoint with the following command:
+*   Glif Nodes offers a [Lotus Lite node](../../../storage-providers/nodes/lite-nodes/spin-up-a-lite-node.md) endpoint with the following command:
 
     ```shell
     FULLNODE_API_INFO=wss://wss.node.glif.io/apigw/lotus lotus daemon --lite
@@ -37,4 +37,4 @@ In order to check the current benchmarked performance of each of the below endpo
 
 
 
-[Was this page helpful?](https://docs.filecoin.io/networks-and-tools/networks/mainnet/rpcs)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/networks/mainnet/rpcs)

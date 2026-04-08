@@ -44,9 +44,9 @@ Smart contracts can access built-in actor methods with the `filecoin.sol` librar
 
 To invoke built-in actor methods using `filecoin.sol`, follow these steps:
 
-1. Review the [available actors and methods](https://docs.filecoin.io/build/developing-contracts/call-built-in-actors/#available-actors-and-methods).
-2. [Import `filecoin.sol`](https://docs.filecoin.io/build/developing-contracts/call-built-in-actors/#import-filecoinsol).
-3. [Call a built-in actor](https://docs.filecoin.io/build/developing-contracts/call-built-in-actors/#call-a-built-in-actor).
+1. Review the [available actors and methods](#available-actors-and-methods).
+2. [Import `filecoin.sol`](#import-filecoinsol).
+3. [Call a built-in actor](#call-a-built-in-actor).
 
 ### Available actors and methods
 
@@ -211,7 +211,7 @@ The majority of the Account, DataCap, Storage Market, Miner, Storage Owner and V
 
 ### Import filecoin.sol
 
-The `filecoin.sol` library is embeddable into your smart contract, which means it does not need be present on chain first. Instead, you can just import the library and call the available methods. The `filecoin.sol` library can be [added via `npm`](https://docs.filecoin.io/build/developing-contracts/call-built-in-actors/#import-filecoinsol-with-npm) or [manually imported](https://docs.filecoin.io/build/developing-contracts/call-built-in-actors/#import-filecoinsol-manually) into your contract. The `npm`-based import is simpler, and is recommended.
+The `filecoin.sol` library is embeddable into your smart contract, which means it does not need be present on chain first. Instead, you can just import the library and call the available methods. The `filecoin.sol` library can be [added via `npm`](#import-filecoinsol-with-npm) or [manually imported](#import-filecoinsol-manually) into your contract. The `npm`-based import is simpler, and is recommended.
 
 #### **Import filecoin.sol with npm**
 

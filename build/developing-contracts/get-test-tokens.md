@@ -27,9 +27,9 @@ That’s all there is to it! Getting `tFil` is easy!
 
 ## Local testnet
 
-Before we begin, you must have a local testnet running. Follow the [Run a local network guide](https://docs.filecoin.io/networks-and-tools/networks/local-testnet/set-up/) if you haven’t got a local testnet set up yet.
+Before we begin, you must have a local testnet running. Follow the [Run a local network guide](../../networks-and-tools/networks/local-testnet/README.md) if you haven’t got a local testnet set up yet.
 
-1. Change directory to where you created the `lotus` and `lotus-miner` binaries. If you followed the [Run a local network guide](https://docs.filecoin.io/networks-and-tools/networks/local-testnet/set-up/) these binaries will be in `~/lotus-devnet`:
+1. Change directory to where you created the `lotus` and `lotus-miner` binaries. If you followed the [Run a local network guide](../../networks-and-tools/networks/local-testnet/README.md) these binaries will be in `~/lotus-devnet`:
 
 ```shell
 cd ~/lotus-devnet
@@ -66,7 +66,7 @@ For example:
 ./lotus wallet balance t1snly7vh4mjtjznwze56ihrdhzfwvbajywwmrenq
 ```
 
-If you want to manage your local testnet tokens in MetaMask you will need to create a `t4` address. You can create a `t4` address using `lotus wallet new deleated`. Once you have a `t4` address you can [connect MetaMask to your local testnet](https://docs.filecoin.io/networks-and-tools/assets/metamask-setup/) to see the new balance within the MetaMask extension.
+If you want to manage your local testnet tokens in MetaMask you will need to create a `t4` address. You can create a `t4` address using `lotus wallet new delegated`. Once you have a `t4` address you can [connect MetaMask to your local testnet](../../networks-and-tools/assets/metamask-setup.md) to see the new balance within the MetaMask extension.
 
 
 

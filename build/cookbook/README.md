@@ -24,6 +24,6 @@ Each recipe contains:
 
 ### **Quick Start**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><em><mark style="color:blue;"><strong>Data Storage</strong></mark></em></td><td>Recipes for programmable storage and retrieval of your public or private data on Filecoin.</td><td></td><td><a href="store-data/">store-data</a></td><td><a href="../../.gitbook/assets/fvm-1.png">fvm-1.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><em><mark style="color:blue;"><strong>Data Storage</strong></mark></em></td><td>Recipes for programmable storage and retrieval of your public or private data on Filecoin.</td><td></td><td><a href="store-data.md">store-data.md</a></td><td><a href="../../.gitbook/assets/fvm-1.png">fvm-1.png</a></td></tr></tbody></table>
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/build/cookbook/overview)
