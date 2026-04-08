@@ -322,7 +322,7 @@ redirects:
   get-started/store-and-retrieve/set-up: getting-started/how-retrieval-works/basic-retrieval.md
   get-started/store-and-retrieve/setup: getting-started/what-is-filecoin/README.md
   get-started/store-and-retrieve/store-data: getting-started/how-storage-works/README.md
-  get-started/store-and-retrieve/troubleshooting: storage-providers/skills/storage.md
+  get-started/store-and-retrieve/troubleshooting: storage-providers/core-competencies/storage.md
   getstarted/lotus/switing-networks: getting-started/what-is-filecoin/networks.md
   glossary: reference/general/glossary.md
   go-filecoin-tutorial/Explorer-and-Dashboard: networks-and-tools/networks/mainnet/explorers.md
@@ -525,7 +525,7 @@ redirects:
   storage-provider/basics/how-providing-storage-works: getting-started/what-is-filecoin/storage-model.md
   storage-provider/basics/overview: storage-providers/getting-started.md
   storage-provider/filecoin-deals/filecoin-programs: storage-providers/filecoin-deals/filecoin-programs.md
-  storage-provider/hardware-requirements: storage-providers/skills/storage.md
+  storage-provider/hardware-requirements: storage-providers/core-competencies/storage.md
   storage-provider/hardware/architectures: storage-providers/infrastructure/reference-architectures.md
   storage-provider/hardware/hardware-requirements: storage-providers/infrastructure/reference-architectures.md
   storage-provider/how-providing-works: getting-started/what-is-filecoin/storage-model.md
@@ -540,7 +540,7 @@ redirects:
   storage-provider/videos/actors: core-concepts/filecoin-virtual-machine/actors.md
   storage-provider/videos/cryptoecon: getting-started/what-is-filecoin/crypto-economics.md
   storage-provider/videos/fvm: core-concepts/filecoin-virtual-machine/README.md
-  storage-provider/videos/gdpr: storage-providers/skills/linux.md
+  storage-provider/videos/gdpr: storage-providers/core-competencies/linux.md
   storage-provider/videos/green: getting-started/what-is-filecoin/README.md
   storage-provider/videos/hardware: storage-providers/infrastructure/reference-architectures.md
   storage-provider/videos/implementations: storage-providers/nodes/implementations/README.md
@@ -559,6 +559,13 @@ redirects:
   storage-providers/basics: storage-providers/getting-started.md
   storage-providers/basics/quickstart-guide: storage-providers/getting-started.md
   storage-providers/basics/quickstart-guide.html: storage-providers/getting-started.md
+  storage-providers/skills: storage-providers/core-competencies/README.md
+  storage-providers/skills/linux: storage-providers/core-competencies/linux.md
+  storage-providers/skills/network: storage-providers/core-competencies/network.md
+  storage-providers/skills/security: storage-providers/core-competencies/security.md
+  storage-providers/skills/storage: storage-providers/core-competencies/storage.md
+  storage-providers/skills/sales: storage-providers/core-competencies/sales.md
+  storage-providers/skills/industry: storage-providers/core-competencies/industry.md
   store: getting-started/how-storage-works/storage-onramps.md
   store-retrieve-data/how-retrieval-works/saturn: legacy/projects/saturn.md
   store/estuary: storage-providers/getting-started.md
