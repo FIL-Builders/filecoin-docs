@@ -30,7 +30,7 @@ Use PDP when you need one or more of the following:
 
 ## What PDP replaces
 
-PDP replaces older programmatic-storage patterns that centered on direct Deal Client and RaaS-heavy walkthroughs. Those workflows are maintained only as deprecated reference material and are not the default path for new builds.
+PDP replaces older programmatic-storage patterns that centered on direct Deal Client and RaaS-heavy walkthroughs. Those workflows are maintained only as legacy reference material and are not the default path for new builds.
 
 For migration context, start at [Getting started](../../build/getting-started.md).
 

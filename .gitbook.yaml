@@ -51,7 +51,7 @@ redirects:
   architecture/filecoin-evm-runtime/filforwarder: core-concepts/filecoin-evm-runtime/filforwarder.md
   architecture/filecoin-evm-runtime/how-gas-works: core-concepts/filecoin-evm-runtime/how-gas-works.md
   architecture/filecoin-evm-runtime/precompiles: core-concepts/filecoin-evm-runtime/precompiles.md
-  architecture/roadmap: core-concepts/roadmap.md
+  architecture/roadmap: core-concepts/filecoin-virtual-machine/README.md
   architecture/the-blockchain: core-concepts/filecoin-virtual-machine/README.md
   architecture/the-blockchain/actors: core-concepts/filecoin-virtual-machine/actors.md
   architecture/the-blockchain/addresses: core-concepts/filecoin-virtual-machine/addresses.md
@@ -78,7 +78,7 @@ redirects:
   basics/assets/wallets: networks-and-tools/assets/wallets.md
   basics/how-retrieval-works: getting-started/how-retrieval-works/README.md
   basics/how-retrieval-works/basic-retrieval: getting-started/how-retrieval-works/basic-retrieval.md
-  basics/how-retrieval-works/saturn: legacy/projects/saturn.md
+  basics/how-retrieval-works/saturn: legacy/README.md
   basics/how-storage-works: getting-started/how-storage-works/README.md
   basics/how-storage-works/filecoin-and-ipfs: getting-started/how-storage-works/filecoin-and-ipfs.md
   basics/how-storage-works/filecoin-plus: getting-started/how-storage-works/filecoin-plus.md
@@ -128,7 +128,7 @@ redirects:
   build/architecture/filecoin-evm-runtime/filforwarder: core-concepts/filecoin-evm-runtime/filforwarder.md
   build/architecture/filecoin-evm-runtime/how-gas-works: core-concepts/filecoin-evm-runtime/how-gas-works.md
   build/architecture/filecoin-evm-runtime/precompiles: core-concepts/filecoin-evm-runtime/precompiles.md
-  build/architecture/roadmap: core-concepts/roadmap.md
+  build/architecture/roadmap: core-concepts/filecoin-virtual-machine/README.md
   build/architecture/the-fvm: core-concepts/filecoin-virtual-machine/README.md
   build/filecoin-evm-runtime: core-concepts/filecoin-evm-runtime.md
   build/filecoin-evm-runtime/README: core-concepts/filecoin-evm-runtime/README.md
@@ -195,7 +195,7 @@ redirects:
   developers/infrastructure/development-wallets: networks-and-tools/assets/wallets.md
   developers/infrastructure/how-tos/run-a-local-network: networks-and-tools/networks/local-testnet/README.md
   developers/infrastructure/how-tos/spin-up-a-lite-node: storage-providers/nodes/lite-nodes/spin-up-a-lite-node.md
-  developers/infrastructure/libraries: legacy/smart-contracts/developing-contracts/client-contract-tutorial.md
+  developers/infrastructure/libraries: legacy/README.md
   developers/infrastructure/network-performance: networks-and-tools/networks/mainnet/network-performance.md
   developers/infrastructure/networks: getting-started/what-is-filecoin/networks.md
   developers/infrastructure/node-providers: storage-providers/nodes/full-nodes/node-providers.md
@@ -232,7 +232,7 @@ redirects:
   developers/reference/tools: reference/general/tools.md
   developers/smart-contracts/about/blueprints: core-concepts/filecoin-virtual-machine/README.md
   developers/smart-contracts/about/faqs: getting-started/community/faqs.md
-  developers/smart-contracts/about/project: core-concepts/roadmap.md
+  developers/smart-contracts/about/project: core-concepts/filecoin-virtual-machine/README.md
   developers/smart-contracts/about/support: build/developing-contracts/support.md
   developers/smart-contracts/about/use-cases: core-concepts/filecoin-virtual-machine/README.md
   developers/smart-contracts/concepts/accounts-and-assets: core-concepts/filecoin-virtual-machine/addresses.md
@@ -389,9 +389,9 @@ redirects:
   networks/calibration/details: networks-and-tools/networks/calibration/README.md
   networks/calibration/explorers: networks-and-tools/networks/calibration/explorers.md
   networks/calibration/rpcs: networks-and-tools/networks/calibration/rpcs.md
-  networks/deprecated-networks: networks-and-tools/networks/deprecated-networks/README.md
+  networks/deprecated-networks: networks-and-tools/networks/legacy-networks/README.md
   networks/hyperspace/add-to-metamask: networks-and-tools/assets/metamask-setup.md
-  networks/hyperspace/details: networks-and-tools/networks/deprecated-networks/README.md
+  networks/hyperspace/details: networks-and-tools/networks/legacy-networks/README.md
   networks/hyperspace/explorers: networks-and-tools/networks/calibration/explorers.md
   networks/hyperspace/get-test-tokens: build/developing-contracts/get-test-tokens.md
   networks/hyperspace/rpcs: networks-and-tools/networks/calibration/rpcs.md
@@ -409,10 +409,10 @@ redirects:
   networks/overview: networks-and-tools/networks/mainnet/README.md
   networks/overview/available-networks: getting-started/what-is-filecoin/networks.md
   networks/overview/network-performance: networks-and-tools/networks/mainnet/network-performance.md
-  networks/spacenet: networks-and-tools/networks/deprecated-networks/README.md
-  networks/spacenet/details: networks-and-tools/networks/deprecated-networks/README.md
+  networks/spacenet: networks-and-tools/networks/legacy-networks/README.md
+  networks/spacenet/details: networks-and-tools/networks/legacy-networks/README.md
   networks/spacenet/get-test-tokens: networks-and-tools/networks/local-testnet/get-test-tokens.md
-  networks/spacenet/rpcs: networks-and-tools/networks/deprecated-networks/README.md
+  networks/spacenet/rpcs: networks-and-tools/networks/legacy-networks/README.md
   nodes: storage-providers/nodes/nodes.md
   nodes/full-nodes: storage-providers/nodes/full-nodes/README.md
   nodes/full-nodes/basic-setup: storage-providers/nodes/full-nodes/basic-setup.md
@@ -448,7 +448,7 @@ redirects:
   reference/reference/overview: reference/general/README.md
   smart-contracts: core-concepts/filecoin-virtual-machine/README.md
   smart-contracts/advanced: build/advanced/README.md
-  smart-contracts/advanced/aggregated-deal-making: legacy/smart-contracts/programmatic-storage/aggregated-deal-making.md
+  smart-contracts/advanced/aggregated-deal-making: legacy/README.md
   smart-contracts/advanced/contract-automation: build/advanced/contract-automation.md
   smart-contracts/advanced/cross-chain-bridges: build/advanced/cross-chain-bridges.md
   smart-contracts/advanced/decentralized-databases: build/advanced/decentralized-databases.md
@@ -470,7 +470,7 @@ redirects:
   smart-contracts/developing-contracts/remix: build/development-frameworks/remix.md
   smart-contracts/developing-contracts/solidity-libraries: build/developing-contracts/solidity-libraries.md
   smart-contracts/developing-contracts/support: build/developing-contracts/support.md
-  smart-contracts/developing-contracts/using-raas: legacy/smart-contracts/developing-contracts/using-raas.md
+  smart-contracts/developing-contracts/using-raas: legacy/README.md
   smart-contracts/developing-contracts/verify-a-contract: build/verification/README.md
   smart-contracts/developing-contracts/verify-a-contract/programmatic: build/verification/README.md
   smart-contracts/developing-contracts/verify-a-contract/programmatic/foundry: build/verification/foundry.md
@@ -499,14 +499,14 @@ redirects:
   smart-contracts/fundamentals/faqs: getting-started/community/faqs.md
   smart-contracts/fundamentals/filecoin-evm-runtime: core-concepts/filecoin-evm-runtime.md
   smart-contracts/fundamentals/overview: storage-providers/nodes/implementations/README.md
-  smart-contracts/fundamentals/roadmap: core-concepts/roadmap.md
+  smart-contracts/fundamentals/roadmap: core-concepts/filecoin-virtual-machine/README.md
   smart-contracts/fundamentals/support: build/developing-contracts/support.md
   smart-contracts/fundamentals/the-fvm: core-concepts/filecoin-virtual-machine/README.md
   smart-contracts/programmatic-storage: build/developing-contracts/best-practices.md
-  smart-contracts/programmatic-storage/ccdb: legacy/smart-contracts/programmatic-storage/ccdb.md
-  smart-contracts/programmatic-storage/direct-deal-making: legacy/smart-contracts/programmatic-storage/direct-deal-making.md
-  smart-contracts/programmatic-storage/raas: legacy/smart-contracts/programmatic-storage/raas.md
-  smart-contracts/programmatic-storage/raas-interfaces: legacy/smart-contracts/programmatic-storage/raas-interfaces.md
+  smart-contracts/programmatic-storage/ccdb: legacy/README.md
+  smart-contracts/programmatic-storage/direct-deal-making: legacy/README.md
+  smart-contracts/programmatic-storage/raas: legacy/README.md
+  smart-contracts/programmatic-storage/raas-interfaces: legacy/README.md
   smart-contracts/verification: build/verification/README.md
   smart-contracts/verification/blockscout: build/verification/blockscout.md
   smart-contracts/verification/filfox: build/verification/filfox.md
@@ -567,7 +567,7 @@ redirects:
   storage-providers/skills/sales: storage-providers/core-competencies/sales.md
   storage-providers/skills/industry: storage-providers/core-competencies/industry.md
   store: getting-started/how-storage-works/storage-onramps.md
-  store-retrieve-data/how-retrieval-works/saturn: legacy/projects/saturn.md
+  store-retrieve-data/how-retrieval-works/saturn: legacy/README.md
   store/estuary: storage-providers/getting-started.md
   store/filecoin-plus: getting-started/how-storage-works/filecoin-plus.md
   store/filecoin-plus/overview: getting-started/how-storage-works/filecoin-plus.md

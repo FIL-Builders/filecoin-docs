@@ -13,6 +13,7 @@
   * [Programming on Filecoin](getting-started/what-is-filecoin/programming-on-filecoin.md)
   * [Networks](getting-started/what-is-filecoin/networks.md)
 * [How storage works](getting-started/how-storage-works/README.md)
+  * [Upload to Filecoin](getting-started/how-storage-works/upload-to-filecoin.md)
   * [Filecoin plus](getting-started/how-storage-works/filecoin-plus.md)
   * [Storage onramps](getting-started/how-storage-works/storage-onramps.md)
   * [Filecoin and IPFS](getting-started/how-storage-works/filecoin-and-ipfs.md)
@@ -45,7 +46,6 @@
   * [Difference with Ethereum](core-concepts/filecoin-evm-runtime/difference-with-ethereum.md)
   * [How gas works](core-concepts/filecoin-evm-runtime/how-gas-works.md)
   * [Precompiles](core-concepts/filecoin-evm-runtime/precompiles.md)
-* [Roadmap](core-concepts/roadmap.md)
 
 ## Networks & Tools
 
@@ -59,7 +59,7 @@
     * [RPCs](networks-and-tools/networks/calibration/rpcs.md)
   * [Local testnet](networks-and-tools/networks/local-testnet/README.md)
     * [Get test tokens](networks-and-tools/networks/local-testnet/get-test-tokens.md)
-  * [Deprecated networks](networks-and-tools/networks/deprecated-networks/README.md)
+  * [Legacy networks](networks-and-tools/networks/legacy-networks/README.md)
 * [Assets](networks-and-tools/assets/README.md)
   * [The FIL token](networks-and-tools/assets/the-fil-token.md)
   * [Wallets](networks-and-tools/assets/wallets.md)
@@ -193,13 +193,3 @@
   * [Wallet](reference/json-rpc/wallet.md)
   * [Web3](reference/json-rpc/web3.md)
 * [Legacy Content](legacy/README.md)
-  * [Smart contracts](legacy/smart-contracts/README.md)
-    * [RaaS](legacy/smart-contracts/programmatic-storage/raas.md)
-    * [RaaS interfaces](legacy/smart-contracts/programmatic-storage/raas-interfaces.md)
-    * [Using RaaS](legacy/smart-contracts/developing-contracts/using-raas.md)
-    * [Legacy programmatic storage](legacy/smart-contracts/programmatic-storage/legacy-programmatic-storage-deprecated.md)
-    * [Client contract tutorial](legacy/smart-contracts/developing-contracts/client-contract-tutorial.md)
-    * [Aggregated deal-making](legacy/smart-contracts/programmatic-storage/aggregated-deal-making.md)
-    * [Cross-Chain Data Bridge (CCDB)](legacy/smart-contracts/programmatic-storage/ccdb.md)
-  * [Projects](legacy/projects/README.md)
-    * [Saturn](legacy/projects/saturn.md)

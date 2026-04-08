@@ -14,7 +14,7 @@ This section covers how to build dApps by writing smart contracts in the Filecoi
 - Where to [find contract templates](./solidity-libraries.md) from a range of third party Solidity libraries.
 - How to [Call built-in actors](./call-built-in-actors.md) using the Protocol API or the Solidity Library.
 - How to make use of the Filecoin [Solidity Libraries](./filecoin.sol.md) to build FVM dApps using a language familiar to Ethereum developers.
-- How to perform a storage deal using the [direct dealmaking client contract](../../legacy/smart-contracts/developing-contracts/client-contract-tutorial.md).
+- How to perform a storage deal using the [direct dealmaking client contract](../../legacy/README.md) (legacy content).
 - How to [verify a contract](../verification/README.md) using one of Filecoin's many block explorers.
 - The [best practices](./best-practices.md) for building FVM dApps.
 
