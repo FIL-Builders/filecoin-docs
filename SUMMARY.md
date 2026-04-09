@@ -165,6 +165,7 @@
   * [Specifications](reference/general/specifications.md)
   * [Tools](reference/general/tools.md)
   * [Moved content](reference/general/moved-content.md)
+  * [Legacy Content](legacy/README.md)
 * [Exchanges](reference/exchanges/README.md)
   * [Exchange integration](reference/exchanges/exchange-integration.md)
 * [Built-in actors](reference/built-in-actors/README.md)
@@ -192,4 +193,3 @@
   * [Sync](reference/json-rpc/sync.md)
   * [Wallet](reference/json-rpc/wallet.md)
   * [Web3](reference/json-rpc/web3.md)
-* [Legacy Content](legacy/README.md)
