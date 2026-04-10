@@ -1,8 +1,7 @@
 name: Check external links
 
 on:
-  pull_request:
-    branches: [ main, staging, production ]
+  push:
 
 jobs:
   linkChecker:

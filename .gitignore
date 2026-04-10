@@ -15,3 +15,6 @@ _book_temp/
 node_modules/
 package-lock.json
 .gitbook/cli/
+.mcp.json
+.claude/
+scripts/checkers/dist/
