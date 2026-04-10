@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Broken Redirect</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #1a1a2e; color: #eee; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+    .container { max-width: 600px; background: #16213e; border-radius: 12px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+    .info-box { background: #0f0f23; border-radius: 8px; padding: 20px; margin: 20px 0; font-family: monospace; font-size: 0.9rem; }
+    .label { color: #888; font-size: 0.75rem; text-transform: uppercase; margin-bottom: 4px; }
+    .path { color: #fff; word-break: break-all; }
+    .path.from { color: #ffd369; }
+    .path.to { color: #e94560; }
+    .hint { color: #888; font-size: 0.85rem; margin-top: 20px; line-height: 1.6; }
+    code { background: #0f0f23; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+    a { color: #4d9fff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1 { color: #e94560; font-size: 1.5rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+    h1::before { content: "⚠"; }
+    .arrow { color: #666; margin: 12px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Broken Redirect</h1>
+    <p>This redirect is configured in <code>.gitbook.yaml</code> but the target doesn't exist.</p>
+    <div class="info-box">
+      <div class="label">Source</div>
+      <div class="path from">{{FROM}}</div>
+      <div class="arrow">↓</div>
+      <div class="label">Target (missing)</div>
+      <div class="path to">{{TO}}</div>
+    </div>
+    <p class="hint">Fix this by updating the target path in <code>.gitbook.yaml</code> or creating the missing file.</p>
+  </div>
+</body>
+</html>
