@@ -1,7 +1,52 @@
 {
+  "config": {
+    "default": true,
+    "MD004": { "style": "asterisk" },
+    "MD013": false,
+    "MD029": false,
+    "MD036": false,
+    "MD024": { "siblings_only": true },
+    "MD033": {
+      "allowed_elements": [
+        "a",
+        "b",
+        "br",
+        "code",
+        "details",
+        "div",
+        "em",
+        "figcaption",
+        "figure",
+        "img",
+        "li",
+        "mark",
+        "meta",
+        "ol",
+        "p",
+        "pre",
+        "span",
+        "strong",
+        "sub",
+        "summary",
+        "sup",
+        "table",
+        "tbody",
+        "td",
+        "th",
+        "thead",
+        "tr",
+        "ul"
+      ]
+    }
+  },
   "ignores": [
     "_book/**",
     "node_modules/**",
-    ".claude/**"
+    ".claude/**",
+    ".cursor/**",
+    ".zed/**",
+    ".agents/**",
+    ".gitbook/**",
+    "reference/json-rpc/**"
   ]
 }
