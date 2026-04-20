@@ -18,6 +18,4 @@ By charging for data stored on your network, you can create a sustainable busine
 
 Next to the sales cost, there are other things that contribute to the total cost of ownership of your storage provider business. Think of backups of your setup and the data, providing an access layer to ingest data and for retrievals, preparing the data (if not done already), and more.
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/filecoin-deals/charging-for-data)

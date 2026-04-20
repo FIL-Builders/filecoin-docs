@@ -31,7 +31,7 @@ The _general_ procedure for using OpenZeppelin with FVM is as follows:
 
 1. Install OpenZeppelin. For example, using `npm`:
 
-```
+```bash
 npm install @openzeppelin/contracts
 ```
 
@@ -114,7 +114,5 @@ The 0x protocol library provides a set of secure smart contracts that facilitate
 
 * [Documentation](https://0x.org/docs/)
 * [GitHub](https://github.com/0xProject)
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/developing-contracts/solidity-libraries)

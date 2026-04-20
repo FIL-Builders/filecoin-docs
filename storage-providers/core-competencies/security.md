@@ -27,21 +27,19 @@ However, it is important to note that implementing a NGFW with IPS enabled can a
 
 A second layer of defense is system security. There are multiple concepts that contribute to good system security:
 
-*   Host-based firewall (UFW)
+* Host-based firewall (UFW)
 
     Implement a host-based firewall on your systems (also called UFW on Ubuntu), which is `iptables` based.
-*   SELinux
+* SELinux
 
     Linux comes with an additional security implementation called `SELinux` (Security Enhanced Linux). Most system administrators will not implement this by default because it takes additional consideration and administration. Once activated though it offers the highest grade of process and user isolation possible on Linux and contributes greatly to better security.
-*   Not running as root
+* Not running as root
 
     It is a common mistake to run processes or containers as `root`. This is a serious security risk because any attacker who compromises a service running as root automatically obtains root privileges on that system.
 
     Lotus software does not require root privileges and therefore should run under a normal account (such as a service account, for instance called `lotus`) on the system.
-*   Privilege escalation
+* Privilege escalation
 
     Since it is not required that Lotus runs as root, it is also not required for the service account to have privilege escalation. This means you should not allow the `lotus` account to use `sudo`.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/core-competencies/security)

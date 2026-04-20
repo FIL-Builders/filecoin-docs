@@ -13,8 +13,8 @@ The template repository contains submodules and remappings for ds-test assertion
 
 You must have the following installed:
 
-- [Git](https://git-scm.com/)
-- [Yarn](https://yarnpkg.com/)
+* [Git](https://git-scm.com/)
+* [Yarn](https://yarnpkg.com/)
 
 You should also have an address on the Filecoin Calibration testnet. See the [MetaMask setup page](../../networks-and-tools/assets/metamask-setup.md) for information on how to get an address. You also need test `tFIL` in your wallet.
 
@@ -22,14 +22,14 @@ You should also have an address on the Filecoin Calibration testnet. See the [Me
 
 1. Clone the `filecoin-project/fevm-foundry-kit` repository and move into the `fevm-foundry-kit` directory:
 
-```
+```bash
 git clone https://github.com/filecoin-project/fevm-foundry-kit/tree/main.git
 cd fevm-foundry-kit
 ```
 
 2. Install the project dependencies with Yarn:
 
-```
+```bash
 yarn install
 ```
 
@@ -37,7 +37,7 @@ yarn install
 
 4. Create your env file by running
 
-```
+```bash
 cp .env.example .env
 ```
 

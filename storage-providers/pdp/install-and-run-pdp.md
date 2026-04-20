@@ -450,7 +450,7 @@ In the **HTTP** section:
 
 ***
 
-### 💰 Import your Filecoin Wallet Private Key:
+### 💰 Import your Filecoin Wallet Private Key
 
 {% hint style="warning" %}
 There are several ways to obtain private keys for Ethereum addresses. In this guide, we will use a new delegated FIL wallet address.
@@ -564,7 +564,7 @@ Ping successful: Service is reachable and JWT token is valid.
 
 ***
 
-## 🎉 You're Done!
+## 🎉 You're Done
 
 You've successfully launched a **PDP-enabled Filecoin Storage Provider** stack. Your system is now:
 

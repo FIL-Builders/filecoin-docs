@@ -6,20 +6,20 @@ description: >-
 
 # Retrieve Data
 
-### <mark style="color:blue;">Retrieve data using retrieval clients</mark>
+## <mark style="color:blue;">Retrieve data using retrieval clients</mark>
 
 To retrieve data stored on the Filecoin network, the basic process involves making retrieval requests to Service Providers (SPs) who initially stored the data, using either the Content ID (CID) or the storage deal ID.
 
 A programmatic option is to utilize Filecoin retrieval clients, which handle the intricate retrieval process behind the scenes. By simply providing a Content ID (CID), retrieval clients can efficiently return your data either via the command-line interface (CLI) or through the programmable method.
 
-#### **Ingredients**
+### **Ingredients**
 
 With a given CID, you can use any of the following retrieval clients to retrieve content.
 
 * [Lassie](https://github.com/filecoin-project/lassie): optimizes for most efficient available retrieval protocols.
   * [go-car](https://github.com/ipld/go-car): a content addressable archive utility.
 
-#### **Instructions**
+### **Instructions**
 
 **Retrieving content with Lassie**
 
@@ -32,7 +32,7 @@ The Lassie command line interface (CLI) provides the simplest method for retriev
 
 For example,
 
-```
+```bash
 lassie fetch -p bafybeic56z3yccnla3cutmvqsn5zy3g24muupcsjtoyp3pu5pm5amurjx4 | car extract
 ```
 
@@ -44,43 +44,43 @@ The following example demonstrates how to use the Lassie library to fetch a CID.
 package main
 
 import (
-	"context"
-	"fmt"
-	"os"
+ "context"
+ "fmt"
+ "os"
 
-	"github.com/filecoin-project/lassie/pkg/lassie"
-	"github.com/filecoin-project/lassie/pkg/storage"
-	"github.com/filecoin-project/lassie/pkg/types"
-	"github.com/ipfs/go-cid"
-	trustlessutils "github.com/ipld/go-trustless-utils"
+ "github.com/filecoin-project/lassie/pkg/lassie"
+ "github.com/filecoin-project/lassie/pkg/storage"
+ "github.com/filecoin-project/lassie/pkg/types"
+ "github.com/ipfs/go-cid"
+ trustlessutils "github.com/ipld/go-trustless-utils"
 )
 
 // main creates a default lassie instance and fetches a CID
 func main() {
-	ctx := context.Background()
+ ctx := context.Background()
 
-	// Create a default lassie instance
-	lassie, err := lassie.NewLassie(ctx)
-	if err != nil {
-		panic(err)
-	}
+ // Create a default lassie instance
+ lassie, err := lassie.NewLassie(ctx)
+ if err != nil {
+  panic(err)
+ }
 
-	// Prepare the fetch
-	rootCid := cid.MustParse("bafybeic56z3yccnla3cutmvqsn5zy3g24muupcsjtoyp3pu5pm5amurjx4")       // The CID to fetch
-	store := storage.NewDeferredStorageCar(os.TempDir(), rootCid)                                 // The place to put the CAR file
-	request, err := types.NewRequestForPath(store, rootCid, "", trustlessutils.DagScopeAll, nil)  // The fetch request
-	if err != nil {
-		panic(err)
-	}
+ // Prepare the fetch
+ rootCid := cid.MustParse("bafybeic56z3yccnla3cutmvqsn5zy3g24muupcsjtoyp3pu5pm5amurjx4")       // The CID to fetch
+ store := storage.NewDeferredStorageCar(os.TempDir(), rootCid)                                 // The place to put the CAR file
+ request, err := types.NewRequestForPath(store, rootCid, "", trustlessutils.DagScopeAll, nil)  // The fetch request
+ if err != nil {
+  panic(err)
+ }
 
-	// Fetch the CID
-	stats, err := lassie.Fetch(ctx, request)
-	if err != nil {
-		panic(err)
-	}
+ // Fetch the CID
+ stats, err := lassie.Fetch(ctx, request)
+ if err != nil {
+  panic(err)
+ }
 
-	// Print the stats
-	fmt.Printf("Fetched %d blocks in %d bytes\n", stats.Blocks, stats.Size)
+ // Print the stats
+ fmt.Printf("Fetched %d blocks in %d bytes\n", stats.Blocks, stats.Size)
 }
 
 ```

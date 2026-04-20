@@ -31,7 +31,6 @@ If you are already running your own lotus node, you can also [manage FIL wallets
 | [FilSnap MetaMask Snap](https://snaps.metamask.io/snap/npm/filsnap/)                           | MetaMask has an extension system called [Snaps](https://metamask.io/snaps/).                      | Yes     |
 | [D'CENT Wallet](https://www.dcentwallet.com/en)                                                | A hardware and mobile wallet supporting Filecoin mainnet transactions, with f1 and f4 address support. | Yes |
 
-
 ### Hot versus cold
 
 A hot wallet refers to any wallet that is permanently connected to the internet. They can be mobile, desktop, or browser-based. Hot wallets make it faster and easier to access digital assets but could be vulnerable to online attacks. Therefore, it is recommended to keep large balances in cold wallets and only use hot wallets to hold funds that need to be accessed frequently.
@@ -51,7 +50,5 @@ If you know of a wallet that supports Filecoin, you can submit a pull request to
 * Create an issue in [`filecoin-project/filecoin-docs`](https://github.com/filecoin-project/filecoin-docs) with the name of the wallet and its features.
 * If the wallet is a mobile wallet, it must be available on both Android and iOS.
 * The wallet must have been audited. The results of this audit must be public.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/assets/wallets)

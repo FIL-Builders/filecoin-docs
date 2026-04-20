@@ -10,10 +10,10 @@ The following guide walks you through the process of contract verification using
 
 ## Prerequisites
 
-- A deployed smart contract on Filecoin
-- Your contract's source code (`.sol` file)
-- [Remix IDE](https://remix.ethereum.org/) for flattening contracts
-- Contract deployment details (address, compiler version, license, optimization settings)
+* A deployed smart contract on Filecoin
+* Your contract's source code (`.sol` file)
+* [Remix IDE](https://remix.ethereum.org/) for flattening contracts
+* Contract deployment details (address, compiler version, license, optimization settings)
 
 ## Step-by-Step Verification Process
 
@@ -21,46 +21,47 @@ The following guide walks you through the process of contract verification using
 
 1. **Open Remix IDE:**
 
-![](../../.gitbook/assets/smart-contracts-developing-contracts-verify-a-contract-remix.jpg)
+![Remix IDE interface showing a Solidity contract](../../.gitbook/assets/smart-contracts-developing-contracts-verify-a-contract-remix.jpg)
 
 2. **Flatten your contract:**
-   - In the **File Explorer** sidebar, under **contracts**, right-click on your contract
-   - Select **Flatten** from the menu
-   - This creates a `<contract-name>_flattened.sol` file with all dependencies included
+   * In the **File Explorer** sidebar, under **contracts**, right-click on your contract
+   * Select **Flatten** from the menu
+   * This creates a `<contract-name>_flattened.sol` file with all dependencies included
 
 3. **Verify contract details:**
-   - Ensure the license and Solidity version match your original contract
-   - Click **Save** to save the flattened contract
+   * Ensure the license and Solidity version match your original contract
+   * Click **Save** to save the flattened contract
 
 4. **Download the flattened contract:**
-   - Right-click on `<contract-name>_flattened.sol`
-   - Select **Download** to save the file locally
+   * Right-click on `<contract-name>_flattened.sol`
+   * Select **Download** to save the file locally
 
 5. **Gather required information:**
-   - Contract deployment address
-   - Contract license type (optional)
-   - Solidity compiler version used for deployment
-   - Optimization settings (enabled/disabled and runs count)
+   * Contract deployment address
+   * Contract license type (optional)
+   * Solidity compiler version used for deployment
+   * Optimization settings (enabled/disabled and runs count)
 
 ### Step 2: Submit for Verification
+
 6. **Access Blockscout verification page:**
-   - Navigate to the [Blockscout Contract Verification](https://filecoin.blockscout.com/contract-verification) page
+   * Navigate to the [Blockscout Contract Verification](https://filecoin.blockscout.com/contract-verification) page
 
 7. **Fill in contract information:**
-   - Enter your contract's deployment address
-   - Select the appropriate license type (optional)
-   - Choose verification method: `Solidity (Single file)`
-   - Enter the compiler version used for deployment
-   - Paste the source code from your `<contract-name>_flattened.sol` file
-   - Configure the `Optimization enabled` checkbox to match your deployment settings
+   * Enter your contract's deployment address
+   * Select the appropriate license type (optional)
+   * Choose verification method: `Solidity (Single file)`
+   * Enter the compiler version used for deployment
+   * Paste the source code from your `<contract-name>_flattened.sol` file
+   * Configure the `Optimization enabled` checkbox to match your deployment settings
 
-![](../../.gitbook/assets/smart-contracts-developing-contracts-verify-a-contract-blockscout.jpg)
+![Blockscout contract verification form with compiler and source code fields](../../.gitbook/assets/smart-contracts-developing-contracts-verify-a-contract-blockscout.jpg)
 
 8. **Submit for verification:**
-   - Click **Verify & Publish** to submit your contract
+   * Click **Verify & Publish** to submit your contract
 
 ### Step 3: Verification Complete
 
 Upon successful verification, Blockscout will display a success message and redirect you to your verified contract dashboard where you can view the source code and interact with your contract.
 
-![](../../.gitbook/assets/smart-contracts-developing-contracts-verify-a-contract-success-blockscout.jpg)
+![Blockscout success page confirming contract verification](../../.gitbook/assets/smart-contracts-developing-contracts-verify-a-contract-success-blockscout.jpg)

@@ -13,6 +13,7 @@ ChainID.network is a website that lets users easily connect their wallets to EVM
 
 {% tabs %}
 {% tab title="Mainnet" %}
+
 1. Navigate to [chainid.network](https://chainid.network).
 2. Search for `Filecoin Mainnet`.
 3. Click **Connect Wallet**.
@@ -25,6 +26,7 @@ You can now use MetaMask to interact with the Filecoin network.
 {% endtab %}
 
 {% tab title="Calibration" %}
+
 1. Navigate to [chainid.network](https://chainid.network).
 2. Search for `Filecoin Calibration`.
 3. Click **Connect Wallet**.
@@ -37,6 +39,7 @@ You can now use MetaMask to interact with the Filecoin network.
 {% endtab %}
 
 {% tab title="Local testnet" %}
+
 1. Navigate to [chainid.network](https://chainid.network).
 2. Search for `Filecoin Local testnet`.
 3. Click **Connect Wallet**.
@@ -95,15 +98,17 @@ You can now use MetaMask to interact with the Filecoin network.
 ## Ledger hardware wallet
 
 MetaMask is compatible with the Ledger hardware wallet. There are 2 options for Ledger apps that support Filecoin:
-- **Filecoin Ledger App** - compatible with MetaMask or the [Glif.io](https://glif.io/en/wallet) wallet 
-- **Ethereum Ledger App** - ***currently deprecated*** for Filecoin as of v1.15.0 (previous versions will work) until Ledger releases their upcoming Dynamic Networks feature
 
-#### Note on Filecoin EVM vs Filecoin Native addresses
+* **Filecoin Ledger App** - compatible with MetaMask or the [Glif.io](https://glif.io/en/wallet) wallet
+* **Ethereum Ledger App** - _**currently deprecated**_ for Filecoin as of v1.15.0 (previous versions will work) until Ledger releases their upcoming Dynamic Networks feature
+
+### Note on Filecoin EVM vs Filecoin Native addresses
 
 Note that MetaMask supports Filecoin EVM addresses that follow the Ethereum `0x` format (see [this section](./transfer-fil.md) for more info on address types). To use native Filecoin address types that begin with `f`, you can use:
-- [Glif.io](https://glif.io/en/wallet) wallet (also compatible with the Filecoin Ledger App),
-- Ledger Live and the Filecoin Ledger App or
-- [Filecoin MetaMask Wallet](https://snaps.metamask.io/snap/npm/filsnap/) installable from the right menu in Metamask under *Snaps*
+
+* [Glif.io](https://glif.io/en/wallet) wallet (also compatible with the Filecoin Ledger App),
+* Ledger Live and the Filecoin Ledger App or
+* [Filecoin MetaMask Wallet](https://snaps.metamask.io/snap/npm/filsnap/) installable from the right menu in Metamask under *Snaps*
 
 Some exchanges only support specific address types (see [this table on FilecoinTl;dr](https://filecointldr.io/how-to-buy-filecoin#buy) for more info). Which address types are best to use may depend on your use case and goals.
 
@@ -126,10 +131,10 @@ For more details on the official Filecoin Ledger app, [check out the Ledger docu
 
 MetaMask requires that the Filecoin app on your Ledger device is set to _Expert mode_.
 
-1.  Open the Filecoin app on your Ledger device.
+1. Open the Filecoin app on your Ledger device.
 
     ![A Ledger with the Filecoin app open.](../../.gitbook/assets/basics-assets-metamask-ledger-1-filecoin-app.jpg)
-2.  Use the buttons on your device to navigate to **Expert mode**.
+2. Use the buttons on your device to navigate to **Expert mode**.
 
     ![A Ledger showing the expert mode option.](../../.gitbook/assets/basics-assets-metamask-ledger-2-expert-mode.jpg)
 3. Press both buttons simultaneously to _enable_ **Expert mode**.
@@ -139,13 +144,13 @@ MetaMask requires that the Filecoin app on your Ledger device is set to _Expert 
 Once you have installed the Filecoin app on your Ledger device and enabled expert mode, you can connect your device to MetaMask.
 
 1. Open your browser and open the MetaMask extension.
-2.  In the **Accounts** menu, select **Add hardware wallet**.
+2. In the **Accounts** menu, select **Add hardware wallet**.
 
     ![MetaMask with the 'Add hardware wallet' option highlighted.](../../.gitbook/assets/basics-assets-metamask-ledger-3-add-hw-wallet.jpg)
-3.  Select **Ledger**
+3. Select **Ledger**
 
     ![MetaMask showing the available hardware wallet options.](../../.gitbook/assets/basics-assets-metamask-ledger-4-select-ledger.jpg)
-4.  A list of accounts should appear. Select an `0x...` account.
+4. A list of accounts should appear. Select an `0x...` account.
 
     ![MetaMask showing multiple accounts from a Ledger device.](../../.gitbook/assets/basics-assets-metamask-ledger-5-select-account.jpg)
 5. Done!
@@ -155,7 +160,5 @@ That's it! You've now successfully connected your Ledger device to MetaMask. Whe
 You may see a _blind signing_ warning on your MetaMask device. This is expected, and is the reason why **Expert Mode** must be enabled before you can interact with the Filecoin Ledger app.
 
 ![A Ledger device showing a blind signing warning.](../../.gitbook/assets/basics-assets-metamask-ledger-7-blind-signing.jpg)
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/assets/metamask-setup)

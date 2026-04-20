@@ -6,20 +6,20 @@ description: >-
 
 # Decentralized Database
 
-### <mark style="color:blue;">Store data with Tableland</mark>
+## <mark style="color:blue;">Store data with Tableland</mark>
 
 Tableland is a **decentralized database** built on the SQLite engine, which offers developers a web3-native, relational database that seamlessly integrates into their EVM-compatible stacks. Under the hood, Tableland records database tables as ERC721 tokens on-chain and enables the execution of SQL statements in a completely decentralized manner through on-chain smart contracts.
 
 To learn more about what is tableland and how to use it, you can visit [https://tableland.xyz/](https://tableland.xyz/).
 
-#### **Ingredients**
+### **Ingredients**
 
 Ensure that you install and import the necessary dependencies in your projects.
 
-- [Tableland](https://tableland.xyz/)
-- [Openzeppelin](https://docs.openzeppelin.com/contracts/5.x/)
+* [Tableland](https://tableland.xyz/)
+* [Openzeppelin](https://docs.openzeppelin.com/contracts/5.x/)
 
-#### **Instructions**
+### **Instructions**
 
 Let's take storage deal aggregation as an example to demonstrate how to integrate it with Tableland.
 
@@ -124,7 +124,7 @@ function complete(
         InclusionVerifierData memory _verifierData
     ) external returns (InclusionAuxData memory) {
 // other code
-	updateTable(_id, _dealId, _minerId, "FINISHED");
+ updateTable(_id, _dealId, _minerId, "FINISHED");
 }
 ```
 

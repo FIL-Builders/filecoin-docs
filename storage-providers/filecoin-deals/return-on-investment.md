@@ -24,32 +24,30 @@ Calculating the ROI of your storage provider business is important. Use the cons
 
 For more information and context see the following video:
 
-{% embed url="https://www.youtube.com/watch?v=zboAgawHT-o" %}
+{% embed url="<https://www.youtube.com/watch?v=zboAgawHT-o>" %}
 
 It takes more variables than the cost vs. the income. In summary, the factors that influence your ROI are:
 
-*   **Verified Deals:**
+* **Verified Deals:**
 
     How much of your total sealed capacity will be done with Verified Deals (Filecoin Plus)? Those deals give a far higher return because of the 10x multiplier that is added to your storage power and block rewards.
-*   **Committed Capacity:**
+* **Committed Capacity:**
 
     How much of your total sealed capacity will be just committed capacity (CC) sectors (sometimes also called pledged capacity)? These deals give a lower return compared to verified deals but are an easy way to get started in the network. Relying solely on this to generate income is challenging though, especially when the price of FIL is low.
-*   **Sealing Capacity:**
+* **Sealing Capacity:**
 
     How fast can you seal sectors? Faster sealing means you can start earning block rewards earlier and add more data faster. The downside is that it requires a lot of [hardware](../infrastructure/reference-architectures.md).
-*   **Deal Duration:**
+* **Deal Duration:**
 
     How long do you plan to run your storage provider? Are you taking short-term deals only, or are you in it for the long run? Taking long-term deals comes with an associated risk: if you can’t keep your storage provider online for the duration of the deals, you will get penalized. Short-term deals that require extension have the downside of higher operational costs to extend (which requires that the data be re-sealed.).
-*   **FIL Collateral pledged:**
+* **FIL Collateral pledged:**
 
     A substantial amount of FIL is needed to start accepting deals in the Filecoin network. Verified deals require more pledged collateral than CC-deals. Although the collateral is not lost if you run your storage provider business well, it does mean an upfront investment (or lending).
-*   **Hardware Investment:**
+* **Hardware Investment:**
 
     Sealing, storing, and proving the data does require a significant hardware investment as a storage provider. Although relying on services like [sealing-as-a-service](../architecture/sealing-as-a-service.md) can lower these requirements for you, it is still an investment in high-end hardware. Take the time to understand your requirements and your future plans so that you can invest in hardware that will support your business.
-*   **Operational Costs:**
+* **Operational Costs:**
 
     Last but not least there’s the ongoing monthly cost of operating the storage provider business. Both the costs for technical operations as well as business operations need to be taken into consideration.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/filecoin-deals/return-on-investment)

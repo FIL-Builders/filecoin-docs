@@ -120,6 +120,4 @@ For more information on `SystemActor`, see the [source code](https://github.com/
 
 For information on how invoke and access built-in actors in your smart contracts, see the [developers guide](../../build/developing-contracts/call-built-in-actors.md).
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/reference/built-in-actors)

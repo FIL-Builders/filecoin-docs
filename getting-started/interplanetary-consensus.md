@@ -61,6 +61,4 @@ With better performance, lower fees and faster transactions, IPC can rapidly imp
 * Check out the [repository](https://github.com/consensus-shipyard/ipc)
 * Connect with the community on [Discord](https://discord.gg/QtNbXf75)
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/getting-started/interplanetary-consensus)

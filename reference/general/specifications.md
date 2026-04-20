@@ -12,6 +12,4 @@ The Filecoin specification is a _living_ document, with frequent updates and cha
 
 You can suggest changes to the specification [over on GitHub](https://github.com/filecoin-project/specs).
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/reference/general/specifications)

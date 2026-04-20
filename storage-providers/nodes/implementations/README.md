@@ -55,6 +55,4 @@ Forest is currently used for generating up-to-date snapshots and managing archiv
 
 You can learn more about Forest at the [codebase on GitHub](https://github.com/ChainSafe/forest) and [documentation site](https://docs.forest.chainsafe.io/).
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/nodes/implementations)

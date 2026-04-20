@@ -47,13 +47,11 @@ Read performance is optimal when choosing for RAIDZ2 VDEVs of 10 to 15 disks. RA
 
 There are 2 types of read operations that are important in the context of Filecoin:
 
-*   random read I/O:
+* random read I/O:
 
     When storage proving happens, a small portion of a sector is read for proving.
-*   sequential read I/O:
+* sequential read I/O:
 
     When retrievals happens, entire sectors are read from disk and streamed towards the customer via Boost.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/infrastructure/storage)

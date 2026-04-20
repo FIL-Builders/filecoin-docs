@@ -54,14 +54,14 @@ The network first draws from vesting block rewards. If those are insufficient, i
 
 Fee debt does not directly cause faults. However, it can impact operations:
 
-- A miner with fee debt may be blocked from submitting certain messages (e.g., pre-commits or recoveries).
-- If the balance is too low to pay for WindowPoSt messages, sectors may fault.
-- Critically, a miner with outstanding fee debt cannot win block rewards until the debt is repaid.
+* A miner with fee debt may be blocked from submitting certain messages (e.g., pre-commits or recoveries).
+* If the balance is too low to pay for WindowPoSt messages, sectors may fault.
+* Critically, a miner with outstanding fee debt cannot win block rewards until the debt is repaid.
 
 To avoid this, storage providers should:
 
-- Keep a FIL buffer in the miner actor's balance.
-- Avoid fully withdrawing unlocked funds unless upcoming rewards will cover future fees.
+* Keep a FIL buffer in the miner actor's balance.
+* Avoid fully withdrawing unlocked funds unless upcoming rewards will cover future fees.
 
 ### Startup considerations
 
@@ -73,9 +73,9 @@ This creates a funding gap during the startup phase.
 
 New storage providers must plan for this by funding their miner actor with enough FIL to:
 
-- Cover daily fees during onboarding,
-- Support message submission (like WindowPoSt),
-- And continue sealing until rewards start arriving.
+* Cover daily fees during onboarding,
+* Support message submission (like WindowPoSt),
+* And continue sealing until rewards start arriving.
 
 While the amount of FIL required is relatively small compared to overall infrastructure costs, it is operationally critical. Without it, the miner may become stuck — unable to seal new sectors, submit required messages, or produce blocks and win block rewards due to fee debt or insufficient balance.
 

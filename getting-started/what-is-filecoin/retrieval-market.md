@@ -11,12 +11,12 @@ Currently, Filecoin nodes support direct retrieval from the storage miners who o
 
 To request data retrieval, clients need to provide the following information to the storage provider:
 
-- **Storage Provider ID**: The ID of the storage provider where the data is stored.
-- **Payload CID**: Also known as Data CID.
-- **Address**: The address initially used to create the storage deal.
+* **Storage Provider ID**: The ID of the storage provider where the data is stored.
+* **Payload CID**: Also known as Data CID.
+* **Address**: The address initially used to create the storage deal.
 
 ## Hot Retrieval from IPFS
 
-Since most Filecoin nodes are also IPFS nodes, standard practice has been for Filecoin storage providers to also make available a hot copy of any given stored file through IPFS.  Since the algorithm that generates a content address (CID) is the same for both Filecoin and IPFS, the client can request the CID of a file they stored on Filecoin and retrieve it from IPFS, if there is an IPFS node that is able and willing to serve the file. 
+Since most Filecoin nodes are also IPFS nodes, standard practice has been for Filecoin storage providers to also make available a hot copy of any given stored file through IPFS.  Since the algorithm that generates a content address (CID) is the same for both Filecoin and IPFS, the client can request the CID of a file they stored on Filecoin and retrieve it from IPFS, if there is an IPFS node that is able and willing to serve the file.
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill_Page+URL=https://docs.filecoin.io/getting-started/what-is-filecoin/retrieval-market)

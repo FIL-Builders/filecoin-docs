@@ -16,6 +16,7 @@ The calibration network is the most realistic testnet simulation of the Filecoin
 ## Quick Start Commands
 
 ### Download Latest Snapshot
+
 ```bash
 # Fast download with aria2c (recommended)
 aria2c -x5 https://forest-archive.chainsafe.dev/latest/calibnet/
@@ -41,9 +42,9 @@ curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"
 
 Quick access to faucets:
 
-* **Chainsafe**: https://faucet.calibnet.chainsafe-fil.io
-* **Zondax**: https://beryx.zondax.ch/faucet/
-* **Forest**: https://forest-explorer.chainsafe.dev/faucet/calibnet
+* **Chainsafe**: <https://faucet.calibnet.chainsafe-fil.io>
+* **Zondax**: <https://beryx.zondax.ch/faucet/>
+* **Forest**: <https://forest-explorer.chainsafe.dev/faucet/calibnet>
 
 ### Essential Network Info
 
@@ -84,7 +85,7 @@ Bootstrap peers for Calibration testnet can be found at:
 
 `https://github.com/filecoin-project/lotus/blob/release/`**\[latest release]**`/build/bootstrap/calibnet.pi`
 
-The latest Lotus release can be found at https://github.com/filecoin-project/lotus/releases/latest/
+The latest Lotus release can be found at <https://github.com/filecoin-project/lotus/releases/latest/>
 
 ## Snapshots <a href="#snapshots" id="snapshots"></a>
 
@@ -109,7 +110,5 @@ The following storage providers are running on the Calibration testnet.
 * [Slack Channel for Questions: #fil-help](https://filecoinproject.slack.com/archives/CEGN061C5)
 * [Latest lightweight snapshot](https://forest-archive.chainsafe.dev/latest/calibnet/) generated with [Forest](http://github.com/ChainSafe/forest) by [ChainSafe](https://chainsafe.io/)
 * [Complete calibration net archival data](https://forest-archive.chainsafe.dev/list/) generated with [Forest](http://github.com/ChainSafe/forest) by [ChainSafe](https://chainsafe.io/)
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/networks/calibration)

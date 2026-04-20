@@ -26,9 +26,8 @@ The Filecoin Native [MultisigActor](../../core-concepts/filecoin-virtual-machine
 
 #### Filecoin Native Multisig UIs
 
-- [Glif Multisig](https://www.glif.io/en/multisig/) is a non-custodial web UI for the Filecoin Native Multisig wallet
-- [MultisigActor CLI](https://lotus.filecoin.io/lotus/manage/multisig/) can also be used and is available from the Lotus CLI
-
+* [Glif Multisig](https://www.glif.io/en/multisig/) is a non-custodial web UI for the Filecoin Native Multisig wallet
+* [MultisigActor CLI](https://lotus.filecoin.io/lotus/manage/multisig/) can also be used and is available from the Lotus CLI
 
 ### Safe multisig
 
@@ -38,33 +37,31 @@ The Filecoin Native [MultisigActor](../../core-concepts/filecoin-virtual-machine
 
 A web UI for the Safe multisig on Filecoin is available at:
 
-- [https://safe.filecoin.io](https://safe.filecoin.io) - the default network is set to [Filecoin Mainnet](../../networks-and-tools/networks/mainnet/README.md)
+* [https://safe.filecoin.io](https://safe.filecoin.io) - the default network is set to [Filecoin Mainnet](../../networks-and-tools/networks/mainnet/README.md)
   
 ![FilecoinSafeUI](https://github.com/user-attachments/assets/60044b7a-e6fa-4085-bcd9-80bc186975c3)
 
-
-
 #### Safe Troubleshooting
 
-- **Signing a transaction** from an account with no previous activity on the Filecoin blockchain will fail. You can send a transaction to this account with zero funds to initiate its on-chain activity to work around this issue.
-- **Executing a transaction** can produce gas estimation issues for accounts that have a very small amount of funds (that would not or would barely cover the transaction).
-- **Transaction confirmation times** may lead to prolonged "processing" status in the UI.
-- **Safe addresses from other networks** can sometimes be used but require additional technical steps.
-  - In some cases the same Safe address and owner structure is not possible, learn more in [this article](https://help.safe.global/en/articles/40812-i-sent-assets-to-a-safe-address-on-the-wrong-network-any-chance-to-recover).
-  - Confirm complete creation (not just as a Placeholder) of the Safe multisig as an EVM contract on Filecoin prior to sending major funds.
-  - Instructions for deploying a Safe at the same address on another chain are available in [this video](https://share.zight.com/z8uBKZYr). Note that a compatible version of the Safe Proxy on the original chain must exist on Filecoin. Contact Safe-related support for help.
-  - If the previous address and chain use the L1 implementation of Safe Proxy, more complex technical migration steps will be required to map to the L2 version on Filecoin. Contact Safe-related support for more info.
-- **Safe-related support** can be found in the "Need Help?" section of the Safe web UI.
+* **Signing a transaction** from an account with no previous activity on the Filecoin blockchain will fail. You can send a transaction to this account with zero funds to initiate its on-chain activity to work around this issue.
+* **Executing a transaction** can produce gas estimation issues for accounts that have a very small amount of funds (that would not or would barely cover the transaction).
+* **Transaction confirmation times** may lead to prolonged "processing" status in the UI.
+* **Safe addresses from other networks** can sometimes be used but require additional technical steps.
+  * In some cases the same Safe address and owner structure is not possible, learn more in [this article](https://help.safe.global/articles/6608622768-i-sent-assets-to-a-safe-address-on-the-wrong-network-any-chance-to-recover).
+  * Confirm complete creation (not just as a Placeholder) of the Safe multisig as an EVM contract on Filecoin prior to sending major funds.
+  * Instructions for deploying a Safe at the same address on another chain are available in [this video](https://share.zight.com/z8uBKZYr). Note that a compatible version of the Safe Proxy on the original chain must exist on Filecoin. Contact Safe-related support for help.
+  * If the previous address and chain use the L1 implementation of Safe Proxy, more complex technical migration steps will be required to map to the L2 version on Filecoin. Contact Safe-related support for more info.
+* **Safe-related support** can be found in the "Need Help?" section of the Safe web UI.
 
 #### Safe Transaction Service
 
 The [Safe transaction service](https://docs.safe.global/core-api/api-safe-transaction-service) on Filecoin is available at:
-- [https://transaction.safe.filecoin.io](https://transaction.safe.filecoin.io) on [Filecoin Mainnet](../../networks-and-tools/networks/mainnet/README.md)
-- [https://transaction-testnet.safe.filecoin.io](https://transaction-testnet.safe.filecoin.io) on [Filecoin Calibration testnet](../../networks-and-tools/networks/calibration/README.md)
 
-- Note:
-  - Faster finality is coming to Filecoin soon. For now, the Filecoin Safe transaction service sets `ETH_REORG_BLOCKS` to 60 blocks (i.e. Filecoin epochs) (30min) based on [FRC-0089](https://github.com/filecoin-project/FIPs/blob/master/FRCs/frc-0089.md) but users may want to wait 900 epochs (~7.5h) for full finality.
+* [https://transaction.safe.filecoin.io](https://transaction.safe.filecoin.io) on [Filecoin Mainnet](../../networks-and-tools/networks/mainnet/README.md)
+* [https://transaction-testnet.safe.filecoin.io](https://transaction-testnet.safe.filecoin.io) on [Filecoin Calibration testnet](../../networks-and-tools/networks/calibration/README.md)
 
+* Note:
+  * Faster finality is coming to Filecoin soon. For now, the Filecoin Safe transaction service sets `ETH_REORG_BLOCKS` to 60 blocks (i.e. Filecoin epochs) (30min) based on [FRC-0089](https://github.com/filecoin-project/FIPs/blob/master/FRCs/frc-0089.md) but users may want to wait 900 epochs (~7.5h) for full finality.
 
 #### Safe Smart Contracts
 
@@ -86,6 +83,5 @@ Safe’s multisig smart contracts are live on the Filecoin Mainnet and Calibrati
 #### **Further Safe resources**
 
 * [Safe Docs](https://docs.safe.global/home/what-is-safe)
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/advanced/multisig)

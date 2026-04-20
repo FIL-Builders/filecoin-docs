@@ -6,7 +6,7 @@ description: >-
 
 # Basic retrieval
 
-### Lassie
+## Lassie
 
 Lassie is a simple retrieval client for IPFS and Filecoin. It finds and fetches your data over the best retrieval protocols available. Lassie makes Filecoin retrieval easy. While Lassie is powerful, the core functionality is expressed in a single CLI command:
 
@@ -20,23 +20,23 @@ Lassie fetches content in content-addressed archive (CAR) form, so in most cases
 
 ![Lassie Architecture](../../.gitbook/assets/basics-how-retrieval-works-basic-retrieval-lassie-library.webp)
 
-#### Retrieve using Lassie
+### Retrieve using Lassie
 
 Make sure that you have [Go](https://go.dev/) installed and that your `GOPATH` is set up. By default, your `GOPATH` will be set to `~/go`.\
 
-##### Install Lassie
+#### Install Lassie
 
-1.  Download the [Lassie Binary from the latest release](https://github.com/filecoin-project/lassie/releases/latest) based on your system architecture.
+1. Download the [Lassie Binary from the latest release](https://github.com/filecoin-project/lassie/releases/latest) based on your system architecture.
 
     Or download and install Lassie using the Go package manager:
 
-```
+```shell
 go install github.com/filecoin-project/lassie/cmd/lassie@latest
 ```
 
 2. Download the [go-car binary from the latest release](https://github.com/ipld/go-car/releases/latest) based on your system architecture or install the [go-car](https://github.com/ipld/go-car) package using the Go package manager. The go-car package makes it easier to work with content-addressed archive (CAR) files:
 
-```
+```shell
 go install github.com/ipld/go-car/cmd/car@latest
 ```
 
@@ -89,9 +89,10 @@ Lassie's usage for retrieving data is as follows:
 lassie fetch -p -o <OUTFILE_FILE_NAME> <CID>/path/to/content
 ```
 
-*   `-p` is an optional flag that tells Lassie that you would like to see detailed progress information as it fetches your data.
+* `-p` is an optional flag that tells Lassie that you would like to see detailed progress information as it fetches your data.
 
     For example:
+
 * ```plaintext
   Fetching bafykbzaceatihez66rzmzuvfx5nqqik73hlphem3dvagmixmay3arvqd66ng6
   Querying indexer for bafykbzaceatihez66rzmzuvfx5nqqik73hlphem3dvagmixmay3arvqd66ng6...
@@ -105,11 +106,13 @@ lassie fetch -p -o <OUTFILE_FILE_NAME> <CID>/path/to/content
 
   ...
   ```
+
 * `-o` is an optional flag that tells Lassie where to write the output to. If you don’t specify a file, it will append `.car` to your CID and use that as the output file name.
 
 If you specify `-p`, the output will be written to `stdout` so it can be piped to another command, such as `go-car`, or redirected to a file.
 
 * `<CID>/path/to/content` is the CID of the content you want to retrieve and an optional path to a specific file within that content. Example:
+
 * ```shell
   lassie fetch -o - bafybeiaysi4s6lnjev27ln5icwm6tueaw2vdykrtjkwiphwekaywqhcjze/wiki/Cryptographic_hash_function | car extract - | less
   ```
@@ -136,7 +139,7 @@ In the example above, where we fetched a file named `lidar-data.tar`, the `>` op
 
 And there we have it! Downloading and managing data from Filecoin is super simple when you use Lassie and Go-car!
 
-#### Lassie HTTP daemon
+### Lassie HTTP daemon
 
 The Lassie HTTP daemon is an HTTP interface for retrieving IPLD data from IPFS and Filecoin peers. It fetches content from peers known to have it and provides the resulting data in CAR format.
 
@@ -146,10 +149,8 @@ GET /ipfs/{cid}[/path][?params]
 
 A `GET` query against a Lassie HTTP daemon allows retrieval from peers that have the content identified by the given root CID, streaming the DAG in the response in [CAR (v1)](https://ipld.io/specs/transport/car/carv1/) format. You can read more about the HTTP request and response to the daemon in [Lassie’s HTTP spec](https://github.com/filecoin-project/lassie/blob/main/docs/HTTP\_SPEC.md). Lassie’s HTTP interface can be a very powerful tool for web applications that require fetching data from Filecoin and IPFS.
 
-#### Lassie’s CAR format
+### Lassie’s CAR format
 
 Lassie only returns data in CAR format, specifically, [CARv1](https://ipld.io/specs/transport/car/carv1/) format. [Lassie’s car spec](https://github.com/filecoin-project/lassie/blob/main/docs/CAR.md) describes the nature of the CAR data returned by Lassie and the various options available to the client for manipulating the output.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/getting-started/how-retrieval-works/basic-retrieval)

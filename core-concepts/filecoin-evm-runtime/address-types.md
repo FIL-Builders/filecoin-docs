@@ -171,6 +171,4 @@ Addresses starting with `0xff0000000000000000000000` can be converted to a Filec
 
 Otherwise, it maps to f410f…
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/architecture/filecoin-evm-runtime/address-types)

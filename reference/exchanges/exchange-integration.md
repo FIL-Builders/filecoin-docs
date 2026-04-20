@@ -115,7 +115,6 @@ A summary of the Filecoin's EVM differences with Ethereum is available in the [F
 Note that when sending funds to a Filecoin EVM recipient address (f410f or 0x), it is recommended to always use the **InvokeEVM** **method 3844450837** to prevent possible loss of funds in case the recipient is a smart contract. The `lotus send 0x` CLI method always defaults to this method number.
 {% endhint %}
 
-
 ## Integration
 
 You can interact with the network by using Lotus CLI or using the [JSON-RPC APIs](https://lotus.filecoin.io/reference/basics/overview/). Follow the [API tokens guide](https://lotus.filecoin.io/docs/developers/api-access/) to set up API tokens on your node and grant necessary permissions. To find all CLI usage, run `lotus -h` in your lotus folder.
@@ -290,7 +289,5 @@ Join the [Filecoin Slack](https://filecoinproject.slack.com/signup) and post any
 * [Filecoin Networks](https://status.filecoin.io)
 * [Lotus](https://github.com/filecoin-project/lotus) - the reference implementation for the Filecoin network
 * [Block Explorers](../../networks-and-tools/networks/mainnet/explorers.md)
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/reference/exchanges/exchange-integration)

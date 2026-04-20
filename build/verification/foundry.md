@@ -10,10 +10,10 @@ This guide shows you how to verify your smart contracts using Foundry on the Fil
 
 ## Prerequisites
 
-- A Foundry project set up for Filecoin development
-- If you don't have a Foundry project, check out the [FEVM Foundry Kit](../development-frameworks/foundry.md)
-- A deployed contract address
-- Contract constructor arguments (if any)
+* A Foundry project set up for Filecoin development
+* If you don't have a Foundry project, check out the [FEVM Foundry Kit](../development-frameworks/foundry.md)
+* A deployed contract address
+* Contract constructor arguments (if any)
 
 ## Verification Methods
 

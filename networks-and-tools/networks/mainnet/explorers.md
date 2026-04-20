@@ -9,23 +9,23 @@ description: >-
 
 Block explorers allow you to view the details of the Filecoin network on a single website. Individual block explorers contain different features that may be useful. None of these sites are created or maintained by Protocol Labs or the Filecoin Foundation. This list is in alphabetical order:
 
-### Beryx
+## Beryx
 
 Website [beryx.zondax.ch](https://beryx.zondax.ch/)
 
-### Filfox
+## Filfox
 
 Website: [filfox.info](https://filfox.info/en/)
 
-### Filscan
+## Filscan
 
 Website: [filscan.io](https://filscan.io)
 
-### Starboard
+## Starboard
 
 Website: [fvm.starboard.ventures](https://fvm.starboard.ventures/)
 
-### Blockscout Open-Source FEVM Explorer
+## Blockscout Open-Source FEVM Explorer
 
 Website: [filecoin.blockscout.com](https://filecoin.blockscout.com/)
 
@@ -71,7 +71,5 @@ curl --location --request POST 'https://api.node.glif.io/rpc/v1' \
     "id":1
 }' | jq
 ```
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/networks/mainnet/explorers)

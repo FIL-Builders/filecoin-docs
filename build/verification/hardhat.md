@@ -10,10 +10,10 @@ This guide shows you how to verify your smart contracts using Hardhat on the Fil
 
 ## Prerequisites
 
-- A Hardhat project set up for Filecoin development
-- If you don't have a Hardhat project, check out the [FEVM Hardhat Kit](../development-frameworks/hardhat.md)
-- A deployed contract address
-- Contract constructor arguments (if any)
+* A Hardhat project set up for Filecoin development
+* If you don't have a Hardhat project, check out the [FEVM Hardhat Kit](../development-frameworks/hardhat.md)
+* A deployed contract address
+* Contract constructor arguments (if any)
 
 ## Verification Methods
 
@@ -65,17 +65,20 @@ export default config;
 ```
 
 **Verify on Filecoin Mainnet:**
+
 ```bash
 npx hardhat verify $CONTRACT_ADDRESS_TO_VERIFY $CONTRACT_CONSTRUCTOR_ARGS --network filecoin
 ```
 
 **Verify on Calibration Testnet:**
+
 ```bash
 npx hardhat verify $CONTRACT_ADDRESS_TO_VERIFY $CONTRACT_CONSTRUCTOR_ARGS --network calibration
 ```
 
 **Troubleshooting:**
 If your contract appears already verified but shows a mismatch, use the `--force` flag:
+
 ```bash
 npx hardhat verify $CONTRACT_ADDRESS_TO_VERIFY $CONTRACT_CONSTRUCTOR_ARGS --network filecoin --force
 ```
@@ -111,6 +114,7 @@ Filfox is the native Filecoin explorer with dedicated verification support.
 **Installation:**
 
 Install the `@fil-b/filfox-verifier` package into your Hardhat project.
+
 ```bash
 npm install -g @fil-b/filfox-verifier
 ```
@@ -127,6 +131,7 @@ import "@fil-b/filfox-verifier/hardhat";
 ```
 
 **Usage:**
+
 ```bash
 # Verify on Filecoin Mainnet
 npx hardhat verifyfilfox --address 0xYourContractAddress --network filecoin

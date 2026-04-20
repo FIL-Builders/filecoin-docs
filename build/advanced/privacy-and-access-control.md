@@ -13,7 +13,7 @@ We do not maintain step-by-step third-party privacy/access-control tutorials in 
 Use the official resources below for implementation details.
 {% endhint %}
 
-### <mark style="color:blue;">Encrypting data for storing on Filecoin</mark>
+## <mark style="color:blue;">Encrypting data for storing on Filecoin</mark>
 
 Use these official references for encryption workflows and secure upload patterns:
 

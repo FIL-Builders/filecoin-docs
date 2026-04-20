@@ -31,6 +31,4 @@ Spine-leaf architectures provide predictable latency and linear scalability by h
 
 It is important to determine the appropriate topology based on the specific needs of the organization.
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/infrastructure/network)

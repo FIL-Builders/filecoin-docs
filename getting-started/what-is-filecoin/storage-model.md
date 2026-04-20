@@ -7,16 +7,16 @@ description: >-
 
 The Filecoin storage model consists of three main components:
 
-- Providers
-- Deals
-- Sectors
+* Providers
+* Deals
+* Sectors
 
 ## Providers
 
 Providers offer storage and retrieval services to network users. There are two types of providers:
 
-- Storage Providers
-- Retrieval Providers
+* Storage Providers
+* Retrieval Providers
 
 ### Storage providers
 

@@ -74,7 +74,7 @@ contract CounterERC2771 is ERC2771Context {
 
 In your frontend/backend, you would need to import and instantiate the relay class.
 
-```
+```javascript
 import { GelatoRelay, SponsoredCallERC2771Request } from "@gelatonetwork/relay-sdk";
 const relay = new GelatoRelay(API_KEY);
 ```
@@ -83,7 +83,7 @@ const relay = new GelatoRelay(API_KEY);
 
 This is an example using Gelato's CounterERC2771.sol, which is deployed on these networks.
 
-```
+```javascript
 // Set up on-chain variables, such as target address
 const counter = "0x00172f67db60E5fA346e599cdE675f0ca213b47b";
 const abi = ["function incrementContext()"];

@@ -25,6 +25,4 @@ When working with customers from certain industries, it is important to understa
 
 Having one or more of these certifications can demonstrate to customers that you have the necessary skills and expertise to handle their data and meet their regulatory requirements. This can be a valuable asset for businesses looking to work with customers in specific industries, as it can provide a competitive edge and help attract new customers. Therefore, it is important for storage providers to stay informed about industry-specific requirements and obtain relevant certifications as necessary.
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/core-competencies/industry)
