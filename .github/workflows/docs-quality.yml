@@ -7,7 +7,6 @@ jobs:
   lint:
     name: Markdown Lint
     runs-on: ubuntu-latest
-    if: false # Disabled until existing lint issues are resolved
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
