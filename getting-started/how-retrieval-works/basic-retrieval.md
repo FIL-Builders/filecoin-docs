@@ -108,13 +108,11 @@ lassie fetch -p -o <OUTFILE_FILE_NAME> <CID>/path/to/content
     ```
 * `-o` is an optional flag that tells Lassie where to write the output to. If you don’t specify a file, it will append `.car` to your CID and use that as the output file name.
 
-Use `-o -` to write the CAR stream to `stdout` so it can be piped to another command, such as `go-car`, or redirected to a file.
+  Use `-o -` to write the CAR stream to `stdout` so it can be piped to another command, such as `go-car`, or redirected to a file.
 
 * `<CID>/path/to/content` is the CID of the content you want to retrieve and an optional path to a specific file within that content. Example:
 
-  ```shell
-  lassie fetch -o - bafybeiaysi4s6lnjev27ln5icwm6tueaw2vdykrtjkwiphwekaywqhcjze/wiki/Cryptographic_hash_function | car extract - | less
-  ```
+      lassie fetch -o - bafybeiaysi4s6lnjev27ln5icwm6tueaw2vdykrtjkwiphwekaywqhcjze/wiki/Cryptographic_hash_function | car extract - | less
 
 A CID is always necessary, and if you don’t specify a path, Lassie will attempt to download the entire content. If you specify a path, Lassie will only download that specific file or, if it is a directory, the entire directory and its contents.
 

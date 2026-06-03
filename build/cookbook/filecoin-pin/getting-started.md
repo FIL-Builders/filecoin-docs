@@ -71,7 +71,9 @@ In MetaMask:
 
 The private key is a 64-character hex string, with or without an `0x` prefix.
 
-### 2️⃣ Save the private key to a `.env` file
+### 2️⃣ Save or export the private key
+
+The Filecoin Pin CLI does not store your key, but a `.env` file is still a local file on disk. Use a private working directory, keep `.env` out of git, and delete the file when you no longer need it.
 
 Create a file named `.env` in your working directory containing:
 
@@ -85,6 +87,12 @@ Then secure it and load it into your shell:
 printf '.env\n' >> .gitignore
 chmod 600 .env
 source .env
+```
+
+For a one-off shell session, you can avoid writing the key to disk and export it directly instead:
+
+```sh
+export PRIVATE_KEY="0xYOUR_PRIVATE_KEY_HERE"
 ```
 
 ***

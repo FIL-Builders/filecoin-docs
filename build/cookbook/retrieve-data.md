@@ -23,7 +23,7 @@ With a given CID, you can use the following maintained retrieval tooling:
 
 **Retrieving content with Lassie**
 
-Install the current Lassie and go-car command-line tools:
+Install the current Lassie and go-car command-line tools. Make sure [Go](https://go.dev/doc/install) is installed and that your Go binary directory is on your `PATH`, or download the latest binaries from the [Lassie releases](https://github.com/filecoin-project/lassie/releases/latest) and [go-car releases](https://github.com/ipld/go-car/releases/latest):
 
 ```sh
 go install github.com/filecoin-project/lassie/cmd/lassie@latest
