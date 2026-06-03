@@ -46,19 +46,19 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y \
 
 ***
 
-### :hammer: Install Go (v1.24.0)
+### :hammer: Install Go
 
 ```sh
 sudo rm -rf /usr/local/go
-wget https://go.dev/dl/go1.24.0.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.24.0.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.26.0.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.26.0.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 source ~/.bashrc
 go version
 ```
 
 {% hint style="success" %}
-You should see something like: `go version go1.23.7 linux/amd64`
+You should see something like: `go version go1.26.0 linux/amd64`
 {% endhint %}
 
 ***
@@ -97,7 +97,8 @@ Clone and check out Lotus:
 ```sh
 git clone https://github.com/filecoin-project/lotus.git
 cd lotus
-git checkout $(curl -s https://api.github.com/repos/filecoin-project/lotus/releases/latest | jq -r .tag_name)
+LOTUS_RELEASE="$(curl -s https://api.github.com/repos/filecoin-project/lotus/releases/latest | jq -r .tag_name)"
+git checkout "$LOTUS_RELEASE"
 ```
 
 **Build and Install for Mainnet**
@@ -111,13 +112,13 @@ lotus --version
 **Build and Install for Calibration**
 
 ```sh
-make clean && make GOFLAGS="-tags=calibnet" lotus
+make clean && make calibnet-lotus
 sudo make install-daemon
 lotus --version
 ```
 
 {% hint style="success" %}
-You should see something like: `lotus version 1.32.2+calibnet+git.ff88d8269`
+You should see something like: `lotus version 1.36.0+calibnet+git.<commit>`
 {% endhint %}
 
 ***
@@ -278,12 +279,13 @@ echo 'net.core.rmem_default=2097152' | sudo tee -a /etc/sysctl.conf
 
 ### 🔬 Build Curio
 
-Clone the repository and switch to the PDP branch:
+Clone the repository and check out the latest Curio release:
 
 ```sh
 git clone https://github.com/filecoin-project/curio.git
 cd curio
-git checkout pdpM3d
+CURIO_RELEASE="$(curl -s https://api.github.com/repos/filecoin-project/curio/releases/latest | jq -r .tag_name)"
+git checkout "$CURIO_RELEASE"
 ```
 
 {% hint style="info" %}
@@ -325,7 +327,7 @@ curio --version
 Expected example output:
 
 ```sh
-curio version 1.24.4+calibnet+git_f954c0a_2025-04-06T15:46:32-04:00
+curio version 1.28.1+calibnet+git_<commit>
 ```
 
 ***
@@ -475,15 +477,10 @@ You can display your Lotus wallets at any time by running:
 lotus wallet list
 ```
 
-Export & convert your new delegated wallet address private key:
+Export and convert your new delegated wallet private key only when you are ready to import it into Curio. This prints sensitive key material to your terminal; do not save it in shell history, tickets, or shared logs:
 
 ```sh
 lotus wallet export <your-delegated-wallet-address> | xxd -r -p | jq -r '.PrivateKey' | base64 -d | xxd -p -c 32
-```
-
-```sh
-# Example output:
-d4c2e3f9a716bb0e47fa91b2cf4a29870be3c5982fd6eafed71e8ac3f9c0b127
 ```
 
 Browse to the **PDP** page of the Curio GUI and in the **Owner Address** section:
@@ -517,7 +514,10 @@ If you encounter errors related to `EnableEthRPC` or `EnableIndexer`, run the fo
 {% endhint %}
 
 ```sh
-sed -i 's/^\( *\)#*EnableEthRPC = .*/\1EnableEthRPC = true/; s/^\( *\)#*EnableIndexer = .*/\1Enabl
+sed -i \
+  -e 's/^\( *\)#*EnableEthRPC = .*/\1EnableEthRPC = true/' \
+  -e 's/^\( *\)#*EnableIndexer = .*/\1EnableIndexer = true/' \
+  ~/.lotus/config.toml
 ```
 
 {% hint style="info" %}
@@ -540,7 +540,7 @@ cd curio/cmd/pdptool
 go build .
 ```
 
-Generate a service secret:
+Generate a service secret. Treat the resulting token like a password:
 
 ```sh
 ./pdptool create-service-secret
@@ -558,7 +558,7 @@ Always use `public` for the `--service-name` flag
 Expected output:
 {% endhint %}
 
-```sh
+```output
 Ping successful: Service is reachable and JWT token is valid.
 ```
 

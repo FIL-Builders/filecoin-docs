@@ -6,35 +6,31 @@ description: >-
 
 # Basic setup
 
-To install Lotus on your computer, follow these steps:
+For current full-node installation instructions, use the [Lotus installation documentation](https://lotus.filecoin.io/lotus/install/linux/) and the [latest Lotus release](https://github.com/filecoin-project/lotus/releases/latest). Build requirements change with Lotus releases, so check the release's `go.mod` and install notes before pinning toolchain versions.
 
-1. First, you need to download the appropriate binary file for your operating system. Go to the [official Lotus GitHub repository](https://github.com/filecoin-project/lotus) and select the latest release that is compatible with your system. You can choose from Windows, macOS, and Linux distributions.
-2. Once you have downloaded the binary file, extract the contents to a directory of your choice. For example, if you are using Linux, you can extract the contents to the `/usr/local/bin directory` by running the command:
-
-```sh
-sudo tar -C /usr/local/bin -xzf lotus-1.34.1-linux-amd64.tar.gz
-```
-
-3. After extracting the contents, navigate to the `lotus` directory in your terminal. For example, if you extracted the contents to `/usr/local/bin`, you can navigate to the lotus directory by running the command:
+The source-build flow for a mainnet Lotus daemon looks like this:
 
 ```sh
-cd /usr/local/bin/lotus-1.34.1
+git clone https://github.com/filecoin-project/lotus.git
+cd lotus
+LOTUS_RELEASE="$(git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1)"
+git checkout "$LOTUS_RELEASE"
+make clean lotus
+sudo make install-daemon
+lotus --version
+lotus daemon
 ```
 
-4. Run the `lotus` binary file to start the Lotus daemon. You can do this by running the command:
+For Calibration testnet, build the Calibration binary instead:
 
 ```sh
-./lotus daemon
+make clean && make calibnet-lotus
+sudo make install-daemon
+lotus --version
+lotus daemon
 ```
 
-5. This will start the Lotus daemon, which will connect to the Filecoin network and start synchronizing with other nodes on the network.
-6. Optionally, you can also run the lotus-miner binary file if you want to participate in the Filecoin mining process. You can do this by running the command:
-
-```sh
-./lotus-miner run
-```
-
-7. This will start the Lotus miner, which will use your computer’s computing power to mine new blocks on the Filecoin network.
+Storage-provider operation no longer starts with `lotus-miner run` on a laptop. Use Lotus for chain access, then follow current Curio, Boost, and PDP guidance for provider workflows. See [Install and run PDP](../../pdp/install-and-run-pdp.md), [Software components](../../architecture/lotus-components.md), and the [Curio documentation](https://docs.curiostorage.org/) for provider-specific setup.
 
 
 
