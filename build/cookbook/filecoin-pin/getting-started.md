@@ -33,7 +33,7 @@ Before starting, make sure you have:
 Install the CLI globally with npm:
 
 ```sh
-npm install -g filecoin-pin
+npm install -g filecoin-pin@latest
 ```
 
 Verify the installation:
@@ -75,18 +75,17 @@ The private key is a 64-character hex string, with or without an `0x` prefix.
 
 Create a file named `.env` in your working directory containing:
 
-```
+```sh
 export PRIVATE_KEY="0xYOUR_PRIVATE_KEY_HERE"
 ```
 
 Then secure it and load it into your shell:
 
 ```sh
+printf '.env\n' >> .gitignore
 chmod 600 .env
 source .env
 ```
-
-Add `.env` to your `.gitignore` if you're inside a git repository.
 
 ***
 
@@ -223,13 +222,13 @@ filecoin-pin add my-data/
 
 Your file is now retrievable via standard IPFS tooling using its Root CID. For example:
 
-```
+```text
 https://<YOUR_ROOT_CID>.ipfs.inbrowser.link
 ```
 
 Or via the dweb.link gateway:
 
-```
+```text
 https://dweb.link/ipfs/<YOUR_ROOT_CID>
 ```
 
@@ -246,13 +245,13 @@ Filecoin storage providers must cryptographically prove daily that they continue
 List the data sets associated with your wallet:
 
 ```sh
-filecoin-pin data-set --ls
+filecoin-pin data-set list
 ```
 
 Then get the full on-chain detail for a specific data set:
 
 ```sh
-filecoin-pin data-set <DATASET_ID>
+filecoin-pin data-set show <DATASET_ID>
 ```
 
 This queries the smart contracts directly, so the values are live blockchain state.
