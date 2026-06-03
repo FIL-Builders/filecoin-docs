@@ -67,7 +67,7 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
 2.  Retrieve the latest Lotus release version and store it in your shell:
 
     ```shell
-    LOTUS_RELEASE="$(git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1)"
+    LOTUS_RELEASE="$(git tag --list 'v*' --sort=-v:refname | grep -v '-' | head -n 1)"
     echo "$LOTUS_RELEASE"
     ```
 
@@ -94,7 +94,7 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
 2.  Retrieve the latest Lotus release version and store it in your shell:
 
     ```shell
-    LOTUS_RELEASE="$(git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1)"
+    LOTUS_RELEASE="$(git tag --list 'v*' --sort=-v:refname | grep -v '-' | head -n 1)"
     echo "$LOTUS_RELEASE"
     ```
 
@@ -128,7 +128,7 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
 2.  Retrieve the latest Lotus release version and store it in your shell:
 
     ```shell
-    LOTUS_RELEASE="$(git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1)"
+    LOTUS_RELEASE="$(git tag --list 'v*' --sort=-v:refname | grep -v '-' | head -n 1)"
     echo "$LOTUS_RELEASE"
     ```
 

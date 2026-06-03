@@ -48,6 +48,8 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y \
 
 ### :hammer: Install Go
 
+Current Lotus `v1.36.0` requires Go `1.25.7`, while current Curio `v1.28.1` requires Go `1.26`. This guide installs Go `1.26.0` to satisfy the full PDP stack. Re-check the relevant `go.mod` files when targeting different Lotus or Curio releases.
+
 ```sh
 sudo rm -rf /usr/local/go
 wget https://go.dev/dl/go1.26.0.linux-amd64.tar.gz

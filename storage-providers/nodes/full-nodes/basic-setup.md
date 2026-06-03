@@ -13,7 +13,7 @@ The source-build flow for a mainnet Lotus daemon looks like this:
 ```sh
 git clone https://github.com/filecoin-project/lotus.git
 cd lotus
-LOTUS_RELEASE="$(git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1)"
+LOTUS_RELEASE="$(git tag --list 'v*' --sort=-v:refname | grep -v '-' | head -n 1)"
 git checkout "$LOTUS_RELEASE"
 make clean lotus
 sudo make install-daemon
