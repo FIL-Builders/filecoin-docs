@@ -70,6 +70,6 @@ Before we begin, you must have a local testnet running. Follow the [Run a local 
     2000 FIL
     ```
 
-If you want to manage your local testnet tokens in MetaMask you will need to create a `t4` address. You can create a `t4` address using `lotus wallet new deleated`. Once you have a `t4` address you can connect MetaMask to your local testnet to see the new balance within the MetaMask extension.
+If you want to manage your local testnet tokens in MetaMask you will need to create a `t4` address. You can create a `t4` address using `lotus wallet new delegated`. Once you have a `t4` address you can connect MetaMask to your local testnet to see the new balance within the MetaMask extension.
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/networks/local-testnet/get-test-tokens)

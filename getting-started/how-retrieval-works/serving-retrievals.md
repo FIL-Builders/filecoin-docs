@@ -7,32 +7,32 @@ description: >-
 
 # Serving retrievals
 
-## The indexer
+### The indexer
 
 When a storage deal is originally made, the client can opt to make the data publicly discoverable. If this is the case, the storage provider must publish an advertisement of the storage deal to the Interplanetary Network Indexer (IPNI). IPNI maps a CID to a storage provider (SP). This mapping allows clients to query the IPNI to discover where content is on Filecoin.
 
 The IPNI also tracks which data transfer protocols you can use to retrieve specific CIDs. Currently, Filecoin SPs have the ability to serve retrievals over Graphsync, Bitswap, and HTTP. This is dependent on the SP setup.
 
-## Retrieval process
+### Retrieval process
 
 If a client wants to retrieve publicly available data from the Filecoin network, then they generally follow this process.
 
-### Query the IPNI
+#### Query the IPNI
 
 Before the client can submit a retrieval deal to a storage provider, they first need to find which providers hold the data. To do this, the client sends a query to the Interplanetary Network Indexer.
 
-### Select a provider
+#### Select a provider
 
 Assuming the IPNI returns more than one storage provider, the client can select which provider they’d like to deal with. Here, they will also get additional details (if needed) based on the retrieval protocol they want to retrieve the content over.
 
-### Initiate retrieval
+#### Initiate retrieval
 
 The client then attempts to retrieve the data from the SP over Bitswap, Graphsync, or HTTP. Note that currently, clients can only get full-piece retrievals using HTTP.
 
-When attempting this retrieval deal using Graphsync, payment channels are used to pay FIL to the storage provider. These payment channels watch the data flow and pay the storage provider after each chunk of data is retrieved successfully.
-
-### Finalize the retrieval
+#### Finalize the retrieval
 
 Once the client has received the last chunk of data, the connection is closed.
+
+
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/getting-started/how-retrieval-works/serving-retrievals)

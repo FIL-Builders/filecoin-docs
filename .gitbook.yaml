@@ -180,6 +180,14 @@ redirects:
   builder-cookbook/dapps/oracles: build/cookbook/README.md
   builder-cookbook/overview: build/cookbook/README.md
   builder-cookbook/table-of-contents: build/cookbook/README.md
+  builder-cookbook/filecoin-pin/dapp-demo: build/cookbook/filecoin-pin/dapp-demo.md
+  builder-cookbook/filecoin-pin/erc-8004-agent-registration: build/cookbook/filecoin-pin/erc-8004-agent-registration.md
+  builder-cookbook/filecoin-pin/filecoin-pin-cli: build/cookbook/filecoin-pin/getting-started.md
+  builder-cookbook/filecoin-pin/getting-started: build/cookbook/filecoin-pin/getting-started.md
+  builder-cookbook/filecoin-pin/github-action: build/cookbook/filecoin-pin/github-action.md
+  builder-cookbook/filecoin-pin/faq: build/cookbook/filecoin-pin/faq.md
+  builder-cookbook/filecoin-pin: build/cookbook/filecoin-pin/README.md
+  build/cookbook/filecoin-pin/filecoin-pin-cli: build/cookbook/filecoin-pin/getting-started.md
   community: getting-started/community/forums-and-FIPs.md
   community/chat-and-discussion-forums: getting-started/community/forums-and-FIPs.md
   community/contribute/contribution-tutorial: getting-started/community/ways-to-contribute.md
@@ -502,7 +510,7 @@ redirects:
   smart-contracts/fundamentals/roadmap: core-concepts/filecoin-virtual-machine/README.md
   smart-contracts/fundamentals/support: build/developing-contracts/support.md
   smart-contracts/fundamentals/the-fvm: core-concepts/filecoin-virtual-machine/README.md
-  smart-contracts/programmatic-storage: build/developing-contracts/best-practices.md
+  smart-contracts/programmatic-storage: reference/general/legacy-content.md
   smart-contracts/programmatic-storage/ccdb: reference/general/legacy-content.md
   smart-contracts/programmatic-storage/direct-deal-making: reference/general/legacy-content.md
   smart-contracts/programmatic-storage/raas: reference/general/legacy-content.md

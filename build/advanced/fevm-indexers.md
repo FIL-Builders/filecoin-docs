@@ -20,10 +20,9 @@ Blockchain indexers are used for accessing blockchain data efficiently. They pro
 Additionally, blockchain indexers provide a better developer experience by leveraging well-known API standards and query languages like GraphQL.
 
 ## Goldsky
-
 [Goldsky](https://goldsky.com/) offers high-performance subgraph hosting and real-time data indexing for blockchain data. These are GraphQL-based APIs built on top of smart contracts. With Goldsky, developers can access structured blockchain data quickly and efficiently without needing to run their own nodes or build custom indexing backends.
 
-Goldsky officially supports the Filecoin, allowing developers to create subgraphs that index smart contract data from the Filecoin mainnet & testnet.
+Goldsky officially supports the Filecoin, allowing developers to create subgraphs that index smart contract data from the Filecoin mainnet & testnet. 
 
 **Ways to Deploy a Subgraph with Goldsky**
 
@@ -31,65 +30,55 @@ Goldsky officially supports the Filecoin, allowing developers to create subgraph
 A visual interface that guides you step-by-step to configure and deploy a subgraph. Ideal for quick prototyping or less technical users.
 
 **2. Goldsky CLI (Developer Tooling)**
-A command-line interface for creating, editing, and deploying subgraphs programmatically.
-
-* From Subgraph source code
-* Migrating from The Graph or any other subgraph host
-* Via instant, no-code subgraphs
+A command-line interface for creating, editing, and deploying subgraphs programmatically. 
+- From Subgraph source code
+- Migrating from The Graph or any other subgraph host
+- Via instant, no-code subgraphs
 
 In this tutorial, we will use no-code Goldsky’s deploy wizard to create a subgraph for the wFIl ERC-20 token on the Filecoin testnet.
 
 ### Prerequisites
-
 Make sure you have the following tools and setup ready:
-
-* Node.js
-* Create a Goldsky account and generate a Goldsky API key
-* Goldsky CLI installed
-
-  ```bash
+- Node.js
+- Create a Goldsky account and generate a Goldsky API key
+- Goldsky CLI installed
+  ```shell
   curl https://goldsky.com | sh
   ```
-
-* Authenticate Goldsky CLI with your API key
-
-  ```bash
+- Authenticate Goldsky CLI with your API key
+  ```shell
   goldsky login
   ```
-
-* wFIl Contract information
-  * contract address: `0xaC26a4Ab9cF2A8c5DBaB6fb4351ec0F4b07356c4`
-  * [contract ABI](https://beryx.io/fil/calibration/address/0xaC26a4Ab9cF2A8c5DBaB6fb4351ec0F4b07356c4?tab=contract): saved it as `wfil_abi.json` locally.
+- wFIl Contract information
+  - contract address: `0xaC26a4Ab9cF2A8c5DBaB6fb4351ec0F4b07356c4`
+  - [contract ABI](https://beryx.io/fil/calibration/address/0xaC26a4Ab9cF2A8c5DBaB6fb4351ec0F4b07356c4?tab=contract): saved it as `wfil_abi.json` locally.
 
 ### Deploy a subgraph
-
 Goldsky’s Deploy Wizard simplifies the creation of subgraphs using a CLI-guided flow.
 
 Run:
 
-```bash
+```shell
 goldsky subgraph init
 ```
 
 Follow the prompts from the Goldsky subgraph configuration wizard:
-
-* _Subgraph name_: wfil-subgraph
-* _Subgraph version_: 1.0.0
-* _Subgraph target path_: Choose default or specify your own
-* _Contract ABI source_: path/to/wfil_abi.json
-* _Contract Address_: `0xaC26a4Ab9cF2A8c5DBaB6fb4351ec0F4b07356c4`
-* _Contract network_: filecoin-testnet
-* _Start block_: Which block is the wfil created, can be 0.
-* _Contract name_: wfil
-* _Enable subgraph call handlers?_: no
+- *Subgraph name*: wfil-subgraph
+- *Subgraph version*: 1.0.0
+- *Subgraph target path*: Choose default or specify your own
+- *Contract ABI source*: path/to/wfil_abi.json
+- *Contract Address*: `0xaC26a4Ab9cF2A8c5DBaB6fb4351ec0F4b07356c4`
+- *Contract network*: filecoin-testnet
+- *Start block*: Which block is the wfil created, can be 0.
+- *Contract name*: wfil
+- *Enable subgraph call handlers?*: no
 
 Once you complete the above information following the prompt, the Goldsky wizard will guide you through building and deploying your subgraph. Once the subgraph is successfully deployed, Goldsky will output a deployment URL (GraphQL endpoint).
 
-Indexing all the data for your smart contract will take time after the subgraph is deployed. You can also check the indexing status of your subgraph from the [Goldsky dashboard](https://app.goldsky.com/).
+Indexing all the data for your smart contract will take time after the subgraph is deployed. You can also check the indexing status of your subgraph from the [Goldsky dashboard](https://app.goldsky.com/). 
 
 ### Query the Subgraph
-
-You can use the provided GraphQL endpoint to query the subgraph.
+You can use the provided GraphQL endpoint to query the subgraph. 
 
 For example:
 
@@ -116,7 +105,7 @@ Use the Goldsky Playground or integrate it into your app to consume indexed data
 
 [The Graph](https://thegraph.com) is a decentralized protocol for indexing blockchain data. It enables developers to build and publish custom open APIs, known as subgraphs, that applications can query to retrieve blockchain data using GraphQL in a time-efficient manner.
 
-### Glossary
+#### Glossary
 
 * **Subgraphs**: Customizable schemas that define how to index data from specific blockchain smart contracts and events.
 * **GraphQL**: A query language that allows clients to request exactly the data they need, making data fetching more efficient.
@@ -168,7 +157,7 @@ One of the popular subgraphs is a subgraph containing information about all the 
 * Navigate to the **SUBGRAPHS** tab.
 * Select the relevant subgraph from [Protofire](https://api.node.glif.io/graph).
 * In the opened **Playground** tab, click the **Show GraphQL Explorer** button (folder icon, 3rd from the top in the left bar) to verify the subgraph schema.
-* Click the elements that you are looking to query and adjust the query if necessary. For the sake of this example, let's query the first block this subgraph supports (#2867000). The resulting query should look like the following:
+*   Click the elements that you are looking to query and adjust the query if necessary. For the sake of this example, let's query the first block this subgraph supports (#2867000). The resulting query should look like the following:
 
     ```graphql
       query MyQuery {
@@ -181,8 +170,7 @@ One of the popular subgraphs is a subgraph containing information about all the 
       }
     }
     ```
-
-* Click **Execute query** (alternatively Ctrl+Enter, the icon with white triangle in the red square) and adjust query if needed.
+*   Click **Execute query** (alternatively Ctrl+Enter, the icon with white triangle in the red square) and adjust query if needed.
 
     ```json
     {
@@ -199,5 +187,4 @@ One of the popular subgraphs is a subgraph containing information about all the 
       }
     }
     ```
-
 * Copy **Queries (HTTP)** URL on the top of the Playground as well as resulting query to your code. The subgraph querying is free so far, although it requires an API key.

@@ -9,7 +9,7 @@ description: >-
 For conceptual information on built-in actors, including their purposes, how they work and available types, see the [conceptual guide](../../reference/built-in-actors/)
 {% endhint %}
 
-Built-in actors can be invoked using the Protocol _JSON-RPC_ API or the Zondax _filecoin.sol_ API.
+Built-in actors can be invoked using the Protocol _JSON-RPC_ API or the Filecoin.sol API.
 
 ## APIs compared
 
@@ -22,13 +22,13 @@ The Protocol _JSON-RPC_ API:
 * Requires authentication for some API calls.
 * Serves as the foundation for language-specific libraries (some of which are maintained by organizations other than PL) such as [filecoin.js](https://filecoin-shipyard.github.io/filecoin.js/).
 
-The Zondax _filecoin.sol_ API:
+The Filecoin.sol API:
 
 * Supports [_some but not all_ of the built-in actors and their methods](call-built-in-actors.md#available-actors-and-methods).
 
 ## Protocol API
 
-Smart contracts can directly access built-in actors and methods using the Protocol API. Links to the reference guides for each of the available actor methods is listed below:
+Applications and off-chain services can access built-in actors and methods using the Filecoin JSON-RPC API exposed by nodes such as Lotus. Smart contracts should use Filecoin.sol or the actor precompiles instead. Links to the reference guides for each of the available actor methods are listed below:
 
 * [Account actor](call-built-in-actors.md#account)
 * [Datacap](call-built-in-actors.md#datacap)
@@ -40,7 +40,7 @@ Smart contracts can directly access built-in actors and methods using the Protoc
 
 ## Filecoin.sol
 
-Smart contracts can access built-in actor methods with the `filecoin.sol` library, a set of Solidity libraries that allow Solidity smart contracts to seamlessly call methods of Filecoin built-in actors. The `filecoin.sol` library supports cross-platform calls to real Filecoin built-in actors. This section contains information on the actors and methods available from `filecoin.sol`, along with installation instructions and working examples of smart contracts that call built-in actor methods.
+Smart contracts can access built-in actor methods with the `filecoin.sol` library, a set of Solidity libraries that allow Solidity smart contracts to call methods of Filecoin built-in actors. The maintained npm package is `filecoin-solidity-api`, and its current import paths use `contracts/v0.8`. This section contains information on the actors and methods available from `filecoin.sol`, along with installation instructions and references for examples of smart contracts that call built-in actor methods.
 
 To invoke built-in actor methods using `filecoin.sol`, follow these steps:
 
@@ -215,41 +215,42 @@ The `filecoin.sol` library is embeddable into your smart contract, which means i
 
 #### **Import filecoin.sol with npm**
 
-1. Install [yarn](https://yarnpkg.com/) if you don’t have it installed.
-2. Install `filecoin.sol`:
+1. Install the Filecoin Solidity API package:
 
 ```shell
-yarn add @zondax/filecoin.sol
+npm install filecoin-solidity-api
 ```
 
 {% hint style="info" %}
-Until mid-2023, Zondax was the legacy maintainer of Filecoin.sol. Protocol Labs took over the project, and are in the process of moving NPM packages over to the `protocollabs` NPM account.
+Use the maintained `filecoin-solidity-api` package and import paths. Older examples may use legacy Zondax package names or repository paths; do not copy those into new projects.
 {% endhint %}
 
 #### **Import filecoin.sol manually**
 
 1. Navigate to your smart contract project folder `<my-project>`:
 
-```bash
+```shell
 cd my-project
 ```
 
 2. Create a folder named `libs`:
 
-```bash
+```shell
 mkdir libs
 ```
 
 3. Move into the `libs` directory:
 
-```bash
+```shell
 cd libs
 ```
 
-4. Copy the Zondax contracts with the methods you wish to call from [the contracts folder](https://github.com/filecoin-project/filecoin-solidity/tree/master/contracts/v0.8) into `libs`.
+4. Copy the Filecoin Solidity API contracts with the methods you wish to call from [the contracts folder](https://github.com/filecoin-project/filecoin-solidity/tree/master/contracts/v0.8) into `libs`. Preserve the subdirectories such as `types`, `utils`, and `cbor`, because the actor API files import those dependencies.
 
 ### Call a built-in actor
 
-Once you’ve either imported particular contracts manually or simply installed `filecoin.sol` using npm, create a callable method to access the built-in actor methods the way you normally would in a Solidity smart contract. Working examples of smart contracts that call built-in actor methods are available in the [reference guide](call-built-in-actors.md#filecoin.sol).
+Once you’ve either imported particular contracts manually or installed `filecoin-solidity-api` using npm, create a callable method to access the built-in actor methods the way you normally would in a Solidity smart contract. See the [Filecoin.sol guide](filecoin.sol.md) for npm import examples and the [reference guide](../../reference/built-in-actors/filecoin.sol.md) for actor-specific method examples.
+
+
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/developing-contracts/call-built-in-actors)

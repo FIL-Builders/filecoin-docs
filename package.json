@@ -12,6 +12,7 @@
     "lint:fix": "npx tsx scripts/checkers/linter/index.ts --fix",
     "lint:summary": "npx tsx scripts/checkers/linter/index.ts --summary",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "check:rpcs": "node scripts/check-rpc-endpoints.mjs",
     "update-versions": "node update-versions.js",
     "check-links": "npx tsx scripts/checkers/link-checker/index.ts",
     "check-links:fix": "npx tsx scripts/checkers/link-checker/index.ts --fix",

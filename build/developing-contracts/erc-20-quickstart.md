@@ -57,18 +57,18 @@ You may notice that we are currently connected to the **Ethereum Mainnet**. We n
     ![Open MetaMask from the browser extensions tab.](../../.gitbook/assets/smart-contracts-fundamentals-erc-20-quickstart-chainlist-open-mm.webp)
 9. You should see the _Filecoin Calibration_ testnet listed at the top.
 
-Nice! Now we’ve got the Filecoin Calibration testnet set up within MetaMask. You’ll notice that our MetaMask window shows `0 TFIL`. Test-filecoin (`TFIL`) is `FIL` that has no value in the _real world_, and developers use it for testing. We’ll grab some `TFIL` next.
+Nice! Now we’ve got the Filecoin Calibration testnet set up within MetaMask. You’ll notice that our MetaMask window shows `0 tFIL`. Test-filecoin (`tFIL`) is `FIL` that has no value in the _real world_, and developers use it for testing. We’ll grab some `tFIL` next.
 
 ### Get some funds
 
 1. In your browser, open MetaMask and copy your address to your clipboard:
 
     ![Copy your address to your clipboard.](../../.gitbook/assets/smart-contracts-fundamentals-erc-20-quickstart-faucet-get-address.webp)
-2. Go to <a href="https://faucet.calibnet.chainsafe-fil.io" target="_blank">faucet.calibration.chainsafe-fil.io</a> and click **Send Funds.**
+2. Go to <a href="https://faucet.calibnet.chainsafe-fil.io" target="_blank">faucet.calibnet.chainsafe-fil.io</a> and click **Send Funds.**
 3. Paste your address into the address field, and click **Send Funds**.
 4. The faucet will show a transaction ID. You can copy this ID into a Calibration testnet [block explorer](../../networks-and-tools/networks/calibration/explorers.md) to view your transaction. After a couple of minutes, you should see some `tFIL` transferred to your address.
 
-That’s all there is to it! Getting `tFil` is easy!
+That’s all there is to it! Getting `tFIL` is easy!
 
 ## Contract creation
 
@@ -206,6 +206,6 @@ Currently, MetaMask has no idea what our token is or what it even does. We can f
 
 ### Share your tokens
 
-Having a bunch of tokens in your personal MetaMask is nice, but why not send some tokens to a friend? Your friend needs to create a wallet in MetaMask as we did in the [Create a wallet](erc-20-quickstart.md#create-a-wallet) and [Switch networks](erc-20-quickstart.md#switch-networks) sections. They will also need to import your contract deployment address like you did in the [Add your tokens to MetaMask](../../networks-and-tools/assets/metamask-setup.md) section. Remember, you need to pay gas for every transaction that you make! If your friend tries to send some of your tokens to someone else but can’t, it might be because they don’t have any `tFil`.
+Having a bunch of tokens in your personal MetaMask is nice, but why not send some tokens to a friend? Your friend needs to create a wallet in MetaMask as we did in the [Create a wallet](erc-20-quickstart.md#create-a-wallet) and [Switch networks](erc-20-quickstart.md#switch-networks) sections. They will also need to import your contract deployment address like you did in the [Add your tokens to MetaMask](../../networks-and-tools/assets/metamask-setup.md) section. Remember, you need to pay gas for every transaction that you make! If your friend tries to send some of your tokens to someone else but can’t, it might be because they don’t have any `tFIL`.
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/developing-contracts/erc-20-quickstart)
