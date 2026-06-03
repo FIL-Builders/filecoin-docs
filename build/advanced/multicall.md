@@ -64,7 +64,7 @@ Batching contract reads, one of the most common use cases, allows a single `eth_
 
 When directly interacting with the Multicall3 contract to batch calls, you'll typically use the `aggregate3` method. This method allows you to execute multiple contract calls in a single transaction. Here's an explanation of how it works, along with examples:
 
-1.  Solidity Implementation: The `aggregate3` method is implemented in the Multicall3 contract like this:
+1. Solidity Implementation: The `aggregate3` method is implemented in the Multicall3 contract like this:
 
     ```solidity
     function aggregate3(Call3[] calldata calls) public payable returns (Result[] memory returnData) {
@@ -82,7 +82,8 @@ When directly interacting with the Multicall3 contract to batch calls, you'll ty
         }
     }
     ```
-2.  Example of sending multicalls to this smart contract: Here's an example using ethers.js to interact with the Multicall3 contract:
+
+2. Example of sending multicalls to this smart contract: Here's an example using ethers.js to interact with the Multicall3 contract:
 
     ```javascript
     const { ethers } = require("ethers");
@@ -125,7 +126,5 @@ The handling of `msg.value` in multicalls requires caution. Since `msg.value` do
 ## Hints
 
 Lotus FEVM RPC supports Ethereum batch transactions. The key difference between `multicall` and batch transactions is that `multicall` aggregates multiple RPC requests into a single call, while batch transactions are simply an array of transactions executed sequentially but sent in one request. For more details, please refer to the [Ethereum documentation](https://geth.ethereum.org/docs/interacting-with-geth/rpc/batch).
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/advanced/multicall)

@@ -65,9 +65,11 @@ Calls the specified actor using the native FVM calling convention by its _Fileco
 ### Input: ABI Encoded
 
 {% code overflow="wrap" %}
+
 ```json
 (uint64 method, uint256 value, uint64 flags, uint64 codec, bytes params, bytes filAddress)
 ```
+
 {% endcode %}
 
 * `method` is the Filecoin method number. The precompile will revert if the method number is not either 0 (bare value transfer) or at least 1024. Methods between 1 and 1023 inclusive are currently restricted (but may be allowed in the future).
@@ -80,7 +82,7 @@ Calls the specified actor using the native FVM calling convention by its _Fileco
 
 ### Output: ABI Encoded
 
-```
+```text
 (int256 exit_code, uint64 return_codec, bytes return_value)
 ```
 
@@ -120,7 +122,5 @@ Example:
 (bool success, bytes memory data) = address(0xfe00000000000000000000000000000000000005).delegatecall(abi.encode(method, value, flags, codec, params, id));
 (int256 exit, uint64 return_codec, bytes memory return_value) = abi.deco
 ```
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/architecture/filecoin-evm-runtime/precompiles)

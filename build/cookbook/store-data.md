@@ -13,7 +13,7 @@ We do not maintain step-by-step third-party storage tutorials in Builder Cookboo
 Use the official resources below for implementation details.
 {% endhint %}
 
-### <mark style="color:blue;">Prepare data for Filecoin storage</mark>
+## <mark style="color:blue;">Prepare data for Filecoin storage</mark>
 
 Use these resources to prepare CAR artifacts and storage inputs:
 

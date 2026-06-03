@@ -8,7 +8,7 @@ description: >-
 
 Developers use web UIs, APIs, or libraries to send data to storage onramps. Behind the scenes, storage onramps receive the data and handle the underlying processes to store it in a reliable way, making deals with Filecoin storage providers.
 
-The available storage onramps are: 
+The available storage onramps are:
 
 * [Lighthouse](https://lighthouse.storage/) "offers permanent, decentralized storage powered by Filecoin. Secure, scalable, and ideal for individuals, developers, and enterprises."
 * [Akave](https://www.akave.ai/) is "revolutionizing data management with a decentralized, modular solution that combines the robust storage of Filecoin with cutting-edge encryption and easy-to-use interfaces."  

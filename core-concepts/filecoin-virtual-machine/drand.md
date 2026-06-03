@@ -64,6 +64,4 @@ Based on the level of decentralization of the Filecoin network, we expect to see
 
 In any event, a heavier chain will emerge after the catch-up period and mining can resume as normal.
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/architecture/concepts/drand)&#x20;

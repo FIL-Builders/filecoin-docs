@@ -33,6 +33,4 @@ If you are interested in contributing to the development of Venus itself, you ca
 
 For more information about Venus, including advanced configuration, see the [Venus documentation site](https://venus.filecoin.io).
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/nodes/implementations/venus)

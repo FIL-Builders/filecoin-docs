@@ -40,8 +40,8 @@ The `CALLCODE` opcode has not been implemented. Use the newer `DELEGATECALL` opc
 
 Ethereum has one block at every height while Filecoin can have none, one, or many (usually around 4-5). This means that the `BLOCKHASH` instruction behaves a bit differently in the Filecoin EVM:
 
-- Because there can be multiple blocks at any given height, `BLOCKHASH` returns the hash of all the concatenation of the CIDs of all the blocks at the requested height.
-- Because there can be no blocks at any given height, if `BLOCKHASH` is called on a height with _no blocks_, it returns the `BLOCKHASH` of the first preceding height with blocks.
+* Because there can be multiple blocks at any given height, `BLOCKHASH` returns the hash of all the concatenation of the CIDs of all the blocks at the requested height.
+* Because there can be no blocks at any given height, if `BLOCKHASH` is called on a height with _no blocks_, it returns the `BLOCKHASH` of the first preceding height with blocks.
 
 ## Bare-value sends
 
@@ -69,7 +69,5 @@ However, the addresses returned by the CALLER, ORIGIN, and ADDRESS instructions 
 ## Deferred execution model
 
 When calling an Ethereum method that allows the user to ask for the `latest` block, Filecoin will return the `chain head` - `1` block. This behavior was implemented for compatibility with the deferred execution mode that Filecoin uses. In this mode, messages submitted at a given `height` are only processed at `height` + `1`. This means that receipts for a block produced at `height` are only available at `height` + `1`.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/core-concepts/filecoin-evm-runtime/difference-with-ethereum)

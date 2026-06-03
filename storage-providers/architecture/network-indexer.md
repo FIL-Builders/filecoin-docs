@@ -26,6 +26,4 @@ Storage providers publish data to indexers so that clients can find that data us
 
 As a storage provider, you will need to run an indexer in your setup so that your clients know where and how to retrieve data. For more information on how to create an index provider, see the [IPNI documentation](https://github.com/ipni/storetheindex/blob/main/doc/creating-an-index-provider.md).
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/architecture/network-indexer)

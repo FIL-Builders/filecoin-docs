@@ -7,9 +7,9 @@ description: >-
 
 # Ways to contribute
 
-### Ways to contribute
+## Ways to contribute
 
-#### Code
+### Code
 
 Filecoin and its sister-projects are big, with lots of code written in multiple languages. We always need help writing and maintaining code, but it can be daunting to just jump in. We use the label _Help Wanted_ on features or bug fixes that people can help out with. They are an excellent place for you to start contributing code.
 
@@ -26,7 +26,7 @@ If you want to start contributing to the core of Filecoin, those repositories ar
 * [IPLD](https://github.com/ipld)
 * [Multiformats](https://github.com/multiformats)
 
-#### Documentation
+### Documentation
 
 Filecoin is a huge project and undertaking, and with lots of code comes the need for lots of good documentation! However, we need a lot more help to write the awesome docs the project needs. If writing technical documentation is your area, any and all help is welcome!
 
@@ -38,11 +38,11 @@ Before contributing to the Filecoin docs, please read these quick guides; they'l
 
 If you have never contributed to an open-source project before, or just need a refresher, take a look at the [contribution tutorial](ways-to-contribute.md#contribution-tutorial).
 
-#### Community
+### Community
 
 If interacting with people is your favorite thing to do in this world, join the [Filecoin chat and discussion forums](forums-and-FIPs.md) to say hello, meet others who share your goals, and connect with other members of the community. You should also consider joining [Filecoin Slack](https://filecoinproject.slack.com/ssb/redirect).
 
-#### Build Applications
+### Build Applications
 
 Filecoin is designed for you to integrate into your own applications and services.
 
@@ -52,21 +52,21 @@ Get started by looking at the list of projects currently built on Filecoin. Buil
 * [Filecoin Developer Grants](https://www.fil.org/grants)
 * [Filecoin Accelerator Program](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d)
 
-#### Protocol Design
+### Protocol Design
 
 Filecoin is ultimately about building better protocols, and the community always welcome ideas and feedback on how to improve those protocols.
 
 * [`filecoin-project/specs`](https://github.com/filecoin-project/specs)
 
-#### Research
+### Research
 
 Finally, we see Protocol Labs as a research lab, where YOUR ideas can become technologies that have a real impact on the world. If you're interested in contributing to our research, please reach out to [research@protocol.ai](mailto:research@protocol.ai) for more information. Include what your interests are so we can make sure you get to work on something fun and valuable.
 
-### GitBook documentation
+## GitBook documentation
 
 This site is built with [GitBook](https://www.gitbook.com/) and synced from a Git repository. You can contribute by editing markdown files directly in the repo or through the GitBook UI.
 
-#### Content structure
+### Content structure
 
 GitBook organizes content through pages (markdown files), grouped into sections defined in `SUMMARY.md`. The key files are:
 
@@ -89,11 +89,11 @@ layout:
 Content starts here.
 ```
 
-#### Frontmatter fields
+### Frontmatter fields
 
 <table><thead><tr><th width="200">Field</th><th>Purpose</th></tr></thead><tbody><tr><td><code>description</code></td><td>SEO description and link previews. Supports multiline with <code>>-</code>.</td></tr><tr><td><code>icon</code></td><td>Font Awesome icon name (e.g., <code>bolt</code>, <code>book-open</code>).</td></tr><tr><td><code>hidden: true</code></td><td>Hides page from the table of contents.</td></tr><tr><td><code>layout.width</code></td><td><code>default</code> or <code>wide</code> for broader content area.</td></tr></tbody></table>
 
-#### Internal links
+### Internal links
 
 Always use relative file paths for links between documentation pages:
 
@@ -108,7 +108,7 @@ External links use full URLs:
 [Filecoin GitHub](https://github.com/filecoin-project)
 ```
 
-#### GitBook custom blocks
+### GitBook custom blocks
 
 This site uses several GitBook-specific markdown extensions. Here are the ones you will encounter most frequently.
 
@@ -206,20 +206,21 @@ module.exports = {
 {% endraw %}
 ````
 
-#### Common pitfalls
+### Common pitfalls
 
 {% raw %}
+
 * Always close custom blocks properly (`{% endtab %}`, `{% endhint %}`, `{% endcode %}`).
 {% endraw %}
 * Do not reference the same markdown file twice in `SUMMARY.md`.
 * Keep `SUMMARY.md` synchronized with actual file paths.
 * Test custom blocks in GitBook after editing locally.
 
-### Writing guide
+## Writing guide
 
 This guide explains things to keep in mind when writing for Filecoin's documentation. While the [grammar, formatting, and style guide](ways-to-contribute.md#style) lets you know the rules you should follow, this guide will help you to properly structure your writing and choose the correct tone for your audience.
 
-#### Walkthroughs
+### Walkthroughs
 
 The purpose of a walkthrough is to tell the user _how_ to do something. They do not need to convince the reader of something or explain a concept. Walkthroughs are a list of steps the reader must follow to achieve a process or function.
 
@@ -249,7 +250,7 @@ Walkthroughs are split into three major sections:
 2. The steps we need to do.
 3. Summary of what we just did, and potential next steps.
 
-#### Conceptual articles
+### Conceptual articles
 
 Articles are written with the intent to inform and explain something. These articles don't contain any steps or actions that the reader has to perform _right now_.
 
@@ -271,7 +272,7 @@ Articles are separated into five major sections:
 4. What other topics it relates to.
 5. Summary review of what we just read.
 
-#### Tutorials
+### Tutorials
 
 When writing a tutorial, you're teaching a reader how to achieve a complex end-goal. Tutorials are a mix of walkthroughs and conceptual articles. Most tutorials will span several pages, and contain multiple walkthroughs within them.
 
@@ -286,11 +287,11 @@ Pages `1` and `3` are conceptual articles, describing particular design patterns
 
 When designing a tutorial, keep in mind the walkthroughs and articles that already exist, and note down any additional content items that would need to be completed before creating the tutorial.
 
-### Grammar and formatting
+## Grammar and formatting
 
 Here are some language-specific rules that the Filecoin documentation follows. If you use a writing service like [Grammarly](https://www.grammarly.com/), most of these rules are turned on by default.
 
-#### American English
+### American English
 
 While Filecoin is a global project, the fact is that American English is the most commonly used _style_ of English used today. With that in mind, when writing content for the Filecoin project, use American English spelling. The basic rules for converting other styles of English into American English are:
 
@@ -298,7 +299,7 @@ While Filecoin is a global project, the fact is that American English is the mos
 2. Remove the `u` from words like _color_ and _honor_.
 3. Swap `tre` for `ter` in words like _center_.
 
-#### The Oxford comma
+### The Oxford comma
 
 In a list of three or more items, follow each item except the last with a comma `,`:
 
@@ -307,7 +308,7 @@ In a list of three or more items, follow each item except the last with a comma 
 | One, two, three, and four.    | One, two, three and four.    |
 | Henry, Elizabeth, and George. | Henry, Elizabeth and George. |
 
-#### References to Filecoin
+### References to Filecoin
 
 As a proper noun, the name "Filecoin" (capitalized) should be used only to refer to the overarching project, to the protocol, or to the project's canonical network:
 
@@ -332,7 +333,7 @@ Examples of discouraged usage:
 
 Consistency in the usage of these terms helps keep these various concepts distinct.
 
-#### References to Lotus
+### References to Lotus
 
 Lotus is the main implementation of Filecoin. As such, it is frequently referenced in the Filecoin documentation. When referring to the Lotus implementation, use a capital _L_. A lowercase _l_ should only be used when referring to the Lotus executable commands such as `lotus daemon`. Lotus executable commands should always be within code blocks:
 
@@ -350,31 +351,31 @@ Lotus is the main implementation of Filecoin. As such, it is frequently referenc
    ```
 ````
 
-#### Acronyms
+### Acronyms
 
 If you have to use an acronym, spell the full phrase first and include the acronym in parentheses `()` the first time it is used in each document. Exception: This generally isn't necessary for commonly-encountered acronyms like _IPFS_, unless writing for a stand-alone article that may not be presented alongside project documentation.
 
 > Virtual Machine (VM), Decentralized Web (DWeb).
 
-### Formatting
+## Formatting
 
 How the Markdown syntax looks, and code formatting rules to follow.
 
-#### Syntax
+### Syntax
 
 The Filecoin Docs project follows the _GitHub Flavoured Markdown_ syntax for markdown. This way, all articles display properly within GitHub itself.
 
-#### Rules
+### Rules
 
 We use the rules set out in the [VSCode Markdownlint](https://github.com/DavidAnson/vscode-markdownlint) extension. You can import these rules into any text editor like Vim or Sublime. All rules are listed [within the Markdownlint repository](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md).
 
 We highly recommend installing [VSCode](https://code.visualstudio.com/) with the [Markdownlint](https://github.com/DavidAnson/vscode-markdownlint) extension to help with your writing. The extension shows warnings within your markdown whenever your copy doesn't conform to a rule.
 
-### Style
+## Style
 
 The following rules explain how we organize and structure our writing. The rules outlined here are in addition to the [rules](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) found within the [Markdownlinter extension](https://github.com/DavidAnson/vscode-markdownlint).
 
-#### Text
+### Text
 
 The following rules apply to editing and styling text.
 
@@ -535,7 +536,7 @@ Press `ctrl` + `c` to copy the highlighted text.
 
 The plus symbol `+` stays outside of the code tags.
 
-#### Images
+### Images
 
 The following rules and guidelines define how to use and store images.
 

@@ -16,7 +16,7 @@ Overall, wFIL provides additional liquidity and interoperability for FIL tokens,
 When wrapping and unwrapping FIL ensure you are using the correct wFIL contract address on Filecoin.
 {% endhint %}
 
-### Wrapped FIL contract addresses
+## Wrapped FIL contract addresses
 
 Only use the following addresses when wrapping and unwrapping FIL:
 
@@ -81,7 +81,5 @@ function withdraw(uint _amount) public virtual {
 ```
 
 This process will burn the amount of wFIL from the caller’s balance and transfer the unwrapped FIL 1:1 back to the caller’s address.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/advanced/wrapped-fil)

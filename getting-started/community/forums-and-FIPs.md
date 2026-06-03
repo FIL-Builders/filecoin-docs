@@ -7,7 +7,7 @@ description: >-
 
 # Discussion Forums and Filecoin Improvement Proposals
 
-### Discussion Forums
+## Discussion Forums
 
 For shorter-lived discussions, our community chat open to all on both Slack and Discord:
 
@@ -16,11 +16,12 @@ For shorter-lived discussions, our community chat open to all on both Slack and 
 
 For long-lived discussions and for support, please use the [discussion tab on GitHub](https://github.com/filecoin-project/community#forums) instead of Slack. It’s easy for complex discussions to get lost in a sea of new messages on those chat platforms, and posting longer discussions and support requests on the forums helps future visitors, too.
 
-### Filecoin improvement proposals
+## Filecoin improvement proposals
 
 Filecoin improvement proposals (FIPs) are design documents that propose changes and improvements to the Filecoin network, giving detailed specifications and their rational, and allowing the community to document their consensus or dissent.  All technical FIPs that are accepted are later reflected in the [Filecoin Spec](https://spec.filecoin.io/).
 
 There are three types of FIPs:
+
 * Technical FIPs (FTP): protocol changes, standards, API changes.  They can include core (consensus-related changes, networking (network protocol improvements, interface (API/RPC or language-level updates), or can be informational (updates to general guidelines or documentation).
 * Organizational FIPs (FOP): changes to processes, tools, or governance.
 * Recovery FIPs (FRP): emergency fixes requiring state changes (e.g., major bugs).

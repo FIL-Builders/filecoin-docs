@@ -11,7 +11,7 @@ Filecoin combines many elements of other file storage and distribution systems. 
 * [Filecoin vs. Amazon S3, Google Cloud Storage](filecoin-compared-to.md#filecoin-vs.-amazon-s3-google-cloud-storage)
 * [Filecoin vs. Bitcoin](filecoin-compared-to.md#filecoin-tokens-fil-vs.-bitcoin-tokens-btc)
 
-#### Filecoin vs. Amazon S3, Google Cloud Storage
+## Filecoin vs. Amazon S3, Google Cloud Storage
 
 |                             | Filecoin                                                                                          | Amazon S3, Google Cloud Storage                                                          |
 | --------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ Filecoin combines many elements of other file storage and distribution systems. 
 | Physical location           | Miners located anywhere in the world                                                              | Limited to where provider’s data centres are located                                     |
 | Becoming a storage provider | Low barrier to entry for storage providers (computer, hard drive, internet connection)            | High barrier to entry for storage providers (legal agreements, marketing, support staff) |
 
-#### Filecoin tokens (FIL) vs. Bitcoin tokens (BTC)
+## Filecoin tokens (FIL) vs. Bitcoin tokens (BTC)
 
 |                     | FIL                                                                  | BTC                                                                   |
 | ------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -39,7 +39,5 @@ Filecoin combines many elements of other file storage and distribution systems. 
 | Types of provider   | Storage provider, retrieval provider, repair provider                | All providers perform proof of work                                   |
 | Uptime requirements | Storage providers rewarded for uptime, penalized for downtime        | Miners can go offline without being penalized                         |
 | Network status      | Mainnet running since 2020                                           | Mainnet running since 2009                                            |
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/getting-started/community/filecoin-compared-to)

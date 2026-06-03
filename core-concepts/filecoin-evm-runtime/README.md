@@ -19,8 +19,6 @@ The Filecoin EVM, often just referred to as _FEVM_, is the Ethereum virtual mach
 
 For a deeper dive into the concepts discussed on this page, see this presentation Ethereum compatibility of FVM, see:
 
-{% embed url="https://www.youtube.com/watch?v=lgUMVhM3FIM" %}
-
-
+{% embed url="<https://www.youtube.com/watch?v=lgUMVhM3FIM>" %}
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/architecture/filecoin-evm-runtime)

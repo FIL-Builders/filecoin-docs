@@ -24,6 +24,4 @@ If you just need a general pointer or looking for technical FAQs, you can head o
 
 The [Filecoin Grant Platform](https://github.com/filecoin-project/devgrants) connects grant makers with builders and researchers in the Filecoin community. Whether you represent a foundation that wants to move the space forward, a company looking to accelerate development on the features your application needs, or a developer team itching to hack on the FVM, [take a look at the supported grant types and available opportunities →](https://github.com/filecoin-project/devgrants)
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/developing-contracts/support)

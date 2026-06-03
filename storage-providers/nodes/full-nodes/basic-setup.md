@@ -36,6 +36,4 @@ cd /usr/local/bin/lotus-1.34.1
 
 7. This will start the Lotus miner, which will use your computer’s computing power to mine new blocks on the Filecoin network.
 
-
-
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/nodes/full-nodes/basic-setup)

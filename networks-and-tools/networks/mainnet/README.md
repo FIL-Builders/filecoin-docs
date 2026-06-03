@@ -36,7 +36,7 @@ Bootstrap peers for mainnet can be found at:
 
 `https://github.com/filecoin-project/lotus/blob/release/`**\[latest release]**`/build/bootstrap/mainnet.pi`
 
-The latest Lotus release can be found at https://github.com/filecoin-project/lotus/releases/latest/
+The latest Lotus release can be found at <https://github.com/filecoin-project/lotus/releases/latest/>
 
 ## Resources
 
@@ -47,7 +47,5 @@ The latest Lotus release can be found at https://github.com/filecoin-project/lot
 * [Slack Channel for Questions: #fil-help](https://filecoinproject.slack.com/archives/CEGN061C5)
 * [Mainnet block explorer: FilFOX](https://filfox.info/en)
 * [Mainnet Faucet - Forest Explorer](https://forest-explorer.chainsafe.dev/faucet/mainnet)
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/networks/mainnet)

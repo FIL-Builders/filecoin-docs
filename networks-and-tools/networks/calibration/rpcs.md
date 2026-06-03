@@ -23,12 +23,11 @@ Please note that publicly available hosted endpoints **only guarantee 2000 of th
 * WebSocket: `wss://wss.calibration.node.glif.io/apigw/lotus/rpc/v1`
 * Lotus lite-node command:
 
-```
+```shell
 FULLNODE_API_INFO=wss://wss.calibration.node.glif.io/apigw/lotus lotus daemon --lite
 ```
 
 * When using a lite-node, omit `/rpc/v1` from Glif’s WebSocket address.
 * [Glif documentation](https://hosting.glif.io/)
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks-and-tools/networks/calibration/rpcs)

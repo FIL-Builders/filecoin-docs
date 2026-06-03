@@ -1,5 +1,7 @@
+# Filecoin Docs
+
 <div align=center>
-    
+
 [![MIT License](https://img.shields.io/badge/license-MIT-blueviolet?style=for-the-badge)](https://protocol.ai/blog/announcing-the-permissive-license-stack/)
 [![Website status](https://img.shields.io/website.svg?style=for-the-badge&url=https%3A%2F%2Fdocs.filecoin.io)](https://docs.filecoin.io/)
 [![Backlog](https://img.shields.io/badge/backlog-Updated-blue?style=for-the-badge)](https://github.com/orgs/filecoin-project/projects/103/views/1)
@@ -9,20 +11,21 @@
 
 ## Table of contents <!-- omit in toc -->
 
-- [About this repo](#about-this-repo)
-- [Contributing](#contributing)
-  - [Local Development](#local-development)
-  - [Link checking](#link-checking)
-- [Issues](#issues)
-  - [Backlog](#backlog)
-  - [Priority](#priority)
-- [License](#license)
+* [About this repo](#about-this-repo)
+* [Contributing](#contributing)
+  * [Local Development](#local-development)
+  * [Link checking](#link-checking)
+* [Issues](#issues)
+  * [Backlog](#backlog)
+  * [Priority](#priority)
+* [License](#license)
 
 ## About this repo
 
 This repository manages the documentation for the [Filecoin network](https://filecoin.io). The content is built and hosted by [GitBook](https://gitbook.com). View the docs site at [docs.filecoin.io](https://docs.filecoin.io).
 
 ## Publishing
+
 This repo is synced to [GitBook](https://gitbook.com) using [GitBook's GitSync](https://gitbook.com/docs/getting-started/git-sync).  When a PR to `main` is merged, a new GitBook is published.  This happens as a result of the GitBook applicaiton, not a GitHub Action workflow in the repo.  
 
 PRs also generate preview links so one can preview the site before merging.  Per [GitBook GitSync integration](https://app.gitbook.com/o/NNmD4UvLc26b1TmEYgzE/s/xNWFG7bQkjLkl5BBGjbD/~/integrations/github), preview links from fork PRs have been enabled.  
@@ -46,6 +49,7 @@ You can build and preview the documentation locally.
    ```
 
 2. **Develop**: Builds and serves the site with live reload.
+
    ```bash
    npm run serve
    ```
@@ -58,17 +62,15 @@ You can build and preview the documentation locally.
 | `npm run build`   | Builds the static site to the `_book/` directory                                                      |
 | `npm run preview` | Serves the existing `_book/` directory without rebuilding                                             |
 
-
 ### Link checking
 
 Links are checked using [lychee-action](https://github.com/lycheeverse/lychee-action) as configured by [check-external-links.yml](.github/workflows/check-external-links.yml).  Working links are required before merging.  If you have a link that should be excluded from checking:
+
 1. wrap it in `` `backticks` `` OR
 2. wrap it in `<code>` blocks OR
-3. use [`.lycheeignore`](https://github.com/lycheeverse/lychee-action?tab=readme-ov-file#excluding-links-from-getting-checked) 
+3. use [`.lycheeignore`](https://github.com/lycheeverse/lychee-action?tab=readme-ov-file#excluding-links-from-getting-checked)
 
-
-
-## Issues 
+## Issues
 
 Found a problem with the Filecoin docs site? [Please raise an issue](https://github.com/filecoin-project/filecoin-docs/issues/new). Be as specific and descriptive as possible; screenshots help!
 

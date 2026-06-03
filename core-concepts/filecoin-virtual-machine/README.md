@@ -33,7 +33,7 @@ FVM Actors enable a huge range of use cases to be built on Filecoin. Here are ju
 * Replication: In addition to allowing a client to store one data set with one storage provider in perpetuity, FVM Actors enable data resiliency by allowing a client to store one data set once manually and then have the Actor replicate that data with multiple other storage providers automatically. Additional conditions that can be set in an automated replication Actor include choices about the geographic region of the storage providers, latency, and deal price limits.
 * Leasing: FVM Actors enable a FIL token holder to provide collateral to clients looking to do a storage deal, and be repaid the principal and interest over time. FVM Actors can also trace the borrowing and repayment history of a given client, generating a community-developed reputation score.
 
-Additional use cases enabled by FVM include, but are not limited to, tokenized data sets, trustless reputation systems, NFTs, storage bounties and auctions, Layer 2 bridges, futures and derivatives, or conditional leasing. 
+Additional use cases enabled by FVM include, but are not limited to, tokenized data sets, trustless reputation systems, NFTs, storage bounties and auctions, Layer 2 bridges, futures and derivatives, or conditional leasing.
 
 ### Start building on the FVM
 
@@ -44,7 +44,5 @@ If you’re ready to start building on the FVM, here are some resources you shou
 * Developing Contracts: If you are ready to build your dApp on FVM, you can skip ahead and review our [best practices](../../build/developing-contracts/best-practices.md) section for developing contracts. Here, you can find a guide for the Filecoin solidity libraries, details on tools such as Foundry, Remix, and Hardhat, and tutorials for calling built-in actors and building client contracts.
 
 The next page will walk you through the process of deciding whether you need to use FVM’s programmatic storage when building a dApp with storage on Filecoin.
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/architecture/the-fvm)

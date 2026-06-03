@@ -59,7 +59,7 @@ Diagnosing performance bottlenecks on a system is vital to keeping a well balanc
 
 There are many good resources to check out when it comes to Linux performance troubleshooting. Brendan Gregg’s [Linux performance analysis in 60 seconds](https://www.brendangregg.com/blog/2015-12-03/linux-perf-60s-video.html) is an excellent introduction. Each one of these commands deserves a chapter on its own but can be further researched in their man pages.
 
-{% embed url="https://www.youtube.com/watch?v=ZdVpKx6Wmc8" %}
+{% embed url="<https://www.youtube.com/watch?v=ZdVpKx6Wmc8>" %}
 
 The commands used are:
 
@@ -75,7 +75,5 @@ sar -n DEV 1
 sar -n TCP,ETCP 1
 top
 ```
-
-
 
 [Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/storage-providers/core-competencies/linux)

@@ -6,60 +6,60 @@ description: >-
 
 # Tools
 
-### Infrastructure libraries
+## Infrastructure libraries
 
 These infrastructure libraries and tools exist to speed up the development of software on top of the Filecoin network.
 
-#### Filecoin Javascript Standard Library
+### Filecoin Javascript Standard Library
 
 > Connect apps to the Filecoin blockchain with iso-filecoin.
 
-##### Features
+#### Features
 
-- Lightweight, performant and type-safe
-- Support for RPC, Signature, Address, Token, Chain, Wallet and more.
-- React hooks and context to easily integrate Filecoin wallets
-- Wallet adapters for Ledger Filecoin App, MetaMask Filecoin Wallet, and more.
+* Lightweight, performant and type-safe
+* Support for RPC, Signature, Address, Token, Chain, Wallet and more.
+* React hooks and context to easily integrate Filecoin wallets
+* Wallet adapters for Ledger Filecoin App, MetaMask Filecoin Wallet, and more.
 
-##### Packages
+#### Packages
 
-- [iso-filecoin](https://github.com/hugomrdias/filecoin/tree/main/packages/iso-filecoin) - Core package
-- [iso-filecoin-react](https://github.com/hugomrdias/filecoin/tree/main/packages/iso-filecoin-react) - React hooks and context
-- [iso-filecoin-wallets](https://github.com/hugomrdias/filecoin/tree/main/packages/iso-filecoin-wallets) - Wallet adapters
+* [iso-filecoin](https://github.com/hugomrdias/filecoin/tree/main/packages/iso-filecoin) - Core package
+* [iso-filecoin-react](https://github.com/hugomrdias/filecoin/tree/main/packages/iso-filecoin-react) - React hooks and context
+* [iso-filecoin-wallets](https://github.com/hugomrdias/filecoin/tree/main/packages/iso-filecoin-wallets) - Wallet adapters
 
-##### Resources
+#### Resources
 
-- [Documentation](https://filecoin.hugomrdias.dev/)
+* [Documentation](https://filecoin.hugomrdias.dev/)
 
-#### ⨎ Filsnap
+### ⨎ Filsnap
 
 > A MetaMask [Snap](https://snaps.metamask.io/snap/npm/filsnap/) to add Filecoin support to the MetaMask extension.
 
-##### Features
+#### Features
 
-- Enables dapps access to Filecoin accounts using Metamask.
-- Manage Filecoin accounts, check balance, address, export private key and more.
-- Send and receive FIL from native and FEVM addresses.
-- Sign Filecoin messages and arbitrary data.
-- Send Filecoin messages and estimate gas fees.
-- Filecoin insights for FEVM transaction/signature requests.
+* Enables dapps access to Filecoin accounts using Metamask.
+* Manage Filecoin accounts, check balance, address, export private key and more.
+* Send and receive FIL from native and FEVM addresses.
+* Sign Filecoin messages and arbitrary data.
+* Send Filecoin messages and estimate gas fees.
+* Filecoin insights for FEVM transaction/signature requests.
 
-##### Resources
+#### Resources
 
-- [Companion App](https://filsnap.dev/)
-- [Documentation](https://filecoin-project.github.io/filsnap/)
+* [Companion App](https://filsnap.dev/)
+* [Documentation](https://filecoin-project.github.io/filsnap/)
 
-##### Packages
+#### Packages
 
-- [filsnap](https://github.com/filecoin-project/filsnap/tree/master/packages/snap) - Filecoin snap for Metamask
-- [filsnap-adapter](https://github.com/filecoin-project/filsnap/tree/master/packages/adapter) - Adapter to interact with Filsnap from a dapp
-- [filsnap-adapter-react](https://github.com/filecoin-project/filsnap/tree/master/packages/adapter-react) - React hooks to interact with Filsnap from a dapp
+* [filsnap](https://github.com/filecoin-project/filsnap/tree/master/packages/snap) - Filecoin snap for Metamask
+* [filsnap-adapter](https://github.com/filecoin-project/filsnap/tree/master/packages/adapter) - Adapter to interact with Filsnap from a dapp
+* [filsnap-adapter-react](https://github.com/filecoin-project/filsnap/tree/master/packages/adapter-react) - React hooks to interact with Filsnap from a dapp
 
-#### Filecoin addresses
+### Filecoin addresses
 
 The _filecoin-address_ library is a JavaScript implementation of the Filecoin address type, and can create new address instances, encode addresses, and decode and validate checksums. For further information, including how to install and use, see the [GitHub repository](https://github.com/glifio/modules/tree/primary/packages/filecoin-address).
 
-### Built-in Native Actors
+## Built-in Native Actors
 
 These are some tools that developers will find useful when dealing with built-in actors.
 
