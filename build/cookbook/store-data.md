@@ -18,8 +18,8 @@ Use the official resources below for implementation details.
 Use these resources to prepare CAR artifacts and storage inputs:
 
 * [Lighthouse documentation](https://docs.lighthouse.storage/)
-* [IPFS CAR tooling (`ipfs-car`)](https://github.com/web3-storage/ipfs-car)
-* [IPLD CAR specification and libraries](https://github.com/ipld/js-car)
+* [go-car command-line tooling](https://github.com/ipld/go-car)
+* [IPLD CAR specification and JavaScript libraries](https://github.com/ipld/js-car)
 * [IPFS Desktop / Kubo docs](https://docs.ipfs.tech/)
 
 Recommended outputs before proposing storage workflows:
@@ -41,6 +41,7 @@ Use the FOC stack for programmatic, verifiable storage at scale:
 For smaller datasets and managed ingestion paths:
 
 * [Storage onramps overview](../../getting-started/how-storage-works/storage-onramps.md)
+* [Filecoin Pin getting started](filecoin-pin/getting-started.md)
 * [Lighthouse documentation](https://docs.lighthouse.storage/)
 
 ### <mark style="color:blue;">Monitor storage deal status from a smart contract</mark>
@@ -58,4 +59,4 @@ For incentive design and onboarding programs:
 * [Filecoin Data Onboarding](https://dataonboarding.filecoin.io/)
 * [Filecoin storage market basics](../../getting-started/what-is-filecoin/storage-market.md)
 
-[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/cookbook/data-storage/store-data)
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/build/cookbook/store-data)

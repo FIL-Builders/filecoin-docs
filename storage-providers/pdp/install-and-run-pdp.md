@@ -441,6 +441,7 @@ You may find it helpful to search for the setting names in your browser.
 * ✅ `EnablePDP`
 * ✅ `EnableCommP`
 * ✅ `EnableMoveStorage`
+* ✅ `NoUnsealedDecode`
 
 In the **HTTP** section:
 
@@ -530,39 +531,60 @@ If you encounter errors binding to port 443 when starting Curio with the pdp con
 sudo setcap 'cap_net_bind_service=+ep' /usr/local/bin/curio
 ```
 
-Test the PDP service:
+***
+
+### 🔗 Test Connectivity
+
+Browse to your PDP node's domain name in your browser. You should see the following message in your browser window:
+
+```
+Hello, World!
+ -Curio
+```
+
+***
+
+### 🗳️ Register Your PDP Calibration Node With The Filecoin Warm Storage Service
+
+Browse to the **PDP** page of the Curio GUI and locate the **Filecoin Service Registry** section.
+
+#### STEP 1 — Update Details
+
+Select **Update Details** and fill in:
+
+| Field | Notes |
+| --- | --- |
+| Name | ≤ 128 chars |
+| Description | ≤ 256 chars |
+
+Select **Update** to submit your node details to the on-chain FWSS contract.
 
 {% hint style="info" %}
-If `pdptool` is not installed, clone and build Curio:
+You can review the names and descriptions of other FWSS providers at [https://filecoin.cloud/service-providers](https://filecoin.cloud/service-providers).
 {% endhint %}
 
-```sh
-git clone https://github.com/filecoin-project/curio.git
-cd curio/cmd/pdptool
-go build .
-```
+#### STEP 2 — Update PDP Offering
 
-Generate a service secret. Treat the resulting token like a password:
+Select **Update PDP Offering** and set:
 
-```sh
-./pdptool create-service-secret
-```
+| Field | Recommended value |
+| --- | --- |
+| Minimum Piece Size (Bytes) | `1048576` |
+| Maximum Piece Size (Bytes) | `1073741824` |
+| Storage Price (USDFC per TiB per day) | `0.833` |
+| Minimum Proving Period (Epochs) | `30` |
+| Location | e.g. `C=US;ST=California;L=San Francisco` (only `C=` is required) |
 
-```sh
-./pdptool ping --service-url https://your-domain.com --service-name public
-```
+Then use **Add Capability** to add the following key/value pairs:
 
-{% hint style="info" %}
-Always use `public` for the `--service-name` flag
-{% endhint %}
+| Key | Value |
+| --- | --- |
+| `serviceStatus` | `prod` |
+| `capacityTib` | your available storage capacity in TiB |
 
-{% hint style="success" %}
-Expected output:
-{% endhint %}
+Select **Update PDP** to submit your offering to the on-chain FWSS contract.
 
-```output
-Ping successful: Service is reachable and JWT token is valid.
-```
+You can revisit **Update PDP Offering** at any time to change the Service URL, piece size range, IPNI toggles, price, proving period, location, or custom capabilities.
 
 ***
 
@@ -571,15 +593,15 @@ Ping successful: Service is reachable and JWT token is valid.
 You've successfully launched a **PDP-enabled Filecoin Storage Provider** stack. Your system is now:
 
 * ✅ Syncing with the Filecoin network via Lotus
-* ✅ Recording deal and sector metadata in YugabyteDB
+* ✅ Recording deal and piece metadata in YugabyteDB
 * ✅ Operating Curio to manage sealing and coordination
 * ✅ Enabled Proof of Data Possession (PDP)
 * ✅ Connected to your PDP-enabled storage provider
+* ✅ Registered with the Filecoin Warm Storage Service onchain contract
 
 ***
 
 ## 🔜 Next Steps
 
-* :heavy\_check\_mark: Register your node with the [Filecoin Warm Storage Service (FWSS)](https://www.filecoin.services/)
-* :link: Explore the [Filecoin Onchain Cloud documentation](https://docs.filecoin.cloud/)
-* 💬 Join the community on Filecoin Slack in [#fil-pdp](https://filecoinproject.slack.com/archives/C0717TGU7V2)
+* :link: Explore FWSS & PDP tools & resources at [https://www.filecoin.services](https://www.filecoin.services/)
+* 💬 Join the community - Filecoin Slack - [#fil-pdp](https://filecoinproject.slack.com/archives/C0717TGU7V2)
