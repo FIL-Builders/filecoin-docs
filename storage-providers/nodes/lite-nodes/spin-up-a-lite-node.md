@@ -36,11 +36,11 @@ To build the lite-node, you’ll need some specific software. Run the following 
     sudo apt update -y
     sudo apt install mesa-opencl-icd ocl-icd-opencl-dev gcc git jq pkg-config curl clang build-essential hwloc libhwloc-dev wget -y
     ```
-2.  [Install Go](https://go.dev/doc/install) and add `/usr/local/go/bin` to your `$PATH` variable:
+2.  [Install Go](https://go.dev/doc/install) and add `/usr/local/go/bin` to your `$PATH` variable. Lotus `v1.36.0` requires Go `1.25.7`; check the current Lotus release `go.mod` before pinning a newer release:
 
     ```shell
-    wget https://go.dev/dl/go1.21.7.linux-amd64.tar.gz
-    sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.7.linux-amd64.tar.gz
+    wget https://go.dev/dl/go1.25.7.linux-amd64.tar.gz
+    sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.7.linux-amd64.tar.gz
     echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc && source ~/.bashrc
     ```
 3.  [Install Rust](https://www.rust-lang.org/tools/install), choose the standard installation option, and source the `~/.cargo/env` config file:
@@ -64,21 +64,22 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
     git clone https://github.com/filecoin-project/lotus.git
     cd lotus/
     ```
-2.  Retrieve the latest Lotus release version:
+2.  Retrieve the latest Lotus release version and store it in your shell:
 
     ```shell
-    git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1
+    LOTUS_RELEASE="$(git tag --list 'v*' --sort=-v:refname | grep -v '-' | head -n 1)"
+    echo "$LOTUS_RELEASE"
     ```
 
     This should output something like:
 
     ```output
-    v1.34.1
+    v1.36.0
     ```
-3.  Using the value returned from the previous command, checkout to the latest release branch:
+3.  Check out the release returned from the previous command:
 
     ```shell
-    git checkout v1.34.1
+    git checkout "$LOTUS_RELEASE"
     ```
 4. Done! You can move on to the [Build](#build-the-binary) section.
 {% endtab %}
@@ -90,21 +91,22 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
     git clone https://github.com/filecoin-project/lotus.git
     cd lotus
     ```
-2.  Retrieve the latest Lotus release version:
+2.  Retrieve the latest Lotus release version and store it in your shell:
 
     ```shell
-    git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1
+    LOTUS_RELEASE="$(git tag --list 'v*' --sort=-v:refname | grep -v '-' | head -n 1)"
+    echo "$LOTUS_RELEASE"
     ```
 
     This should output something like:
 
     ```output
-    v1.34.1
+    v1.36.0
     ```
-3.  Using the value returned from the previous command, checkout to the latest release branch:
+3.  Check out the release returned from the previous command:
 
     ```shell
-    git checkout v1.34.1
+    git checkout "$LOTUS_RELEASE"
     ```
 4.  Create the necessary environment variables to allow Lotus to run on M1 architecture:
 
@@ -123,21 +125,22 @@ Before we can build the Lotus binaries, we need to follow a few pre-build steps.
     git clone https://github.com/filecoin-project/lotus.git
     cd lotus
     ```
-2.  Retrieve the latest Lotus release version:
+2.  Retrieve the latest Lotus release version and store it in your shell:
 
     ```shell
-    git tag -l 'v*' | grep -v '-' | sort -V -r | head -n 1
+    LOTUS_RELEASE="$(git tag --list 'v*' --sort=-v:refname | grep -v '-' | head -n 1)"
+    echo "$LOTUS_RELEASE"
     ```
 
     This should output something like:
 
     ```output
-    v1.34.1
+    v1.36.0
     ```
-3.  Using the value returned from the previous command, checkout to the latest release branch:
+3.  Check out the release returned from the previous command:
 
     ```shell
-    git checkout v1.34.1
+    git checkout "$LOTUS_RELEASE"
     ```
 4.  If your processor was released later than an AMD Zen or Intel Ice Lake CPU, enable SHA extensions by adding these two environment variables. If in doubt, ignore this command and move on to [the next section](#build-the-binary).
 
@@ -158,13 +161,13 @@ The last thing we need to do to get our node setup is to build the package. The 
 1.  Remove or delete any existing Lotus configuration files on your system:
 
     ```shell
-    mv ~/.lotus ~/.lotus-backup
+    if [ -d ~/.lotus ]; then mv ~/.lotus ~/.lotus-backup-$(date +%Y%m%d%H%M%S); fi
     ```
 2.  Make the Lotus binaries and install them:
 
     ```shell
-    make clean all
-    sudo make install
+    make clean lotus
+    sudo make install-daemon
     ```
 3.  Once the installation finishes, query the Lotus version to ensure everything is installed successfully and for the correct network:
 
@@ -175,7 +178,7 @@ The last thing we need to do to get our node setup is to build the package. The 
     This will output something like:
 
     ```plaintext
-    lotus version 1.34.1+mainnet+git.1ff3b360b
+    lotus version 1.36.0+mainnet+git.<commit>
     ```
 {% endtab %}
 
@@ -183,13 +186,13 @@ The last thing we need to do to get our node setup is to build the package. The 
 1.  Remove or delete any existing Lotus configuration files on your system:
 
     ```shell
-    mv ~/.lotus ~/.lotus-backup
+    if [ -d ~/.lotus ]; then mv ~/.lotus ~/.lotus-backup-$(date +%Y%m%d%H%M%S); fi
     ```
 2.  Make the Lotus binaries and install them:
 
     ```shell
-    make clean && make calibrationnet
-    sudo make install
+    make clean && make calibnet-lotus
+    sudo make install-daemon
     ```
 3.  Once the installation finishes, query the Lotus version to ensure everything is installed successfully and for the correct network:
 
@@ -200,7 +203,7 @@ The last thing we need to do to get our node setup is to build the package. The 
     This will output something like:
 
     ```plaintext
-    lotus version 1.34.1+calibnet+git.1ff3b360b
+    lotus version 1.36.0+calibnet+git.<commit>
     ```
 {% endtab %}
 {% endtabs %}
@@ -327,15 +330,10 @@ To access privileged JSON-RPC methods, like creating a new wallet, we need to su
 1.  Create a new admin token and set the result to a new `LOTUS_ADMIN_KEY` environment variable:
 
     ```shell
-    lotus auth create-token --perm "admin"
+    export LOTUS_ADMIN_KEY="$(lotus auth create-token --perm admin)"
     ```
 
-    This will output something like:
-
-    ```plaintext
-    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.um-LqY7g-SDOsMheDRbQ9JIaFzus_Pan0J88VQ6ZLVE
-    ```
-2. Keep this key handy. We're going to use it in the next section.
+2. Keep this key in your shell only. Do not commit it or paste it into shared logs.
 
 ## Send requests
 
@@ -344,10 +342,10 @@ Let's run a couple of commands to see if the JSON-RPC API is set up correctly.
 1.  First, let's grab the head of the Filecoin network chain:
 
     ```shell
-    curl -X POST '127.0.0.1:1234/rpc/v0' \
+    curl -X POST 'http://127.0.0.1:1234/rpc/v0' \
     -H 'Content-Type: application/json' \
     --data '{"jsonrpc":"2.0","id":1,"method":"Filecoin.ChainHead","params":[]}' \
-    | jq 
+    | jq
     ```
 
     This will output something like:
@@ -365,12 +363,12 @@ Let's run a couple of commands to see if the JSON-RPC API is set up correctly.
           },
     ...
     ```
-2.  Next, let's try to create a new wallet. Since this is a privileged method, we need to supply our auth key `eyJhbGc...`:
+2.  Next, let's try to create a new wallet. Since this is a privileged method, we need to supply the auth key from `LOTUS_ADMIN_KEY`:
 
     ```shell
-    curl -X POST '127.0.0.1:1234/rpc/v0' \
+    curl -X POST 'http://127.0.0.1:1234/rpc/v0' \
     -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.um-LqY7g-SDOsMheDRbQ9JIaFzus_Pan0J88VQ6ZLVE' \
+    -H "Authorization: Bearer $LOTUS_ADMIN_KEY" \
     --data '{"jsonrpc":"2.0","id":1,"method":"Filecoin.WalletNew","params":["secp256k1"]}' \
     | jq
     ```
@@ -386,14 +384,14 @@ Let's run a couple of commands to see if the JSON-RPC API is set up correctly.
     ```
 
     The result field is the public key for our address. The private key is stored within our lite-node.
-3.  Set the new address as the default wallet for our lite-node. Remember to replace the Bearer token with our auth key `eyJhbGc...` and the `"params"` value with the wallet address, `f1vuc4...`, returned from the previous command:
+3.  Set the new address as the default wallet for our lite-node. Replace `<WALLET_ADDRESS>` with the wallet address returned from the previous command:
 
     ```shell
-    curl -X POST '127.0.0.1:1234/rpc/v0' \
+    curl -X POST 'http://127.0.0.1:1234/rpc/v0' \
     -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.um-LqY7g-SDOsMheDRbQ9JIaFzus_Pan0J88VQ6ZLVE' \
-    --data '{"jsonrpc":"2.0","id":1,"method":"Filecoin.WalletSetDefault","params":["f1vuc4eu2wgsdnce2ngygyzuxky3aqijqe7gj5qqa"]}' \
-    | jq 
+    -H "Authorization: Bearer $LOTUS_ADMIN_KEY" \
+    --data '{"jsonrpc":"2.0","id":1,"method":"Filecoin.WalletSetDefault","params":["<WALLET_ADDRESS>"]}' \
+    | jq
     ```
 
     This will output something like:
